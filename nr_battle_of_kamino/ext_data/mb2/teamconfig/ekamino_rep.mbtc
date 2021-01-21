@@ -1,0 +1,44 @@
+//Siege team definition file.
+
+name "ekamino_rep"
+
+ClassesAllowed 29
+TimePeriod 8
+EUAllowed 0
+
+Classes
+{
+	class1		"bc_clone_trooper"
+	class2		"bc_commander_cody"
+	class3		"bc_clone_sergeant"
+	class4		"bc_anakin_skywalker"	
+}
+
+SubClassesForClass1
+{
+Subclass1 "bc_clone_trooper"
+Subclass2 "bc_clone_recruit"
+}
+
+SubClassesForClass2
+{
+Subclass1 "bc_commander_cody"
+Subclass2 "bc_captain_rex"
+Subclass3 "bc_fives"
+Subclass4 "bc_echo"
+}
+
+SubclassesForClass3
+{
+Subclass1 "bc_clone_sergeant"
+Subclass2 "bc_clone_specialist"
+Subclass3 "bc_clone_heavy"
+Subclass4 "bc_clone_commando"
+}
+
+SubclassesForClass4
+{
+Subclass1 "bc_anakin_skywalker"
+Subclass2 "bc_obi_wan_kenobi"
+Subclass3 "bc_shaak_ti"
+}
