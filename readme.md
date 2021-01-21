@@ -53,3 +53,14 @@ To test your progress, you will need to create an empty zip file, drop the conte
 [.MBCH Guide](https://moviebattles.fandom.com/wiki/.MBCH_Guide)  
 [Creating your first FA](https://moviebattles.fandom.com/wiki/Creating_your_first_FA)
 
+### For your PR to be accepted
+
+- Your map should be prefixed `nr_`
+- Any characters you add which are new, should have a shared prefix, ie, event is seige of mandolore, all new characters are `som_stormtrooper_with_saber`
+- Any teams which are new are prefixed as above for example `som_team_red`
+- Events must be balanced. If we deem the balance means one team can not win fairly, it will be asked to be changed
+- Any included models, graphics, sounds, images must be used, don't include assets that are not needed as they just waste file size
+- Do NOT include any compiled PK3s, only the folder, this repo will compile for you automatically and deploy
+- Ensure your maps are tested, if they do not load without debugging they will be declined. 
+- Ensure changes are ready and deployed atleast 24 hours before the event. Do not expect to be asking for Pull Requests 15 minutes before the event
+
