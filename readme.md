@@ -3,7 +3,7 @@
 MBII Allows creation of custom FA Maps, with custom characters, weapons, models.
 These are NR clans custom maps with custom siege, character, teams and models.
 
-## I am a players / users
+## I am a player
 #### How do i download these maps before i play?
 Head over to https://github.com/New-Republic-Clan/MBII-Custom-Events/releases
 Every map will have its latest PK3 available here for download. Drop these into your Movie Battles 2 folder. 
