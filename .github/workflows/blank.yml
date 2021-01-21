@@ -29,6 +29,11 @@ jobs:
       - name: Run a one-line script
         run: for i in */; do zip -r "${i%/}.pk3" "$i"; done
 
+      - name: Delete Release
+        uses: ame-yu/action-delete-latest-release@v2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
