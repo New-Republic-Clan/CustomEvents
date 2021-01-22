@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: for i in */; do zip -r "${i%/}.pk3" "./$i*"; done
+        run: for i in */; do zip -r "${i%/}.pk3" "$i/*"; done
 
       - name: Delete Release
         uses: ame-yu/action-delete-latest-release@v2
