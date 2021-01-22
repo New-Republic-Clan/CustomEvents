@@ -34,6 +34,23 @@ WeaponInfo0
 	WeaponName			"DC-15S"    					//Required: Weapon change display name
 }
 
+WeaponInfo1
+{
+	WeaponToReplace		WP_STUN_BATON
+	WeaponBasedOff		WP_STUN_BATON
+	NewWorldModel		"models/weapons2/clone_disruptor/clone_disruptor_w.glm"
+	NewViewModel		"models/weapons2/clone_disruptor/clone_disruptor.md3"
+  	MissileEffect		"Blaster/Shot01R" 
+    AltMissileEffect	"Blaster/Shot01R"
+	Missile3Effect		"Blaster/Shot01R"
+	firingAnim			BOTH_ATTACK3
+	idleAnim			TORSO_WEAPONREADY3
+	Icon				"gfx/hud/w_icon_c_disruptor.tga"
+	WeaponName			"Clone Sniper Rifle"
+	customAmmo 			999 	
+	FlashSound0			"sound/weapons/minigun/fire.wav" 
+}
+
 description	"Clone Trooper (Sharpshooter)
 
 Weaponry:

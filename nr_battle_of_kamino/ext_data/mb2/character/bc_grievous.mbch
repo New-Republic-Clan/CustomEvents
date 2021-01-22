@@ -23,8 +23,8 @@ Classinfo
 	skin				"default"
 	uishader			"models/players/grievous/mb2_icon_nocape"
 	classNumberLimit	1	
-	maxhealth			130
-	maxarmor			75
+	maxhealth			160
+	maxarmor			100
 	forcepool			50
 	forceregen			1.4
 	modelscale			1.18

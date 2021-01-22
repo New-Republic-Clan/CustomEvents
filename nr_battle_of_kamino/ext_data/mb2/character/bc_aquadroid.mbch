@@ -20,16 +20,17 @@ WeaponInfo0
 {
 	WeaponToReplace		WP_STUN_BATON
 	WeaponBasedOff		WP_STUN_BATON
-	NewWorldModel		"models/weapons2/e5/e5_w.glm"
-	NewViewModel		"models/weapons2/e5/e5.md3"
+	NewWorldModel		"models/weapons2/sbd_blaster/sbd_blaster_w.glm"
+	NewViewModel		"models/weapons2/sbd_blaster/sbd_blaster.md3"
   	MissileEffect		"Blaster/Shot01R" 
     AltMissileEffect	"Blaster/Shot01R"
 	Missile3Effect		"Blaster/Shot01R"
 	firingAnim			BOTH_ATTACK3
 	idleAnim			TORSO_WEAPONREADY3
-	Icon				"gfx/hud/w_icon_e5.tga"
+	Icon				"gfx/hud/w_icon_sbdarmsniper.tga"
 	WeaponName			"Arm Sniper"
 	customAmmo 			999 	
+	FlashSound0			"sound/weapons/minigun/fire.wav" 
 }
 
 description	"Aquadroid
@@ -47,4 +48,4 @@ Advanced Logic (1)
 Advanced Targeting (1)
 Advanced Radar (1)
 
-Aqua droids were an amphibious model of battle droid manufactured by the Techno Union. They were excellent swimmers and had a retractable laser cannon on their right wrist, and were used by the Confederacy of Independent Systems to lay siege to aquatic planets like Kamino and Mon Cala during the Clone Wars."
+Aqua Droids were an amphibious model of battle droid manufactured by the Techno Union. They were excellent swimmers and had a retractable laser cannon on their right wrist, and were used by the Confederacy of Independent Systems to lay siege to aquatic planets like Kamino and Mon Cala during the Clone Wars."
