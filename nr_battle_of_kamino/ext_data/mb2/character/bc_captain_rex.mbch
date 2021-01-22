@@ -8,7 +8,7 @@ ClassInfo
 	maxhealth			125
 	maxarmor			80
 	speed				0.91
-	model				"clonetrooper_p2"
+	model				"clonetrooper_p1"
 	skin				"501_rex"
 	uishader			"models/players/clonetrooper_p2/mb2_icon_501_rex"
 	MBClass				MB_CLASS_ARCTROOPER
