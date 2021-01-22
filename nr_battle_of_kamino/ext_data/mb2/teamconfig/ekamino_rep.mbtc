@@ -34,6 +34,7 @@ Subclass1 "bc_clone_sergeant"
 Subclass2 "bc_clone_specialist"
 Subclass3 "bc_clone_heavy"
 Subclass4 "bc_clone_commando"
+Subclass5 "bc_arf_trooper"
 }
 
 SubclassesForClass4
