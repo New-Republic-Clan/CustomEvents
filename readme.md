@@ -1,3 +1,4 @@
+
 # New Republic Custom Events
 ### What is this?
 MBII Allows creation of custom FA Maps, with custom characters, weapons, models.
@@ -5,33 +6,79 @@ These are NR clans custom maps with custom siege, character, teams and models.
 
 ## I am a player
 #### How do i download these maps before i play?
-Head over to https://github.com/New-Republic-Clan/MBII-Custom-Events/releases
-Every map will have its latest PK3 available here for download. Drop these into your Movie Battles 2 folder. 
+- You due to play an event?
+- You are getting a PK3 Missing or Mismatch error when you try and join?
 
-If the author has updated the map, you will need to redownload the PK3
+Head over to https://github.com/New-Republic-Clan/MBII-Custom-Events/releases
+Every map will have its latest `PK3` available here for download. These must be installed into your `C:\SteamLibrary\steamapps\common\Jedi Academy\GameData\MBII` folder or whenever your team Library is found
+
+If the author has updated the map, you will **need** to redownload the PK3 before you can join
 
 
 ## I am an event organisers / creator
 
 #### How do i contribute?
-This repo contains the "master" copy the maps. IE all maps being used by the server.
-You **cannot** make changes this repo directly. 
+This repo contains the "master" copy the maps. 
+and includes all current maps being used by the server at present. 
 
-If you are working on a new event or creating a new event. You will want to **fork** this repo, make your changes, when happy, use a "pull request" to push your changes to this repo. 
+If you are planning on doing the following
+- Creating a new event. 
+- Make changes to an existing event
 
-Read https://github.community/t/contributing-to-repositories-with-github-desktop/10210 for more information on how to do this. 
+You will need to **fork** this repo, make your changes, when happy, use a "pull request" to push your changes to this repo. 
+
+#### How do i do this?
 
 You will need the following
-- A Github Account 
-- A copy of GitHub Desktop. 
+- A Github Account https://github.com/join
+- A copy of GitHub Desktop. https://desktop.github.com/
 
-##### These are then the steps
+#### These are then the steps
 
-- Fork this repo
+##### Get Signed In
+
+- Sign into github.com
+- Sign into Github desktop using your new account
+
+##### Fork this repo
+
+Click the "Fork" button at the top right hand side of this repo
+```
+![alt text](Screenshot1.PNG)
+```
+This will create a personal copy of this entire repo for you to edit at your will. 
+
+##### Create a local copy
+
+In GitHub Desktop goto Add / Clone Repository
+```
+![alt text](Screenshot2.PNG)
+```
+Search the list for your new "Fork" and clone to your local computer
+You should now have a local copy of ALL the event maps in 
+`C:\Users\<USER>\Documents\GitHub\MBII-Custom-Events`
+
+##### If Creating a new event
+Create a new folder named for the your event in the root of the repo. 
+There are some resources below to help with how to build a new event using an existing map
+
+##### If changing an event
+
 - Make your changes
-- Test your changes locally (see below)
-- Pull Request your changes back to this repo
-- Admins will check your changes and approve them
+- 
+##### Test your event
+
+- Test your changes locally (see below for more help)
+- 
+##### Commit back to your fork
+- In Github Desktop you will see a list of your changes on the left. Click "Commit to master" and then once its enabled, click "Push Changes" in the top right. 
+
+##### Pull Request
+Once your fork has your new changes and you are ready to make a pull request. Pull requests are your way of "requesting" to push your change into the official clan repo. To do this goto the official repo and click the "Pull Request" tab. You should see your proposed changes. When ready, hit "Create pull Request"
+Once you do this, any additional changes you commit will not be added unless you make another pull request
+
+##### Admins will approve
+A repo admin will approve your change and it will be added to the repo
 
 ### How do i use the maps here on our servers?
 Everytime a change is pushed to THIS repo. the release PK3s are generated for every map, then, a few times a day, the maps from this repo are downloaded to our server and available for use. 
