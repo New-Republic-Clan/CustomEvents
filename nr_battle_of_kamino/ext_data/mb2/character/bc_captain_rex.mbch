@@ -36,7 +36,6 @@ WeaponInfo0
 	PowerupShotEffect	"Blaster/Shot04B"
 	ChargeEffect		"gfx/effects/cloneFrontFlash"
 	customAmmo			999
-	customclip			120
 }
 
 description	"Rex
