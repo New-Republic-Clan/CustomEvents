@@ -58,6 +58,12 @@ Make your code changes to the current event but be mindful who of who owns the e
 ##### Test your event
 
 Test your changes locally by running a local server *see below for more help*
+There is an included exe called `MapTest.exe` if you run this it looks for folders containing maps to run. 
+Choosing the number for a map will
+- Auto compile and generate the PK3
+- Put a copy of this PK3 in your MBII folder
+- Launch a dedicated server locally on this map
+- Launch your client game to auto connect to your local server
 
 ##### Commit back to the repo
 - In Github Desktop you will see a list of your changes on the left. Click "Commit to master" and then once its enabled, click "Push Changes" in the top right. 
@@ -67,18 +73,14 @@ Test your changes locally by running a local server *see below for more help*
 Everytime a change is pushed to this repo, every map / event has new PK3s generated and added to [Releases](https://github.com/New-Republic-Clan/MBII-Custom-Events/releases)
 Then, a few times a day, the maps from this repo are downloaded to our server and available for use. 
 
-### How do i create a new event and test locally?
+### How do i create a new event?
 
-Once you've forked this repo and cloned it locally, you can create a new folder for your event map name
+Once you've cloned it locally, you can create a new folder for your event map name
 
 Choosing the map your event is based around, open the PK3 in Winrar and extract copies of all the files inside, into your new event folder 
 
 Now you follow this video on how to create .siege, .mbch and mbtc files for your event
 [https://www.youtube.com/watch?v=7h5oJsiYRMY](https://www.youtube.com/watch?v=7h5oJsiYRMY "https://www.youtube.com/watch?v=7h5oJsiYRMY")
-
-PK3's are just zip files containing everything within the map folder, renamed to .PK3 
-
-To test your progress, you will need to create an empty zip file (right click, new, zip file), drop the contents of your map folder into it. rename this from a .zip to a .pk3 file. Move this into your MBII directory and then start your own server in FA mode. 
 
 ### More Reading
 [MBTC Team File](https://moviebattles.fandom.com/wiki/MBTC_Team_File)  
