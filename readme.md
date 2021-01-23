@@ -57,9 +57,10 @@ Make your code changes to the current event but be mindful who of who owns the e
 
 ##### Test your event
 
-Test your changes locally by running a local server *see below for more help*
-There is an included exe called `MapTest.exe` if you run this it looks for folders containing maps to run. 
+There is an included exe called `MapTest.exe` that takes the hard work out of testing. 
+If you run this it looks for custom maps to run. 
 Choosing the number for a map will
+
 - Auto compile and generate the PK3
 - Put a copy of this PK3 in your MBII folder
 - Launch a dedicated server locally on this map
