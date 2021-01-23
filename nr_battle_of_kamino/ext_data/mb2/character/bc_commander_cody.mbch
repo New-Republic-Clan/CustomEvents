@@ -37,8 +37,8 @@ WeaponInfo0
 	AltMissileEffect	"Blaster/Shot02B"
 	PowerupShotEffect	"Blaster/Shot04B"
 	ChargeEffect		"gfx/effects/cloneFrontFlash"
-	customAmmo			900
-	customclip			90
+	customAmmo			999
+	customclip			120
 }
 
 description	"Commander Cody

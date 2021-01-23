@@ -4,7 +4,7 @@ ClassInfo
 {
 	name				"bc_clone_specialist"
 	weapons				WP_BLASTER|WP_DEMP2|WP_MELEE|WP_STUN_BATON
-	attributes			MB_ATT_RESPAWNS,1|MB_ATT_PROJECTILE_RIFLE,1|MB_ATT_PISTOL,1|MB_ATT_CLONERIFLE,2|MB_ATT_BLASTER,2|MB_ATT_ARMOUR,2|MB_ATT_AMMO,3
+	attributes			MB_ATT_PROJECTILE_RIFLE,1|MB_ATT_PISTOL,1|MB_ATT_CLONERIFLE,2|MB_ATT_BLASTER,2|MB_ATT_ARMOUR,2|MB_ATT_AMMO,3
 	WP_StunBatonFlags	HELD_PULSE
 	maxhealth			100
 	maxarmor			50
@@ -16,6 +16,7 @@ ClassInfo
 	uishader			"gfx/hud/fa_icons/mb2_icon_clonep1_shiny_red"
 	MBClass				MB_CLASS_CLONETROOPER
 	classNumberLimit	1
+	extralives			0
 }
 
 WeaponInfo0

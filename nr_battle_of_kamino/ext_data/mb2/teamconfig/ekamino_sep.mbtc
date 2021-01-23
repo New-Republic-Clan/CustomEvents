@@ -17,9 +17,8 @@ Classes
 
 SubclassesForClass1
 {
-Subclass1 "bc_b1_battledroid_1"
-Subclass2 "bc_b1_battledroid_2"
-Subclass3 "bc_b1_battledroid_3"
+Subclass1 "bc_b1_battledroid_2"
+Subclass2 "bc_b1_battledroid_3"
 }
 
 

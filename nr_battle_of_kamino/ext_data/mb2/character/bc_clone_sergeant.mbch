@@ -16,6 +16,8 @@ ClassInfo
 	MBClass				MB_CLASS_CLONETROOPER
 	classNumberLimit	1
 	classflags			CFL_SHOTGUN
+	extralives			0
+	rateOfFire 			0.5
 }
 
 WeaponInfo0
@@ -28,8 +30,9 @@ WeaponInfo0
 	MissileEffect		"Blaster/Shot01B"
 	FlashSound0			"sound/weapons/t-21/alt_fire.mp3"
 	Icon				"gfx/hud/w_icon_cr1_blastcannon"
-	WeaponName			"CR-1 Shotgun Cannon"
+	WeaponName			"Clone CR-1 Shotgun"
 	altFireEnabled		0
+	clipSize			100
 }
 
 description	"Clone Trooper (Sergeant)

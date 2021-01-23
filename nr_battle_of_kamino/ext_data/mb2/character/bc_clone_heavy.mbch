@@ -16,6 +16,7 @@ ClassInfo
 	MBClass				MB_CLASS_ARCTROOPER
 	classNumberLimit	1
 	classflags			CFL_BPFREEJUMPS
+	extralives			0	
 }
 
 // override pistol
@@ -43,7 +44,7 @@ WeaponInfo1
 	customAmmo 			999 	
 }
 
-description	"Arc Trooper (Minigun)
+description	"Arc Trooper (Heavy)
 
 Weaponry:
 Clone Pistol (2)
