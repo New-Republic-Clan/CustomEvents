@@ -3,8 +3,8 @@
 ClassInfo
 {
 	name				"bc_captain_rex"
-	weapons				WP_MELEE|WP_DEMP2
-	attributes			MB_ATT_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_ARMOUR,3|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_RALLY,1|MB_ATT_CORTOSIS,1|MB_ATT_BLAST_ARMOUR,1|MB_ATT_DEXTERITY,3|MB_ATT_STAMINA,2|MB_ATT_ANTI_MT
+	weapons				WP_MELEE|WP_DEMP2|WP_TRIP_MINE
+	attributes			MB_ATT_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_ARMOUR,3|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_RALLY,1|MB_ATT_CORTOSIS,1|MB_ATT_BLAST_ARMOUR,1|MB_ATT_DEXTERITY,3|MB_ATT_STAMINA,2|MB_ATT_ANTI_MT|MB_ATT_PULSE_GRENADES,3
 	maxhealth			125
 	maxarmor			80
 	speed				0.91
@@ -44,6 +44,7 @@ description	"Rex
 Weaponry:
 - Heavy Melee
 - Dual DC-17 Pistols
+- Pulse Grenades (3)
 
 Attributes:
 - Mind Trick Immunity

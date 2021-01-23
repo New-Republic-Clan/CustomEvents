@@ -3,7 +3,7 @@
 ClassInfo
 {
 	name				"bc_commander_cody"
-	weapons				WP_FLECHETTE|WP_DEMP2|WP_MELEE
+	weapons				WP_MELEE|WP_DEMP2|WP_REPEATER
 	attributes			MB_ATT_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_ARMOUR,3|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_RALLY,1|MB_ATT_CORTOSIS,1|MB_ATT_BLAST_ARMOUR,1|MB_ATT_DEXTERITY,3|MB_ATT_STAMINA,2|MB_ATT_ANTI_MT
 	maxhealth			125
 	maxarmor			50
@@ -49,6 +49,7 @@ Dexterous dual pistoleer Commando.
 Weaponry:
 - Heavy Melee
 - Dual DC-17 Pistols
+- DC15A Clone Rifle
 
 Attributes:
 - Mind Trick Immunity
