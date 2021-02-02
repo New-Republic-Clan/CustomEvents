@@ -1,0 +1,44 @@
+//Siege class def file.
+
+ClassInfo
+{
+	name			"BoM_DemolitionsDroid"
+	weapons			WP_ROCKET_LAUNCHER|WP_MELEE|WP_BRYAR_PISTOL
+	attributes		MB_ATT_PLX1,3|MB_ATT_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_ARMOUR,1|MB_ATT_RESPAWNS,20
+	maxhealth		80
+	maxarmor		20
+	model			"battledroid"
+	skin			"grenadier"
+	uishader		"models/players/battledroid/mb2_icon_grenadier"
+	MBClass			MB_CLASS_SOLDIER
+	classNumberLimit	2
+	speed			0.8
+	classflags		CFL_THERMALROCKETS
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_ROCKET_LAUNCHER
+	WeaponBasedOff		WP_ROCKET_LAUNCHER
+	NewWorldModel		"models/weapons2/e60r_launcher/e60r_launcher_w.glm"
+	NewViewModel		"models/weapons2/e60r_launcher/e60r_launcher.md3"
+	Icon				"gfx/hud/w_icon_e60r_launcher"
+	WeaponName			"E-60R"
+}
+
+description	"B1-Series Demolitions Battle Droid
+
+
+Weaponry:
+E-60R
+Blaster Pistol
+
+Equipment:
+Class-I Armor
+
+Abilities:
+30 Reinforcements
+
+The demolitions battle droid was a B1 battle droid used by the Confederacy of Independent Systems during the Clone Wars.
+They often carried rocket launchers, mines, thermal detonators, and a blaster pistol.
+They were distinguished by their blue markings, and were not to be confused with the OOM pilot battle droid, which also had blue markings."

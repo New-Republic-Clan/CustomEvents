@@ -1,0 +1,16 @@
+//Siege team def file.
+
+name "BoM_sep"
+
+ClassesAllowed	100
+TimePeriod	5
+EUAllowed	0
+
+Classes
+{
+	class1		"BoM_B1BattleDroid1"
+	class2		"BoM_EngineerDroid"
+	class3		"BoM_DemolitionsDroid"
+	class4		"BoM_SBD"
+	class5		"BoM_Droideka1"
+}
