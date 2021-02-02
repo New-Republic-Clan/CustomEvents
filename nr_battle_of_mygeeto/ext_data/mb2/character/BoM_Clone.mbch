@@ -4,7 +4,7 @@ ClassInfo
 {
 	name			"BoM_Clone"
 	weapons			WP_BLASTER|WP_MELEE|WP_DEMP2|WP_TRIP_MINE
-	attributes		MB_ATT_BLASTER,2|MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_ARMOUR,2|MB_ATT_RESPAWNS,5|MB_ATT_DEXTERITY,1|MB_ATT_STAMINA,2|MB_ATT_PULSE_GRENADES,1
+	attributes		MB_ATT_BLASTER,2|MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_ARMOUR,2|MB_ATT_RESPAWNS,3|MB_ATT_DEXTERITY,1|MB_ATT_STAMINA,2|MB_ATT_PULSE_GRENADES,1
 	maxhealth		100
 	maxarmor		50
 	model			"clonetrooper_p2"
@@ -44,7 +44,7 @@ Equipment:
 Class-II Armor
 
 Abilities:
-10 Reinforcements
+3 Reinforcements
 Low Dexterity
 Medium Stamina
 

@@ -4,12 +4,12 @@ ClassInfo
 {
 	name			"BoM_Droideka1"
 	weapons			WP_BRYAR_PISTOL
-	attributes		MB_ATT_DEKA_SHIELD,2|MB_ATT_DEKA_HULL,3|MB_ATT_FIREPOWER,2|MB_ATT_SHIELD_PROJ,2|MB_ATT_RESPAWNS,2
+	attributes		MB_ATT_DEKA_SHIELD,2|MB_ATT_DEKA_HULL,3|MB_ATT_FIREPOWER,2|MB_ATT_SHIELD_PROJ,2|MB_ATT_RESPAWNS,1
 	model			"droideka"
 	skin			"default"
 	uishader		"models/players/droideka/mb2_icon_default"
 	MBClass			MB_CLASS_DROIDEKA
-	classNumberLimit	1
+	classNumberLimit	2
 }
 
 description	"Destroyer Droid (Droideka)
@@ -17,7 +17,6 @@ description	"Destroyer Droid (Droideka)
 
 
 Abilities:
-2 Reinforcements
 Medium Shield Projector
 High Shield Strength
 Class-II Hull Strength
