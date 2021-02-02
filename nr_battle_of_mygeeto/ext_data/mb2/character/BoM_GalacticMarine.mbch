@@ -4,7 +4,7 @@ ClassInfo
 {
 	name			"BoM_GalacticMarine"
 	weapons			WP_REPEATER|WP_MELEE|WP_DEMP2|WP_TRIP_MINE
-	attributes		MB_ATT_CLONERIFLE,3|MB_ATT_BLASTER,3|MB_ATT_PISTOL,2|MB_ATT_AMMO,3|MB_ATT_ARMOUR,3|MB_ATT_CLONEBLOBS,2|MB_ATT_PULSE_GRENADES,2|MB_ATT_QUICKTHROW,1|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_RESPAWNS,3
+	attributes		MB_ATT_CLONERIFLE,3|MB_ATT_BLASTER,3|MB_ATT_PISTOL,2|MB_ATT_AMMO,5|MB_ATT_ARMOUR,3|MB_ATT_CLONEBLOBS,2|MB_ATT_PULSE_GRENADES,2|MB_ATT_QUICKTHROW,1|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_RESPAWNS,3
 	maxhealth		100
 	maxarmor		100
 	model			"clonecommander" 					//this is optional, if it's here it forces the model to this.
@@ -15,6 +15,7 @@ ClassInfo
 	customblue		0.05
 	classNumberLimit	3
 	MBClass			MB_CLASS_HERO
+	speed			0.8
 	classflags		CFL_STRONGAGAINSTPHYSICAL
 }
 
@@ -23,7 +24,7 @@ description	"Galactic Marine
 
 Weaponry:
 Clone Rifle DC-15A w/ Explosive Rounds
-Clone Pistol
+Clone Pistol DC-17
 2 Pulse Grenades
 
 Equipment:

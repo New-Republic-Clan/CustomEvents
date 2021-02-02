@@ -3,7 +3,7 @@
 ClassInfo
 {
 	name			"BoM_Clone"
-	weapons			WP_BLASTER|WP_MELEE|WP_DEMP2
+	weapons			WP_BLASTER|WP_MELEE|WP_DEMP2|WP_TRIP_MINE
 	attributes		MB_ATT_BLASTER,2|MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_ARMOUR,2|MB_ATT_RESPAWNS,5|MB_ATT_DEXTERITY,1|MB_ATT_STAMINA,2|MB_ATT_PULSE_GRENADES,1
 	maxhealth		100
 	maxarmor		50
@@ -30,19 +30,21 @@ WeaponInfo0
 	AltFlashSound0		"sound/weapons/repeater/fire.mp3"
 	Icon				"gfx/hud/w_icon_dc-15s" 				//Required: Weapon change icon
 	WeaponName			"DC-15S"    					//Required: Weapon change display name
+	customAmmo 			999
 }
+
 description	"Clone Trooper
 
 Weaponry:
 Clone Blaster DC-15S
-Clone Pistol
+Clone Pistol DC-17
 1 Pulse Grenade
 
 Equipment:
 Class-II Armor
 
 Abilities:
-5 Reinforcements
+10 Reinforcements
 Low Dexterity
 Medium Stamina
 

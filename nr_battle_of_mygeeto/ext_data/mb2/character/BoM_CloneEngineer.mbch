@@ -3,8 +3,8 @@
 ClassInfo
 {
 	name			"BoM_CloneEngineer"
-	weapons			WP_BLASTER|WP_DEMP2|WP_MELEE
-	attributes		MB_ATT_PISTOL,1|MB_ATT_BLASTER,3|MB_ATT_CLONERIFLE,3|MB_ATT_AMMO,3|MB_ATT_ARMOUR,3|MB_ATT_PULSE_GRENADES,3|MB_ATT_RESPAWNS,3|MB_ATT_SECURITY_INTERFACE,1
+	weapons			WP_BLASTER|WP_DEMP2|WP_MELEE|WP_TRIP_MINE
+	attributes		MB_ATT_PISTOL,1|MB_ATT_BLASTER,3|MB_ATT_CLONERIFLE,3|MB_ATT_AMMO,3|MB_ATT_ARMOUR,3|MB_ATT_PULSE_GRENADES,3|MB_ATT_RESPAWNS,3|MB_ATT_SECURITY_INTERFACE,1|MB_ATT_DEXTERITY,1|MB_ATT_STAMINA,2
 	maxhealth		100
 	maxarmor		75
 	model			"clonetrooper_p2"
@@ -23,22 +23,23 @@ WeaponInfo0
 {
 	WeaponToReplace		WP_BLASTER
 	WeaponBasedOff		WP_BOWCASTER
-	NewWorldModel		"models/weapons2/cw-w5/heavy_repeater_w.glm"
-	NewViewModel		"models/weapons2/cw-w5/heavy_repeater.md3"
+	NewWorldModel		"models/weapons2/t-21/t-21_w.glm"
+	NewViewModel		"models/weapons2/t-21/t-21.md3"
 	MuzzleEffect		"Blaster/MuzzleFlash01B"
 	MissileEffect		"Blaster/Shot01B"
 	FlashSound0			"sound/weapons/t-21/alt_fire.mp3"
-	Icon				"gfx/hud/w_icon_cw-w5_na.tga"
+	Icon				"gfx/hud/w_icon_t-21.tga"
 	WeaponName			"DP-23 Shotgun"
 	altFireEnabled		0
+	customAmmo 			999
 }
 
 description	"Clone Engineer
 
 
 Weaponry:
-Clone Pistol
-DP-23 Shotgun
+Clone Shotgun DP-23
+Clone Pistol DC-17
 3 Pulse Grenades
 
 Equipemnt:
@@ -48,5 +49,7 @@ Deployable Turret
 Abilities:
 3 Reinforcements
 Computer Finesse
+Low Dexterity
+Medium Stamina
 
 These clone troopers were armed with some of the most powerful explosives in the army's arsenal."
