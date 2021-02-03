@@ -12,7 +12,7 @@ ClassInfo
 	classNumberLimit	1
 	classflags			CFL_STRONGAGAINSTPHYSICAL|CFL_HEAVYMELEE
 	
-	attributes		MB_ATT_BLASTER,3|MB_ATT_AMMO,3|MB_ATT_GUNBASH,1|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_RALLY,1|MB_ATT_PULSE_GRENADES,3|MB_ATT_PLX1,2|MB_ATT_STAMINA,3
+	attributes		MB_ATT_BLASTER,3|MB_ATT_AMMO,3|MB_ATT_GUNBASH,1|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_PULSE_GRENADES,3|MB_ATT_PLX1,2|MB_ATT_STAMINA,2|MB_ATT_CORTOSIS,1
 }
 
 WeaponInfo0
@@ -37,7 +37,7 @@ description	"Commander Bacara
 
 
 Equipment:
-DC-15S Carbine
+DC-15S Blaster Carbine
 PLX-1 Rocket Launcher
 3 Pulse Grenades
 
@@ -47,9 +47,8 @@ Power Armour Physical Enhancements
 
 Abilities:
 1 Reinforcement
-High Stamina
+Medium Stamina
 Gunbash
-Rally
 
 Upon the completion of his clone training CC-1138 was awarded command of the 21st Nova Corps, a land-based element of the Republic's 4th Sector Army.
 

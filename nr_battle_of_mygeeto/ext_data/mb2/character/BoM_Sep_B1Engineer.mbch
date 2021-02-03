@@ -11,7 +11,7 @@ ClassInfo
 	extralives			4
 	classNumberLimit	2
 	classflags			CFL_STATVIEWER|CFL_DISMEMBERFRAGILE|CFL_SHOTGUN
-	holdables			HI_HEALTHDISP|HI_MEDPAC_BIG|HI_EWEB|HI_SENTRY
+	holdables			HI_HEALTHDISP|HI_MEDPAC_BIG|HI_EWEB
 	attributes			MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_ASSEMBLE,1
 }
 
@@ -50,14 +50,12 @@ description	"B1-Series Engineer Droid
 
 
 Weaponry:
-ACP Shotgun
+ACP Blaster Shotgun
 SE-14 Blaster Pistol
 
 Equipment:
 Class-I Armor
 Portable E-Web Gun Turret
-Portable Sentry Gun
-Seeker Drone
 
 Abilities:
 4 Reinforcements

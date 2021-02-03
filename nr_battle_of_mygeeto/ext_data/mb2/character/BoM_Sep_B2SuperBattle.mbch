@@ -9,7 +9,7 @@ ClassInfo
 	maxarmor			200
 	weapons				WP_CONCUSSION
 	extralives			2
-	classNumberLimit	3
+	classNumberLimit	2
 	classflags			CFL_DISMEMBERFRAGILE
 	
 	attributes			MB_ATT_FIREPOWER,2|MB_ATT_SBD_CANNON,1|MB_ATT_RECHARGE,2|MB_ATT_MAGNETIC_PLATING,1|MB_ATT_BLAST_ARMOUR,1|MB_ATT_AMMO,3

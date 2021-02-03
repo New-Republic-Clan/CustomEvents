@@ -12,7 +12,7 @@ ClassInfo
 	classNumberLimit	3
 	classflags			CFL_STRONGAGAINSTPHYSICAL|CFL_HEAVYMELEE
 	
-	attributes		MB_ATT_CLONERIFLE,3|MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_CLONEBLOBS,2|MB_ATT_PULSE_GRENADES,2|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_GUNBASH,1|MB_ATT_ASSEMBLE,1|MB_ATT_STAMINA,2
+	attributes		MB_ATT_CLONERIFLE,3|MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_PULSE_GRENADES,2|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_GUNBASH,1|MB_ATT_STAMINA,1|MB_ATT_CORTOSIS,1
 	customred			0.470
 	customgreen			0.235
 	customblue			0.353
@@ -22,8 +22,8 @@ description	"Galactic Marine
 
 
 Weaponry:
-DC-15A Rifle w/ Explosive Rounds
-DC-17 Pistol
+DC-15A Blaster Rifle
+DC-17 Blaster Pistol
 2 Pulse Grenades
 
 Equipment:
@@ -32,8 +32,7 @@ Power Armour Physical Enhancements
 
 Abilities:
 2 Reinforcements
-Medium Stamina
-Assemble
+Low Stamina
 Gunbash
 
 The Galactic Marines, originally known as the 21st Nova Corps of the 4th Sector Army, was an elite unit that was created as the Grand Army of the Republic diversified during the Clone Wars.
