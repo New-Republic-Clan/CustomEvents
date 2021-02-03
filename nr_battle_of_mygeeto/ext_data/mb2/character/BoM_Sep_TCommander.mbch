@@ -1,0 +1,48 @@
+ClassInfo
+{
+	name				"BoM_Sep_TCommander"
+	model				"T-Series_Commander_Droid"
+	skin				"default"
+	uishader			"models/players/T-Series_Commander_Droid/mb2_icon_default"
+	MBClass				MB_CLASS_ELITESOLDIER
+	maxhealth			80
+	maxarmor			40
+	weapons				WP_BRYAR_PISTOL|WP_MELEE
+	extralives			2
+	classNumberLimit	1
+	classflags			CFL_DISMEMBERFRAGILE
+	
+	attributes			MB_ATT_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_RALLY,1
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BRYAR_PISTOL 
+	NewWorldModel 		"models/weapons2/se-14_pistol/blaster_pistol_w.glm"
+	NewViewModel 		"models/weapons2/se-14_pistol/blaster_pistol.md3"
+	Icon				"gfx/hud/w_icon_e5"
+	MuzzleEffect		"Blaster/MuzzleFlash01R"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01R"
+	MissileEffect		"Blaster/Shot01R"
+	AltMissileEffect 	"Blaster/Shot01R"
+	FlashSound0			"sound/weapons/SE-44C/fire.WAV"  		
+	AltFlashSound0		"sound/weapons/SE-44C/alt_fire.WAV"
+	WeaponName			"SE-14 Blaster Pistol"
+	customAmmo			999
+	altFireEnabled		1
+}
+
+description	"T-Series Tactical Droid
+
+
+Weaponry:
+Modified SE-14 Blaster Pistol
+
+Abilities:
+2 Reinforcements
+Rally
+
+This model was more intelligent than standard battle droids and was deployed to command Separatist troops where organic leadership was not available. They had advanced combat-analysis software and were very intelligent. They were also designed with advanced cognitive modules that processed vast quantities of data rapidly, and would constantly run simulations of imminent combat, calculating odds to develop strategies.
+
+Some of these droids were also in charge of entire fleets and land forces. Most Separatist leaders allowed tactical droids greater autonomy over their forces."

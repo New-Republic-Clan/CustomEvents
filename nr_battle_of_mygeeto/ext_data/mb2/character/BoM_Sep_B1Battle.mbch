@@ -1,0 +1,48 @@
+ClassInfo
+{
+	name				"BoM_Sep_B1Battle"
+	model				"battledroid"
+	skin				"default"
+	uishader			"models/players/battledroid/mb2_icon_default"
+	MBClass				MB_CLASS_SOLDIER
+	maxhealth			80
+	maxarmor			0
+	weapons				WP_BLASTER|WP_MELEE
+	extralives  		9
+	classNumberLimit	99
+	classflags			CFL_DISMEMBERFRAGILE
+	
+	attributes			MB__ATT_BLASTER,2|MB_ATT_AMMO,3|MB_ATT|ASSEMBLE,1
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BLASTER
+	WeaponBasedOff		WP_BLASTER 
+	NewWorldModel 		"models/weapons2/e5/e5_w.glm"
+	NewViewModel 		"models/weapons2/e5/e5.md3"
+	Icon				"gfx/hud/w_icon_e5"
+	MuzzleEffect		"Blaster/MuzzleFlash01R"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01R"
+	MissileEffect		"Blaster/Shot01R"
+	AltMissileEffect 	"Blaster/Shot01R"
+	FlashSound0			"sound/weapons/e-5/fire.mp3"  		
+	AltFlashSound0		"sound/weapons/e-5/alt_fire.mp3"
+	WeaponName			"E-5 Blaster Rifle"
+	customAmmo			999
+	altFireEnabled		0
+}
+
+description	"B1-Series Battle Droid
+
+
+Weaponry:
+E-5 Blaster
+
+Abilities:
+9 Reinforcements
+Assemble
+
+B1s were perhaps the most numerous—and expendable—soldiers in galactic history, and unlike most organic soldiers, they were capable of action in hostile environments such as underwater or in space. They were designed, for the most part, to defeat their enemies through sheer numbers, not through their ability to think (they were very vulnerable to tricks) and utilize combat skills (unlike clone troopers).
+
+Early battles involving the droids required a central computer for the droids to "think" from, but this was mostly removed post–Battle of Naboo after an attack destroyed the mainframe stationed there, resulting in all the droids on the planet being deactivated."

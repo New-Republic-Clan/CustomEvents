@@ -1,0 +1,56 @@
+ClassInfo
+{
+	name				"BoM_Rep_Clone"
+	model				"clonetrooper_p2"
+	skin				"default"
+	uishader			"models/players/clonetrooper_p2/mb2_icon_default"
+	MBClass				MB_CLASS_ARCTROOPER
+	maxhealth			100
+	maxarmor			50
+	weapons				WP_BLASTER|WP_DEMP2|WP_MELEE|WP_TRIP_MINE
+	extralives			5
+	
+	
+	
+	attributes		MB_ATT_BLASTER,3|MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_DEXTERITY,1|MB_ATT_STAMINA,2|MB_ATT_PULSE_GRENADES,1
+	customred			1.000
+	customgreen			1.000
+	customblue			1.000
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BLASTER
+	WeaponBasedOff		WP_BLASTER
+	NewWorldModel		"models/weapons2/dc-15s/dc-15s_w.glm"
+	NewViewModel		"models/weapons2/dc-15s/dc-15s.md3"
+	MuzzleEffect		"Blaster/MuzzleFlash01B" 
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"Blaster/Shot02B"
+	AltMissileEffect 	"Blaster/Shot02B"
+	FlashSound0			"sound/weapons/repeater/fire.mp3" 
+	AltFlashSound0		"sound/weapons/repeater/fire.mp3"
+	Icon				"gfx/hud/w_icon_dc-15s"
+	firingAnim			BOTH_ATTACK4
+	WeaponName			"DC-15S"
+	customAmmo 			999
+}
+
+description	"Clone Trooper
+
+Weaponry:
+DC-17S Carbine
+DC-17 Pistol
+1 Pulse Grenade
+
+Equipment:
+Class-II Armor
+
+Abilities:
+5 Reinforcements
+Low Dexterity
+Medium Stamina
+
+Clone troopers were an army of identical, genetically modified clones, created to serve in the Grand Army of the Republic during the full-scale intergalactic conflict that came to be known as the Clone Wars. Grown at an accelerated rate and raised in the laboratories and facilities of Kamino, the clone troopers were trained throughout the first ten years of their lives to become one of the most efficient military forces in galactic history.
+
+ Bred for the sole purpose of combat, the clones were indoctrinated with unwavering obedience to the Galactic Republic and—more specifically—their Commander-in-Chief, the Supreme Chancellor."

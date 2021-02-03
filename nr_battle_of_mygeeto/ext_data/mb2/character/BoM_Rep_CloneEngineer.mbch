@@ -1,0 +1,59 @@
+ClassInfo
+{
+	name				"BoM_Rep_CloneEngineer"
+	model				"clonetrooper_p2"
+	skin				"bly_rgb"
+	uishader			"gfx/hud/fa_icons/mb2_icon_arcp2_bly_blue"
+	MBClass				MB_CLASS_CLONETROOPER
+	maxhealth			100
+	maxarmor			75
+	weapons				WP_BLASTER|WP_DEMP2|WP_MELEE|WP_TRIP_MINE
+	extralives			4
+	classNumberLimit	2
+	classflags			CFL_SHOTGUN
+	
+	attributes			MB_ATT_BLASTER,3|MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_PULSE_GRENADES,3|MB_ATT_SECURITY_INTERFACE,1|MB_ATT_GUNBASH,1|MB_ATT_AMMO_PACK,1|MB_ATT_STAMINA,2
+	customred			0.913
+	customgreen			0.667
+	customblue			0.275
+	holdables			HI_EWEB|HI_AMMODISP
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BLASTER
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/t-21/t-21_w.glm"
+	NewViewModel		"models/weapons2/t-21/t-21.md3"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"Blaster/Shot01B"
+	FlashSound0			"sound/weapons/t-21/alt_fire.mp3"
+	Icon				"gfx/hud/w_icon_t-21.tga"
+	firingAnim			BOTH_ATTACK4
+	WeaponName			"DP-23 Shotgun"
+	altFireEnabled		0
+	customAmmo 			999
+}
+
+description	"Clone Engineer
+
+
+Weaponry:
+DP-23 Clone Shotgun
+DC-17 Clone Pistol
+3 Pulse Grenades
+
+Equipemnt:
+Class-III Armour
+Deployable Turret
+Ammo Packs
+
+Abilities:
+4 Reinforcements
+Computer Finesse
+Low Dexterity
+Medium Stamina
+
+Clone troopers were an army of identical, genetically modified clones, created to serve in the Grand Army of the Republic during the full-scale intergalactic conflict that came to be known as the Clone Wars. Certain clones were trained in more specialized areas of combat, such as Technical Skills and 
+
+ Bred for the sole purpose of combat, the clones were indoctrinated with unwavering obedience to the Galactic Republic and—more specifically—their Commander-in-Chief, the Supreme Chancellor."

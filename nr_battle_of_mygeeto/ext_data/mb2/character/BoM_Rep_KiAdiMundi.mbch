@@ -1,22 +1,23 @@
-//Siege class def file.
-
 ClassInfo
 {
-	name			"BoM_KiAdiMundi"
-	weapons			WP_SABER|WP_MELEE
-	saber1			saber_ki_adi
-	sabercolor		4
-	saberstyle		SS_FAST|SS_MEDIUM
+	name				"BoM_Rep_KiAdiMundi"
+	model				"Ki_Adi_VM"
+	skin				"default"
+	uishader			"models/players/Ki_Adi_VM/mb2_icon_default"
+	MBClass				MB_CLASS_JEDI
+	maxhealth			150
+	
+	weapons				WP_SABER|WP_MELEE
+	
+	classNumberLimit	1
+	classflags			CFL_MORESABERDMG|CFL_BPFREEJUMPS|CFL_HASQ3|CFL_FASTFORCEREGEN
+	
 	attributes			MB_ATT_FORCEFOCUS,1|MB_ATT_FORCEBLOCK,3|MB_ATT_DEFLECT,3
 	forcepowers		FP_LEVITATION,3|FP_PUSH,3|FP_SPEED,3|FP_HEAL,3|FP_SABER_OFFENSE,3|FP_SABER_DEFENSE,3 // Offense 3 only given to allow for fast-speed Blue-style slashes. -- Azuvector
-	maxhealth		150
-	model			"Ki_Adi_VM"
-	skin			"default"
-	uishader		"models/players/Ki_Adi_VM/mb2_icon_default"
-	MBClass			MB_CLASS_JEDI
-	speed			1.2
-	classNumberLimit	1
-	classflags		CFL_MORESABERDMG|CFL_BPFREEJUMPS|CFL_HASQ3|CFL_FASTFORCEREGEN
+	speed				1.2
+	saber1				saber_ki_adi
+	sabercolor			4
+	saberstyle			SS_FAST|SS_MEDIUM
 }
 
 description	"Ki-Adi Mundi
@@ -26,15 +27,11 @@ Weaponry:
 Lightsaber
 
 Abilities:
-Force Jump		(3)
-Force Push		(3)
-Force Pull		(3)
-Force Speed		(3)
-Force Heal		(1)
-Saber Offense		(3)
-Saber Defense		(3)
-Force Block		(3)
-Saber Deflect		(3)
+Force Jump
+Force Push
+Force Pull
+Force Speed
+Force Heal
 
 
 Ki-Adi-Mundi was a Cerean Jedi Master, and Jedi Council member. He hailed from the planet Cerea and, due to the low Cerean birthrate, he was allowed by the Jedi Order to follow the Cerean custom of polygynous marriage. He had four honor wives, one son, and seven daughters.

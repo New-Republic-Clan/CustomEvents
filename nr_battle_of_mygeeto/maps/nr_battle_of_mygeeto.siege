@@ -52,7 +52,7 @@ Republic
 {
 	RequiredObjectives 1
 	Timed 300
-	UseTeam "BoM_rep"
+	UseTeam "BoM_Rep"
 	TeamIcon "gfx/2d/logos/mb_clonerepublic"
 	TeamColorOn	"0 0 1 1"
 	TeamColorOff "0 0 .7 1"
@@ -83,7 +83,7 @@ Republic
 Separatist
 {
 	RequiredObjectives 0
-	UseTeam "BoM_sep"
+	UseTeam "BoM_Sep"
 	TeamIcon "gfx/2d/logos/mb_cis"
 	TeamColorOn	"1 0 0 1"
 	TeamColorOff ".7 0 0 1"

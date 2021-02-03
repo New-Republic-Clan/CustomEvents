@@ -1,0 +1,62 @@
+ClassInfo
+{
+	name				"BoM_Sep_B1Demolition"
+	model				"battledroid"
+	skin				"grenadier"
+	uishader			"models/players/battledroid/mb2_icon_grenadier"
+	MBClass				MB_CLASS_SOLDIER
+	maxhealth			80
+	maxarmor			20
+	weapons				WP_ROCKET_LAUNCHER|WP_MELEE|WP_BRYAR_PISTOL
+	extralives			4
+	classNumberLimit	2
+	classflags			CFL_THERMALROCKETS|CFL_DISMEMBERFRAGILE
+	
+	attributes			MB_ATT_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_ARMOUR,1|MB_ATT_PLX1,2
+	speed				0.9
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_ROCKET_LAUNCHER
+	WeaponBasedOff		WP_ROCKET_LAUNCHER
+	NewWorldModel		"models/weapons2/e60r_launcher/e60r_launcher_w.glm"
+	NewViewModel		"models/weapons2/e60r_launcher/e60r_launcher.md3"
+	Icon				"gfx/hud/w_icon_e60r_launcher"
+	WeaponName			"E-60R Missile Launcher"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BRYAR_PISTOL 
+	NewWorldModel 		"models/weapons2/se-14_pistol/blaster_pistol_w.glm"
+	NewViewModel 		"models/weapons2/se-14_pistol/blaster_pistol.md3"
+	Icon				"gfx/hud/w_icon_e5"
+	MuzzleEffect		"Blaster/MuzzleFlash01R"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01R"
+	MissileEffect		"Blaster/Shot01R"
+	AltMissileEffect 	"Blaster/Shot01R"
+	FlashSound0			"sound/weapons/SE-44C/fire.WAV"  		
+	AltFlashSound0		"sound/weapons/SE-44C/alt_fire.WAV"
+	WeaponName			"SE-14 Blaster Pistol"
+	customAmmo			999
+	altFireEnabled		0
+}
+
+description	"B1-Series Demolition Droid
+
+
+Weaponry:
+E-60R Missile Launcher
+SE-14 Blaster Pistol
+
+Equipment:
+Class-I Armor
+
+Abilities:
+4 Reinforcements
+
+B1s were perhaps the most numerous—and expendable—soldiers in galactic history, and unlike most organic soldiers, they were capable of action in hostile environments such as underwater or in space. These droids are a specialized variant, using an E-60R for anti-vehicular and high damage actions.
+
+Early battles involving the droids required a central computer for the droids to "think" from, but this was mostly removed post–Battle of Naboo after an attack destroyed the mainframe stationed there, resulting in all the droids on the planet being deactivated."

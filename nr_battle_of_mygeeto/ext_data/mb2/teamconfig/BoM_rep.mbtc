@@ -1,6 +1,6 @@
 //Siege team def file.
 
-name	"BoM_rep"
+name	"BoM_Rep"
 
 ClassesAllowed	100
 TimePeriod	5
@@ -8,14 +8,10 @@ EUAllowed	0
 
 Classes
 {
-	class1		"BoM_Clone"
-	class2		"BoM_CloneEngineer"
-	class3		"BoM_GalacticMarine"
-	class4		"BoM_Bacara"
-	class5		"BoM_KiAdiMundi"
-}
-
-SubclassesforClass2
-{
-Subclass1		"BoM_JetTrooper"
+	class1		"BoM_Rep_Clone"
+	class2		"BoM_Rep_CloneEngineer"
+	class3		"BoM_Rep_JetTrooper"
+	class4		"BoM_Rep_GalacticMarine"
+	class5		"BoM_Rep_Bacara"
+	class6		"BoM_Rep_KiAdiMundi"
 }

@@ -1,0 +1,80 @@
+ClassInfo
+{
+	name				"BoM_Sep_BXCommandoDroid"
+	model				"bxdroid"	
+	skin				"default"
+	uishader			"models/players/bxdroid/mb2_icon_default"
+	MBClass				MB_CLASS_ARCTROOPER
+	maxhealth			100
+	maxarmor			60
+	weapons				WP_SABER|WP_MELEE|WP_BLASTER|WP_TRIP_MINE
+	extralives			2
+	classNumberLimit	2
+	classflags			CFL_STRONGAGAINSTPHYSICAL|CFL_DISMEMBERFRAGILE|CFL_BLOODYMELEE|CFL_HEAVYMELEE
+	
+	attributes			MB_ATT_BLAST_ARMOUR,1|MB_ATT_CORTOSIS,1|MB_ATT_MAGNETIC_PLATING,1|MB_ATT_STAMINA,3|MB_ATT_A280,3|MB_ATT_AMMO,3|MB_ATT_FIRE_GRENADES,2|MB_ATT_DEXTERITY,2|MB_ATT_EE3,2
+	speed				1.1
+	saber1				"vibroblade"
+	saberstyle			SS_MEDIUM
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_SABER			
+	WeaponBasedOff		WP_SABER			
+	NewWorldModel		"models/weapons2/vibrosword_BX/vibrosword_BX.glm"  
+	NewViewModel		"models/weapons2/dummy/dummy.md3" 	  
+	Icon				"gfx/hud/w_icon_vibroswordBX"
+	WeaponName			"Commando Droid Vibrosword"    			
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BLASTER
+	WeaponBasedOff		WP_BLASTER 
+	NewWorldModel 		"models/weapons2/e5/e5_w.glm"
+	NewViewModel 		"models/weapons2/e5/e5.md3"
+	Icon				"gfx/hud/w_icon_e5"
+	MuzzleEffect		"Blaster/MuzzleFlash01R"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01R"
+	MissileEffect		"Blaster/Shot01R"
+	AltMissileEffect 	"Blaster/Shot01R"
+	FlashSound0			"sound/weapons/e-5/fire.mp3"  		
+	AltFlashSound0		"sound/weapons/e-5/alt_fire.mp3"
+	WeaponName			"E-5 Blaster Rifle"
+	customAmmo			999
+	altFireEnabled		0
+}
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_TRIP_MINE
+	WeaponBasedOff		WP_TRIP_MINE
+	NewWorldModel		"models/weapons2/plasma/plasma_w.glm"
+	NewViewModel		"models/weapons2/plasma/plasma.md3"
+	MissileModel		"models/weapons2/plasma/plasma_proj.md3"
+	FlashSound0 		"sound/weapons/thermal/fire.mp3"
+	AltFlashSound0 		"sound/weapons/thermal/fire.mp3"
+	Icon				"gfx/hud/w_icon_plasma"
+	WeaponName			"Incendiary Grenade"
+}
+
+description	"BX-Series Commando Droid
+
+
+Weapons:
+E-5 Blaster Rifle
+Vibrosword
+2 Incendiary Grenades
+
+Attributes:
+2 Reinforcement
+Cortosis
+Magnetic Plating
+Blast Armour
+Strong against Physical Damage
+
+BX-series droid commandos, also known as BX-series commando droids or simply commando droids, were advanced battle droids used by the Confederacy of Independent Systems during the Clone Wars. Designed for infiltration and action behind enemy lines, they were also used to perform security, bodyguard and enforcer duties for certain high-ranking Separatists.
+
+Ruthless, lethal and adaptive, these droids were the bane of Republic clone troopers and were able to put even a Jedi on the back foot but their hefty price tag prevented them from being mass-produced."
+
