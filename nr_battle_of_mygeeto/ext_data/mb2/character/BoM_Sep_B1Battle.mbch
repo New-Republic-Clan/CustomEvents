@@ -12,7 +12,7 @@ ClassInfo
 	classNumberLimit	99
 	classflags			CFL_DISMEMBERFRAGILE
 	
-	attributes			MB__ATT_BLASTER,2|MB_ATT_AMMO,3|MB_ATT|ASSEMBLE,1
+	attributes			MB__ATT_BLASTER,3|MB_ATT_AMMO,3|MB_ATT|ASSEMBLE,1
 }
 
 WeaponInfo1
@@ -37,7 +37,7 @@ description	"B1-Series Battle Droid
 
 
 Weaponry:
-E-5 Blaster
+E-5 Blaster Rifle
 
 Abilities:
 9 Reinforcements

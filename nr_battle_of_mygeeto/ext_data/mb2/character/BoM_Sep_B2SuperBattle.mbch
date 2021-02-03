@@ -5,16 +5,15 @@ ClassInfo
 	skin				"default"
 	uishader			"models/players/SBD/mb2_icon_default"
 	MBClass				MB_CLASS_SBD
-	maxhealth			250
-	maxarmor			0
+	maxhealth			80
+	maxarmor			200
 	weapons				WP_CONCUSSION
 	extralives			2
 	classNumberLimit	3
 	classflags			CFL_DISMEMBERFRAGILE
 	
-	attributes			MB_ATT_HULL_STRENGTH,3|MB_ATT_FIREPOWER,2|MB_ATT_SBD_CANNON,1|MB_ATT_RECHARGE,2|MB_ATT_MAGNETIC_PLATING,1|MB_ATT_BLAST_ARMOUR,1|MB_ATT_AMMO,3|MB_ATT_ASSEMBLE,1
+	attributes			MB_ATT_FIREPOWER,2|MB_ATT_SBD_CANNON,1|MB_ATT_RECHARGE,2|MB_ATT_MAGNETIC_PLATING,1|MB_ATT_BLAST_ARMOUR,1|MB_ATT_AMMO,3
 	modelscale			1.1
-	reloadtimemodifier	0.5
 }
 
 description	"B2-Series Super Battle Droid
@@ -25,7 +24,7 @@ SBD Arm Blaster
 SBD Wrist Rocket
 
 Equipment:
-Class-III Hull Strength
+Class-VIII Armor
 
 Abilities:
 2 Reinforcements

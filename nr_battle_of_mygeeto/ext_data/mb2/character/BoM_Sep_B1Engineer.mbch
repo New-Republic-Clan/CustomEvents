@@ -6,14 +6,13 @@ ClassInfo
 	uishader			"models/players/battledroid/mb2_icon_engineer"
 	MBClass				MB_CLASS_ELITETROOPER
 	maxhealth			80
-	maxarmor			20
+	maxarmor			25
 	weapons				WP_BLASTER|WP_MELEE|WP_BRYAR_PISTOL
 	extralives			4
 	classNumberLimit	2
 	classflags			CFL_STATVIEWER|CFL_DISMEMBERFRAGILE|CFL_SHOTGUN
-	
-	attributes			MB_ATT_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_ARMOUR,1|MB_ATT_ASSEMBLE,1
 	holdables			HI_HEALTHDISP|HI_MEDPAC_BIG|HI_EWEB|HI_SENTRY
+	attributes			MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_ASSEMBLE,1
 }
 
 WeaponInfo0
@@ -25,8 +24,8 @@ WeaponInfo0
 	FlashSound0			"sound/weapons/t-21/alt_fire.mp3"
 	Icon				"gfx/hud/w_icon_t-21.tga"
 	WeaponName			"DP-23 Shotgun"
-	altFireEnabled		0
 	customAmmo 			999
+	altFireEnabled		0
 }
 
 WeaponInfo1
@@ -51,7 +50,7 @@ description	"B1-Series Engineer Droid
 
 
 Weaponry:
-Droid Shotgun
+ACP Shotgun
 SE-14 Blaster Pistol
 
 Equipment:
@@ -63,6 +62,7 @@ Seeker Drone
 Abilities:
 4 Reinforcements
 Can repair Droids
+Assemble
 
 B1s were perhaps the most numerous—and expendable—soldiers in galactic history, and unlike most organic soldiers, they were capable of action in hostile environments such as underwater or in space. These droids are a specialized variant, wielding a close quarters weapon and implanted with the tehcnical knowhow to repair its fellow droids.
 
