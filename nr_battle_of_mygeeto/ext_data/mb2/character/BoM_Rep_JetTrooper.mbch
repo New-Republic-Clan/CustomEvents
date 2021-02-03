@@ -20,6 +20,12 @@ ClassInfo
 	jetpackJet2Tag		*jetpack_jet2
 	jetpackJetOffset	"0, 0, 4"
 	jetpackJet2Offset	"0, 0, 4"
+	
+	jetpackIdleSound	"sound/jettrooper/idle.mp3"
+	jetpackThrustSound	"sound/jettrooper/thrust.mp3"
+	jetpackStartSound	"sound/jettrooper/ignite.mp3"
+	jetpackStopSound	"sound/jettrooper/off.mp3"		
+	
 }
 
 
