@@ -5,14 +5,14 @@ ClassInfo
 	skin				"default"
 	uishader			"models/players/bxdroid/mb2_icon_default"
 	MBClass				MB_CLASS_BOUNTYHUNTER
-	maxhealth			100
-	maxarmor			50
+	maxhealth			80
+	maxarmor			100
 	weapons				WP_BLASTER|WP_SABER|WP_MELEE|WP_TRIP_MINE
-	extralives			2
-	classNumberLimit	2
-	classflags			CFL_STRONGAGAINSTPHYSICAL|CFL_DISMEMBERFRAGILE
+	extralives			1
+	classNumberLimit	1
+	classflags			CFL_DISMEMBERFRAGILE
 	
-	attributes			MB_ATT_BLASTER,3||MB_ATT_BLAST_ARMOUR,1|MB_ATT_CORTOSIS,1|MB_ATT_MAGNETIC_PLATING,1|MB_ATT_AMMO,3|MB_ATT_FIRE_GRENADES,2|MB_ATT_DASH,3
+	attributes			MB_ATT_BLASTER,3|MB_ATT_BLAST_ARMOUR,1|MB_ATT_AMMO,3|MB_ATT_FIRE_GRENADES,2|MB_ATT_DASH,3|MB_ATT_FUEL,2
 	saber1				"vibro_BX"
 	saberstyle			SS_TAVION
 }
@@ -68,16 +68,12 @@ Droid Vibrosword
 2 Incendiary Grenades
 
 Equipment:
-Class-II Armor
+Class-IV Armor
 
 Attributes:
-2 Reinforcements
-Medium Dexterity
-Medium Stamina
-Magnetic Plating
+1 Reinforcement
 Blast Armour
-Cortosis
-Strong against Physical Damage
+Dash
 
 BX-series droid commandos, also known as BX-series commando droids or simply commando droids, were advanced battle droids used by the Confederacy of Independent Systems during the Clone Wars. Designed for infiltration and action behind enemy lines, they were also used to perform security, bodyguard and enforcer duties for certain high-ranking Separatists.
 

@@ -11,12 +11,11 @@ ClassInfo
 	extralives			4
 	classNumberLimit	2
 	classflags			CFL_SHOTGUN
-	
-	attributes			MB_ATT_BLASTER,3|MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_PULSE_GRENADES,3|MB_ATT_SECURITY_INTERFACE,1|MB_ATT_GUNBASH,1|MB_ATT_AMMO_PACK,1|MB_ATT_STAMINA,2
+	holdables			HI_EWEB|HI_AMMODISP
+	attributes			MB_ATT_BLASTER,3|MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_PULSE_GRENADES,3|MB_ATT_SECURITY_INTERFACE,1|MB_ATT_GUNBASH,1|MB_ATT_AMMO_PACK,5|MB_ATT_STAMINA,2
 	customred			0.913
 	customgreen			0.667
 	customblue			0.275
-	holdables			HI_EWEB|HI_AMMODISP
 }
 
 WeaponInfo0
@@ -39,8 +38,8 @@ description	"Clone Engineer
 
 
 Weaponry:
-DP-23 Clone Shotgun
-DC-17 Clone Pistol
+DP-23 Blaster Shotgun
+DC-17 Blaster Pistol
 3 Pulse Grenades
 
 Equipemnt:

@@ -4,14 +4,14 @@ ClassInfo
 	model				"T-Series_Commander_Droid"
 	skin				"default"
 	uishader			"models/players/T-Series_Commander_Droid/mb2_icon_default"
-	MBClass				MB_CLASS_BOUNTYHUNTER
+	MBClass				MB_CLASS_COMMANDER
 	maxhealth			80
 	maxarmor			50
 	weapons				WP_BRYAR_PISTOL|WP_MELEE
 	extralives			2
 	classNumberLimit	1
 	classflags			CFL_DISMEMBERFRAGILE|CFL_STATVIEWER
-	holdables			HI_HEALTHDISP|HI_MEDPAC_BIG|HI_EWEB|HI_SENTRY
+	holdables			HI_HEALTHDISP|HI_MEDPAC_BIG|HI_SENTRY_GUN
 	
 	attributes			MB_ATT_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_RALLY,1
 }

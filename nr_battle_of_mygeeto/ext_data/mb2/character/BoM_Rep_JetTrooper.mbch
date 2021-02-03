@@ -8,11 +8,11 @@ ClassInfo
 	maxhealth			100
 	maxarmor			25
 	weapons				WP_FLECHETTE|WP_DEMP2|WP_MELEE|WP_TRIP_MINE
-	extralives			2
-	classNumberLimit	2
+	extralives			3
+	classNumberLimit	1
 	classflags			CFL_NO_JETPACK_OVERHEAT|CFL_NO_JETPACK_COOLDOWN
 	
-	attributes		MB_ATT_A280,2|MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_JETPACK,1|MB_ATT_DEXTERITY,2|MB_ATT_STAMINA,2|MB_ATT_ARC_RIFLE_GRENADELAUNCHER,2|MB_ATT_PULSE_GRENADES,2
+	attributes		MB_ATT_A280,2|MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_JETPACK,1|MB_ATT_DEXTERITY,2|MB_ATT_STAMINA,2|MB_ATT_ARC_RIFLE_GRENADELAUNCHER,2|MB_ATT_PULSE_GRENADES,1
 	customred			0.120
 	customgreen			0.275
 	customblue			0.474
@@ -26,16 +26,16 @@ ClassInfo
 description	"Jet Trooper
 
 Weaponry:
-Westar 5 Rifle w/ Grenade Launcher Attachment
-DC-17 Pistol
-2 Pulse Grenades
+Westar 5 Blaster Rifle w/ Grenade Launcher Attachment
+DC-17 Blaster Pistol
+1 Pulse Grenade
 
 Equipment:
 Jetpack
 Class-I Armour
 
 Abilities:
-2 Reinforcements
+3 Reinforcements
 Medium Dexterity
 Medium Stamina
 
