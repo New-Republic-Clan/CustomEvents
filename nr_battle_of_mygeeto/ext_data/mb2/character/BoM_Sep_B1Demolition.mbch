@@ -4,15 +4,15 @@ ClassInfo
 	model				"battledroid"
 	skin				"grenadier"
 	uishader			"models/players/battledroid/mb2_icon_grenadier"
-	MBClass				MB_CLASS_SOLDIER
+	MBClass				MB_CLASS_ELITETROOPER
 	maxhealth			80
 	maxarmor			25
-	weapons				WP_ROCKET_LAUNCHER|WP_MELEE|WP_BRYAR_PISTOL
+	weapons				WP_ROCKET_LAUNCHER|WP_MELEE|WP_BRYAR_PISTOL|WP_THERMAL
 	extralives			4
 	classNumberLimit	2
 	classflags			CFL_THERMALROCKETS|CFL_DISMEMBERFRAGILE
 	holdables			HI_BINOCULARS
-	attributes			MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_PLX1,2
+	attributes			MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_PLX1,2|MB_ATT_FRAGS,1
 	speed				0.9
 }
 
@@ -32,13 +32,10 @@ WeaponInfo1
 	WeaponBasedOff		WP_BRYAR_PISTOL 
 	NewWorldModel 		"models/weapons2/se-14_pistol/blaster_pistol_w.glm"
 	NewViewModel 		"models/weapons2/se-14_pistol/blaster_pistol.md3"
-	Icon				"gfx/hud/w_icon_e5"
+	Icon				"gfx/hud/w_icon_se-14c"
 	MuzzleEffect		"Blaster/MuzzleFlash01R"
-	AltMuzzleEffect		"Blaster/MuzzleFlash01R"
 	MissileEffect		"Blaster/Shot01R"
-	AltMissileEffect 	"Blaster/Shot01R"
-	FlashSound0			"sound/weapons/SE-44C/fire.WAV"  		
-	AltFlashSound0		"sound/weapons/SE-44C/alt_fire.WAV"
+	FlashSound0			"sound/weapons/SE-44C/fire.WAV"
 	WeaponName			"SE-14 Blaster Pistol"
 	customAmmo			999
 	altFireEnabled		0
@@ -50,6 +47,7 @@ description	"B1-Series Demolition Droid
 Weaponry:
 E-60R Missile Launcher
 SE-14 Blaster Pistol
+1 Frag Grenade
 
 Equipment:
 Class-I Armor

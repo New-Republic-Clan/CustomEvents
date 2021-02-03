@@ -7,13 +7,14 @@ ClassInfo
 	MBClass				MB_CLASS_COMMANDER
 	maxhealth			80
 	maxarmor			50
-	weapons				WP_BRYAR_PISTOL|WP_MELEE
+	weapons				WP_BRYAR_PISTOL|WP_MELEE|WP_TRIP_MINE
 	extralives			2
 	classNumberLimit	1
 	classflags			CFL_DISMEMBERFRAGILE|CFL_STATVIEWER
 	holdables			HI_HEALTHDISP|HI_MEDPAC_BIG|HI_SENTRY_GUN
 	
-	attributes			MB_ATT_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_RALLY,1
+	attributes			MB_ATT_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_RALLY,1|MB_ATT_SONIC_DETONATOR,2
+	modelscale			1.1
 }
 
 WeaponInfo0
@@ -22,7 +23,7 @@ WeaponInfo0
 	WeaponBasedOff		WP_BRYAR_PISTOL 
 	NewWorldModel 		"models/weapons2/se-14_pistol/blaster_pistol_w.glm"
 	NewViewModel 		"models/weapons2/se-14_pistol/blaster_pistol.md3"
-	Icon				"gfx/hud/w_icon_e5"
+	Icon				"gfx/hud/w_icon_se-14c"
 	MuzzleEffect		"Blaster/MuzzleFlash01R"
 	AltMuzzleEffect		"Blaster/MuzzleFlash01R"
 	MissileEffect		"Blaster/Shot01R"
@@ -34,11 +35,23 @@ WeaponInfo0
 	altFireEnabled		1
 }
 
+WeaponInfo1
+{
+	WeaponToReplace		WP_TRIP_MINE
+	WeaponBasedOff		WP_TRIP_MINE 
+	NewWorldModel 		"models/weapons2/sonic_detonator/sonic_det_w.glm"
+	NewViewModel 		"models/weapons2/sonic_detonator/sonic_det.md3"
+	Icon				"gfx/hud/w_icon_sonic_det"
+	WeaponName			"Sonic Detonator"
+	altFireEnabled		1
+}
+
 description	"T-Series Tactical Droid
 
 
 Weaponry:
 Modified SE-14 Blaster Pistol
+2 Sonic Detonators
 
 Equipment:
 Class-II Armor

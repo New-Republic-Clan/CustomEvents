@@ -7,12 +7,12 @@ ClassInfo
 	MBClass				MB_CLASS_ELITETROOPER
 	maxhealth			80
 	maxarmor			25
-	weapons				WP_BLASTER|WP_MELEE|WP_BRYAR_PISTOL
+	weapons				WP_BLASTER|WP_MELEE|WP_BRYAR_PISTOL|WP_THERMAL
 	extralives			4
 	classNumberLimit	2
 	classflags			CFL_STATVIEWER|CFL_DISMEMBERFRAGILE|CFL_SHOTGUN
 	holdables			HI_HEALTHDISP|HI_MEDPAC_BIG|HI_EWEB
-	attributes			MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_ASSEMBLE,1
+	attributes			MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_FRAGS,1
 }
 
 WeaponInfo0
@@ -23,7 +23,7 @@ WeaponInfo0
 	NewViewModel		"models/weapons2/t-21/t-21.md3"
 	FlashSound0			"sound/weapons/t-21/alt_fire.mp3"
 	Icon				"gfx/hud/w_icon_t-21.tga"
-	WeaponName			"DP-23 Shotgun"
+	WeaponName			"ACP Blaster Shotgun"
 	customAmmo 			999
 	altFireEnabled		0
 }
@@ -34,13 +34,10 @@ WeaponInfo1
 	WeaponBasedOff		WP_BRYAR_PISTOL 
 	NewWorldModel 		"models/weapons2/se-14_pistol/blaster_pistol_w.glm"
 	NewViewModel 		"models/weapons2/se-14_pistol/blaster_pistol.md3"
-	Icon				"gfx/hud/w_icon_e5"
+	Icon				"gfx/hud/w_icon_se-14c"
 	MuzzleEffect		"Blaster/MuzzleFlash01R"
-	AltMuzzleEffect		"Blaster/MuzzleFlash01R"
 	MissileEffect		"Blaster/Shot01R"
-	AltMissileEffect 	"Blaster/Shot01R"
-	FlashSound0			"sound/weapons/SE-44C/fire.WAV"  		
-	AltFlashSound0		"sound/weapons/SE-44C/alt_fire.WAV"
+	FlashSound0			"sound/weapons/SE-44C/fire.WAV"
 	WeaponName			"SE-14 Blaster Pistol"
 	customAmmo			999
 	altFireEnabled		0
@@ -52,6 +49,7 @@ description	"B1-Series Engineer Droid
 Weaponry:
 ACP Blaster Shotgun
 SE-14 Blaster Pistol
+1 Frag Grenade
 
 Equipment:
 Class-I Armor
@@ -60,7 +58,6 @@ Portable E-Web Gun Turret
 Abilities:
 4 Reinforcements
 Can repair Droids
-Assemble
 
 B1s were perhaps the most numerous—and expendable—soldiers in galactic history, and unlike most organic soldiers, they were capable of action in hostile environments such as underwater or in space. These droids are a specialized variant, wielding a close quarters weapon and implanted with the tehcnical knowhow to repair its fellow droids.
 

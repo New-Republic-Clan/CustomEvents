@@ -12,7 +12,7 @@ ClassInfo
 	classNumberLimit	4
 	classflags			CFL_STRONGAGAINSTPHYSICAL|CFL_HEAVYMELEE
 	
-	attributes		MB_ATT_CLONERIFLE,3|MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_PULSE_GRENADES,2|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_GUNBASH,1|MB_ATT_STAMINA,1|MB_ATT_CLONEBLOBS,1
+	attributes		MB_ATT_CLONERIFLE,3|MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_GUNBASH,1|MB_ATT_STAMINA,1|MB_ATT_CLONEBLOBS,1
 	customred			0.470
 	customgreen			0.235
 	customblue			0.353
@@ -25,7 +25,6 @@ Weaponry:
 DC-15A Blaster Rifle
 w/ Explosive Blobs
 DC-17 Blaster Pistol
-2 Pulse Grenades
 
 Equipment:
 Class-IV Armour
