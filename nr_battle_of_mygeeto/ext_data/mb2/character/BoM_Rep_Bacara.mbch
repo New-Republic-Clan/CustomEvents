@@ -5,7 +5,7 @@ ClassInfo
 	skin				"21_bacara"
 	uishader			"models/players/clonetrooper_p2/mb2_icon_21_bacara"
 	MBClass				MB_CLASS_CLONETROOPER
-	maxhealth			150
+	maxhealth			200
 	maxarmor			100
 	weapons				WP_BLASTER|WP_ROCKET_LAUNCHER|WP_MELEE|WP_TRIP_MINE
 	extralives			1
