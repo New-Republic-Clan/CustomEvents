@@ -11,7 +11,7 @@ ClassInfo
 	extralives			4
 	classNumberLimit	2
 	classflags			CFL_STATVIEWER|CFL_DISMEMBERFRAGILE|CFL_SHOTGUN
-	holdables			HI_HEALTHDISP|HI_MEDPAC_BIG|HI_EWEB
+	holdables			HI_HEALTHDISP|HI_EWEB
 	attributes			MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_FRAGS,1
 }
 
@@ -57,7 +57,7 @@ Portable E-Web Gun Turret
 
 Abilities:
 4 Reinforcements
-Can repair Droids
+Repairs Droids
 
 B1s were perhaps the most numerous—and expendable—soldiers in galactic history, and unlike most organic soldiers, they were capable of action in hostile environments such as underwater or in space. These droids are a specialized variant, wielding a close quarters weapon and implanted with the tehcnical knowhow to repair its fellow droids.
 

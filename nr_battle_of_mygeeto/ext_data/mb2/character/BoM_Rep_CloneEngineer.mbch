@@ -2,7 +2,7 @@ ClassInfo
 {
 	name				"BoM_Rep_CloneEngineer"
 	model				"clonetrooper_p2"
-	skin				"bly_rgb"
+	skin				"bom_engineer"
 	uishader			"gfx/hud/fa_icons/mb2_icon_arcp2_bly_blue"
 	MBClass				MB_CLASS_CLONETROOPER
 	maxhealth			100
@@ -12,10 +12,10 @@ ClassInfo
 	classNumberLimit	2
 	classflags			CFL_SHOTGUN
 	holdables			HI_EWEB|HI_AMMODISP
-	attributes			MB_ATT_BLASTER,3|MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_PULSE_GRENADES,2|MB_ATT_SECURITY_INTERFACE,1|MB_ATT_GUNBASH,1|MB_ATT_AMMO_PACK,5|MB_ATT_STAMINA,2
-	customred			0.913
-	customgreen			0.667
-	customblue			0.275
+	attributes			MB_ATT_BLASTER,3|MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_PULSE_GRENADES,2|MB_ATT_SECURITY_INTERFACE,1|MB_ATT_GUNBASH,1|MB_ATT_AMMO_PACK,1|MB_ATT_STAMINA,2
+	customred			0.800
+	customgreen			0.600
+	customblue			0.200
 }
 
 WeaponInfo0
@@ -28,7 +28,6 @@ WeaponInfo0
 	MissileEffect		"Blaster/Shot01B"
 	FlashSound0			"sound/weapons/t-21/alt_fire.mp3"
 	Icon				"gfx/hud/w_icon_t-21.tga"
-	firingAnim			BOTH_ATTACK4
 	WeaponName			"DP-23 Shotgun"
 	altFireEnabled		0
 	customAmmo 			999
@@ -45,7 +44,7 @@ DC-17 Blaster Pistol
 Equipemnt:
 Class-III Armour
 Deployable Turret
-Ammo Packs
+Can give ammo
 
 Abilities:
 4 Reinforcements
