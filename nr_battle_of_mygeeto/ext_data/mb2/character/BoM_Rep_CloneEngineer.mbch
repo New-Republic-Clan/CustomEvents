@@ -3,7 +3,7 @@ ClassInfo
 	name				"BoM_Rep_CloneEngineer"
 	model				"clonetrooper_p2"
 	skin				"bom_engineer"
-	uishader			"gfx/hud/fa_icons/mb2_icon_arcp2_bly_blue"
+	uishader			"gfx/hud/fa_icons/mb2_icon_cloneEngineer"
 	MBClass				MB_CLASS_CLONETROOPER
 	maxhealth			100
 	maxarmor			75

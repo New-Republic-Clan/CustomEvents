@@ -10,14 +10,14 @@ ClassInfo
 	weapons				WP_SABER|WP_MELEE
 	
 	classNumberLimit	1
-	classflags			CFL_MORESABERDMG|CFL_BPFREEJUMPS|CFL_HASQ3|CFL_FASTFORCEREGEN
+	classflags			CFL_HASQ3|CFL_FASTFORCEREGEN
 	
 	attributes			MB_ATT_FORCEFOCUS,1|MB_ATT_FORCEBLOCK,3|MB_ATT_DEFLECT,3
-	forcepowers		FP_LEVITATION,3|FP_PUSH,3|FP_SPEED,3|FP_HEAL,3|FP_SABER_OFFENSE,3|FP_SABER_DEFENSE,3 // Offense 3 only given to allow for fast-speed Blue-style slashes. -- Azuvector
+	forcepowers		FP_LEVITATION,3|FP_PUSH,3|FP_SPEED,3|FP_HEAL,3|FP_SABER_OFFENSE,2|FP_SABER_DEFENSE,3
 	speed				1.2
 	saber1				saber_ki_adi
 	sabercolor			4
-	saberstyle			SS_FAST|SS_MEDIUM
+	saberstyle			SS_FAST
 }
 
 description	"Ki-Adi Mundi
