@@ -1,0 +1,41 @@
+{
+map			"mp/siege_hoth"
+longname		"Hoth Attack"
+fraglimit		10
+type			"siege"
+}
+
+{
+map			"mp/siege_desert"
+longname		"Desert Rescue"
+fraglimit		10
+type			"siege"
+}
+
+{
+map			"mp/siege_korriban"
+longname		"Korriban Valley"
+fraglimit		10
+type			"siege"
+}
+
+{
+map			"mp/siege_endor_bunker"
+longname		"Battle Of Endor"
+fraglimit		10
+type			"siege"
+}
+
+{
+map			"mp/siege_endor_village"
+longname		"Ewok Village"
+fraglimit		10
+type			"siege"
+}
+
+{
+map			"mp/siege_endor_shieldgen"
+longname		"Shield Generator"
+fraglimit		10
+type			"siege"
+}
