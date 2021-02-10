@@ -17,7 +17,7 @@ roundbegin_target "siege_start"
 Endor_Imperials
 {
 RequiredObjectives 6 								//How many objectives must this team complete before winning the round?
-UseTeam "Siege_Endor_Imperial" 							//Specifies the name of team "theme" to use
+UseTeam "BoM_Sep"						//Specifies the name of team "theme" to use
 TeamIcon	"gfx/2d/mp_imp_symbol_3"
 TeamColorOn	"1 0 0 1"
 TeamColorOff	".7 0 0 1"	
@@ -141,7 +141,7 @@ briefing "The Rebel scum are on the run and have retreated to the primitive's vi
 Endor_Rebels
 {
 RequiredObjectives 6 								//How many objectives must this team complete before winning the round?
-UseTeam "Siege_Endor_Rebel" 							//Specifies the name of team "theme" to use
+UseTeam "BoM_Rep"							//Specifies the name of team "theme" to use
 TeamIcon	"gfx/2d/mp_rebel_symbol_3"
 TeamColorOn	"0 0 1 1"
 TeamColorOff	"0 0 .7 1"	
