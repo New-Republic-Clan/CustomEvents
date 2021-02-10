@@ -1,0 +1,12 @@
+ATST_vehicle2
+{
+	weapon		WP_BOWCASTER
+	weapon		WP_EMPLACED_GUN
+	playerModel	atst
+	playerTeam	TEAM_FREE
+	enemyTeam	TEAM_FREE
+	class		CLASS_VEHICLE
+	height		272	
+	width		80
+	health		500
+}

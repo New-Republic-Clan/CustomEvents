@@ -1,0 +1,20 @@
+//Siege class def file.
+
+ClassInfo
+{
+	name			"Rebel Soldier"
+	weapons			WP_BLASTER_PISTOL|WP_BLASTER|WP_REPEATER
+	forcepowers		0
+	maxhealth		125
+	starthealth		125
+	maxarmor		50
+	startarmor		0
+	model			"rebel" 					//this is optional, if it's here it forces the model to this.
+	skin			"blue"					//this is optional, if it's here it forces the skin to this.
+	uishader		"models/players/rebel/icon_blue"
+	class_shader		"gfx/mp/c_icon_heavy_weapons"
+	holdables		HI_SEEKER
+}
+
+description	
+"Rebel Soldier - typical infantry unit, perfect for the first line of defense"

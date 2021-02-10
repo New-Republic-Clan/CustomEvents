@@ -1,0 +1,19 @@
+//Siege class def file.
+
+ClassInfo
+{
+	name			"Rebel Technician"
+	weapons			WP_BLASTER_PISTOL|WP_DEMP2|WP_TRIP_MINE
+	classflags		CFL_EXTRA_AMMO|CFL_STATVIEWER
+	maxhealth		100
+	starthealth		100
+	maxarmor		25
+	startarmor		0
+	model			"lando" 				//this is optional, if it's here it forces the model to this.
+	skin			"default"
+	uishader		"models/players/lando/icon_default"
+	class_shader		"gfx/mp/c_icon_support"
+	holdables		HI_SHIELD|HI_HEALTHDISP|HI_AMMODISP|HI_SEEKER
+}
+
+description	"Rebel Technician - equipped with various defense systems is destined to hold locations."

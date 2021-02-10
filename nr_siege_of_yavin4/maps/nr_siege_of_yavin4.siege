@@ -1,0 +1,268 @@
+Teams
+{
+	team1 Imperial_Yavin
+	team2 Rebel_Yavin
+
+}
+
+mapgraphic "gfx/mplevels/projekt_yavin24"
+missionname  "''Battle on Yavin 4''"
+
+roundbegin_target ""
+
+Imperial_Yavin
+{
+	RequiredObjectives 6 		
+	Timed 		1500 									
+	UseTeam 	"BoM_Sep"						
+	TeamIcon	"gfx/2d/mp_rebel_symbol_3"
+	TeamColorOn	"1 0 0 1"
+	TeamColorOff	".7 0 0 1"
+
+            Objective1
+	{
+		goalname "Destroy power generators"
+		final 0 									
+		message_team1 "All generators have been destroyed"		
+		message_team2 "The Rebels have lost their power generators!" 		
+		target "spawntoggle1" 					
+		sound_team1 "sound/chars/protocol/misc/siege2.mp3" 		
+		sound_team2 "sound/chars/protocol/misc/siege6.mp3" 		
+		objdesc "Destroy power generators to disable shields" 			
+
+	      objgfx "gfx/mplevels/yavin4/obj1_yavin4" 		
+		mapicon "gfx/mp/siegeicons/hoth/bridge_o"
+		litmapicon "gfx/mp/siegeicons/hoth/bridge_outline"
+		donemapicon "gfx/mp/siegeicons/hoth/bridge_x"
+		mappos "144 163 16 16"					
+
+	}
+
+	Objective2
+	{
+		goalname "Hack into Rebel computer systems"
+		final 0
+		message_team1 "The Empire has hacked the computer system!"
+		message_team2 "The Empire has hacked the computer system!"
+//		target "spawntoggle2"
+		sound_team1 "sound/chars/protocol/misc/siege2.mp3"
+		sound_team2 "sound/chars/protocol/misc/siege6.mp3"
+		objdesc "Hack into Rebel computer systems to disable shield 1" 					
+		
+		objgfx "gfx/mplevels/yavin4/obj2_yavin4" 		
+		mapicon "gfx/mp/siegeicons/hoth/bridge_o"
+		litmapicon "gfx/mp/siegeicons/hoth/bridge_outline"
+		donemapicon "gfx/mp/siegeicons/hoth/bridge_x"
+		mappos "144 163 16 16"						
+	}
+
+	Objective3
+	{
+		goalname "Hack into Rebel computer systems"
+		final 0
+		message_team1 "The Empire has hacked the computer system!"
+		message_team2 "The Empire has hacked the computer system!"
+//		target "spawntoggle3"
+		sound_team1 "sound/chars/protocol/misc/siege2.mp3"
+		sound_team2 "sound/chars/protocol/misc/siege6.mp3"
+		objdesc "Hack into Rebel computer systems to open the gate" 					
+		
+		objgfx "gfx/mplevels/yavin4/obj2_yavin4" 		
+		mapicon "gfx/mp/siegeicons/hoth/bridge_o"
+		litmapicon "gfx/mp/siegeicons/hoth/bridge_outline"
+		donemapicon "gfx/mp/siegeicons/hoth/bridge_x"
+		mappos "144 163 16 16"						
+	}
+
+	Objective4
+	{
+		goalname "Hack into Rebel computer systems"
+		final 0
+		message_team1 "The Empire has hacked the computer system!"
+		message_team2 "The Empire has hacked the computer system!"
+//		target "spawntoggle4"
+		sound_team1 "sound/chars/protocol/misc/siege2.mp3"
+		sound_team2 "sound/chars/protocol/misc/siege6.mp3"
+		objdesc "Hack into Rebel computer systems to disable shield 2" 					
+		
+		objgfx "gfx/mplevels/yavin4/obj2_yavin4" 		
+		mapicon "gfx/mp/siegeicons/hoth/bridge_o"
+		litmapicon "gfx/mp/siegeicons/hoth/bridge_outline"
+		donemapicon "gfx/mp/siegeicons/hoth/bridge_x"
+		mappos "144 163 16 16"						
+	}
+
+	Objective5
+	{
+		goalname "Open the gate to the hangar using security code"
+		final 0
+		message_team1 "The Empire has made its way to the hangar!"
+		message_team2 "The Empire has made its way to the hangar!"
+//		target "spawntoggle6"
+		sound_team1 "sound/chars/protocol/misc/siege2.mp3"
+		sound_team2 "sound/chars/protocol/misc/siege6.mp3"
+		objdesc "Carry the security code to the panel in front of the hangar to gain aceess inside" 					
+		
+		objgfx "gfx/mplevels/yavin4/obj5_yavin4" 		
+		mapicon "gfx/mp/siegeicons/hoth/bridge_o"
+		litmapicon "gfx/mp/siegeicons/hoth/bridge_outline"
+		donemapicon "gfx/mp/siegeicons/hoth/bridge_x"
+		mappos "144 163 16 16"						
+	}
+
+	Objective6
+	{
+		goalname "Kill the traitor!"
+		final 1
+		message_team1 "The Empire has killed the traitor!!"
+		message_team2 "The hostage have been killed!!"
+//		target "spawntoggle6"
+		sound_team1 "sound/chars/protocol/misc/siege2.mp3"
+		sound_team2 "sound/chars/protocol/misc/siege6.mp3"
+		objdesc "Kill the traitor" 					
+		
+		objgfx "gfx/mplevels/yavin4/obj6_yavin4" 		
+		mapicon "gfx/mp/siegeicons/hoth/bridge_o"
+		litmapicon "gfx/mp/siegeicons/hoth/bridge_outline"
+		donemapicon "gfx/mp/siegeicons/hoth/bridge_x"
+		mappos "144 163 16 16"						
+	}
+
+
+
+
+wonround "The Empire has completed its mission on Yavin 4!"				
+	lostround "The Rebels have stopped the Empire" 					
+	roundover_sound_wewon "sound/chars/protocol/misc/40MOM014.mp3" 
+	roundover_sound_welost "sound/chars/protocol/misc/40MOM012.mp3"
+	roundover_target "siegeend" 							
+	attackers 1
+	briefing "Lord Vader has ordered to assassinate an Imperial officer, currently held hostage in the Rebel base on Yavin 4. This officer is in posession of a vital intelligence information. He must die before he reveals them to the Rebels"
+}
+
+Rebel_Yavin
+{
+	RequiredObjectives 0
+	UseTeam "BoM_Rep"
+	TeamIcon	"gfx/2d/mp_rebel_symbol_3"
+	TeamColorOn	"0 0 1 1"
+	TeamColorOff	"0 0 .7 1"
+
+            Objective1
+	{
+		goalname "Defend the power generators"
+		final 0
+		message_team2 "The Rebels have successfuly defended the power generators"
+		message_team1 "The Rebels have lost their power generators"
+//		target "spawntoggle1"
+		sound_team1 "sound/chars/protocol/misc/siege5.mp3"
+		sound_team2 "sound/chars/protocol/misc/siege1.mp3"
+		objdesc "Defend the power generators" 							
+		
+		objgfx "gfx/mplevels/yavin4/obj1_yavin4"
+		mapicon "gfx/mp/siegeicons/hoth/walldoor_o"
+		litmapicon "gfx/mp/siegeicons/hoth/walldoor_outline"
+		donemapicon "gfx/mp/siegeicons/hoth/walldoor_x"
+		mappos "135 245 16 16"				
+	}
+
+            Objective2
+	{
+		goalname "Defend the computer systems in station 1"
+		final 0
+		message_team2 "The Rebels have successfuly defended the computers in station 1"
+		message_team1 "The Imperials have successfully hacked the computers!"
+//		target "spawntoggle2"
+		sound_team1 "sound/chars/protocol/misc/siege5.mp3"
+		sound_team2 "sound/chars/protocol/misc/siege1.mp3"
+		objdesc "Defend the computer systems in station 1" 							
+		
+		objgfx "gfx/mplevels/yavin4/obj2_yavin4"
+		mapicon "gfx/mp/siegeicons/hoth/walldoor_o"
+		litmapicon "gfx/mp/siegeicons/hoth/walldoor_outline"
+		donemapicon "gfx/mp/siegeicons/hoth/walldoor_x"
+		mappos "135 245 16 16"				
+	}
+
+           Objective3
+	{
+		goalname "Defend the computer systems in station 2"
+		final 0
+		message_team2 "The Rebels have successfuly defended the computers in station 2"
+		message_team1 "The Imperials have successfully hacked the computers!"
+//		target "spawntoggle3"
+		sound_team1 "sound/chars/protocol/misc/siege5.mp3"
+		sound_team2 "sound/chars/protocol/misc/siege1.mp3"
+		objdesc "Defend the computer systems in station 2" 							
+		
+		objgfx "gfx/mplevels/yavin4/obj2_yavin4"
+		mapicon "gfx/mp/siegeicons/hoth/walldoor_o"
+		litmapicon "gfx/mp/siegeicons/hoth/walldoor_outline"
+		donemapicon "gfx/mp/siegeicons/hoth/walldoor_x"
+		mappos "135 245 16 16"				
+	}
+
+            Objective4
+	{
+		goalname "Defend the computer systems in station 3"
+		final 0
+		message_team2 "The Rebels have successfuly defended the computers in station 3"
+		message_team1 "The Imperials have successfully hacked the computers!"
+//		target "spawntoggle4"
+		sound_team1 "sound/chars/protocol/misc/siege5.mp3"
+		sound_team2 "sound/chars/protocol/misc/siege1.mp3"
+		objdesc "Defend the computer systems in station 3" 							
+		
+		objgfx "gfx/mplevels/yavin4/obj2_yavin4"
+		mapicon "gfx/mp/siegeicons/hoth/walldoor_o"
+		litmapicon "gfx/mp/siegeicons/hoth/walldoor_outline"
+		donemapicon "gfx/mp/siegeicons/hoth/walldoor_x"
+		mappos "135 245 16 16"				
+	}
+
+            Objective5
+	{
+		goalname "Prevent the Imperials from reaching the panel with the security code"
+		final 0
+		message_team2 "The Rebels have sucessfully prevented the Empire from reaching the panel with the security code"
+		message_team1 "The Empire managed to access the hangar!!"
+//		target "spawntoggle6"
+		sound_team1 "sound/chars/protocol/misc/siege5.mp3"
+		sound_team2 "sound/chars/protocol/misc/siege1.mp3"
+		objdesc "Prevent the Imperials from reaching the panel with the security code" 							
+		
+		objgfx "gfx/mplevels/yavin4/obj5_yavin4"
+		mapicon "gfx/mp/siegeicons/hoth/walldoor_o"
+		litmapicon "gfx/mp/siegeicons/hoth/walldoor_outline"
+		donemapicon "gfx/mp/siegeicons/hoth/walldoor_x"
+		mappos "135 245 16 16"				
+	}
+
+            Objective6
+	{
+		goalname "Defend the hostage"
+		final 1
+		message_team2 "The Rebels have protected the hostage!!"
+		message_team1 "The Empire has murdered the hostage!!"
+//		target "spawntoggle6"
+		sound_team1 "sound/chars/protocol/misc/siege5.mp3"
+		sound_team2 "sound/chars/protocol/misc/siege1.mp3"
+		objdesc "Defend the hostage" 							
+		
+		objgfx "gfx/mplevels/yavin4/obj6_yavin4"
+		mapicon "gfx/mp/siegeicons/hoth/walldoor_o"
+		litmapicon "gfx/mp/siegeicons/hoth/walldoor_outline"
+		donemapicon "gfx/mp/siegeicons/hoth/walldoor_x"
+		mappos "135 245 16 16"				
+	}
+
+
+
+wonround "The Rebels have sucessfully stopped the Empire from completing its mission!"
+	lostround "The Empire managed to complete their mission!"
+	roundover_sound_wewon "sound/chars/protocol/misc/40MOM013.mp3"
+	roundover_sound_welost "sound/chars/protocol/misc/40MOM012.mp3"
+	roundover_target "siegeend"
+	attackers 0
+	briefing "The Rebel Alliance managed to capture an Imperial officer, holding a valuable information about Imperial intelligence and are currently holding him in the secret hangar on Yavin 4. Protect the prisoner to acquire these information."
+}
