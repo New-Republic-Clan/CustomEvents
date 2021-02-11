@@ -8,12 +8,12 @@ ClassInfo
 	maxhealth		125
 	maxarmor		75
 	startarmor		0
-//	model			"rockettrooper" 					//this is optional, if it's here it forces the model to this.
-	model			"stormtrooper" 					//this is optional, if it's here it forces the model to this.
-	skin			"default"					//this is optional, if it's here it forces the skin to this.
-	uishader		"models/players/stormtrooper/icon_default"
-	class_shader		"gfx/mp/c_icon_heavy_weapons"
-	holdables		HI_EWEB
+	model			"stormie" 					//this is optional, if it's here it forces the model to this.
+	skin			"Mimban"					//this is optional, if it's here it forces the skin to this.
+	uishader		"models/players/stormie/mb2_icon_mimban"
+	class_shader	"gfx/mp/c_icon_heavy_weapons"
+	attributes		MB_ATT_DEXTERITY,1|MB_ATT_STAMINA,2	
+	extralives		5	
 }
 
 description	

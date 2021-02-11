@@ -12,8 +12,11 @@ ClassInfo
 	model			"lando" 				//this is optional, if it's here it forces the model to this.
 	skin			"default"
 	uishader		"models/players/lando/icon_default"
-	class_shader		"gfx/mp/c_icon_support"
-	holdables		HI_SHIELD|HI_HEALTHDISP|HI_AMMODISP|HI_SEEKER
+	class_shader	"gfx/mp/c_icon_support"
+	holdables		HI_SHIELD|HI_EWEB
+	attributes		MB_ATT_DEXTERITY,1|MB_ATT_STAMINA,2
+	classNumberLimit	2
+	extralives			2		
 }
 
 description	"Rebel Technician - equipped with various defense systems is destined to hold locations."

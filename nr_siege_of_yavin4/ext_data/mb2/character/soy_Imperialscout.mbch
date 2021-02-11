@@ -11,9 +11,11 @@ ClassInfo
 	startarmor		0
 	model			"swamptrooper" 					//this is optional, if it's here it forces the model to this.
 	skin			"default"					//this is optional, if it's here it forces the skin to this.
-	uishader		"models/players/swamptrooper/icon_default"
+	uishader		"models/players/swamptrooper/mb2_icon_default"
 	class_shader	"gfx/mp/c_icon_vanguard"
 	holdables		HI_MEDPAC
+	classNumberLimit	2
+	extralives			2	
 }
 
 description	

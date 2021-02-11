@@ -10,10 +10,12 @@ ClassInfo
 	maxarmor		50
 	startarmor		0
 	model			"rebel" 					//this is optional, if it's here it forces the model to this.
-	skin			"blue"					//this is optional, if it's here it forces the skin to this.
-	uishader		"models/players/rebel/icon_blue"
-	class_shader		"gfx/mp/c_icon_heavy_weapons"
+	skin			"desert"					//this is optional, if it's here it forces the skin to this.
+	uishader		"models/players/rebel/mb2_icon_desert"
+	class_shader	"gfx/mp/c_icon_heavy_weapons"
 	holdables		HI_SEEKER
+	attributes		MB_ATT_DEXTERITY,1|MB_ATT_STAMINA,2	
+	extralives			5	
 }
 
 description	
