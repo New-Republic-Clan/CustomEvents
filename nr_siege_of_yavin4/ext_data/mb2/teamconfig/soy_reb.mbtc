@@ -1,0 +1,12 @@
+//Siege team def file.
+
+name	"soy_reb"
+
+ClassesAllowed	100
+TimePeriod	5
+EUAllowed	0
+
+Classes
+{
+	class1		"soy_Rebel"
+}

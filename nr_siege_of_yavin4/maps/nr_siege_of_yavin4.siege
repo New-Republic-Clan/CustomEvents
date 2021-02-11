@@ -14,7 +14,7 @@ Imperial_Yavin
 {
 	RequiredObjectives 6 		
 	Timed 		1500 									
-	UseTeam 	"BoM_Sep"						
+	UseTeam 	"soy_imp"						
 	TeamIcon	"gfx/2d/mp_rebel_symbol_3"
 	TeamColorOn	"1 0 0 1"
 	TeamColorOff	".7 0 0 1"
@@ -143,7 +143,7 @@ wonround "The Empire has completed its mission on Yavin 4!"
 Rebel_Yavin
 {
 	RequiredObjectives 0
-	UseTeam "BoM_Rep"
+	UseTeam "soy_reb"
 	TeamIcon	"gfx/2d/mp_rebel_symbol_3"
 	TeamColorOn	"0 0 1 1"
 	TeamColorOff	"0 0 .7 1"
