@@ -1,0 +1,31 @@
+//Siege class def file.
+
+ClassInfo
+{
+	name			"soy_Heavywookie"
+	weapons			WP_MELEE|WP_BOWCASTER|WP_ROCKET_LAUNCHER
+	maxhealth		250
+	starthealth		250
+	maxarmor		0
+	startarmor		0
+	model			"chewbacca" 					//this is optional, if it's here it forces the model to this.
+	skin			"default"					//this is optional, if it's here it forces the skin to this.
+	uishader		"models/players/chewbacca/icon_default"
+	class_shader		"gfx/mp/c_icon_demolitionist"
+	speed			0.75
+}
+
+description	"Heavy Wookie
+
+Attributes:
+Gunbash
+Reinforcements	2
+Armor		3
+Ammo		1
+
+Weaponry:
+E-11 Rifle	2
+Frag Grenade	1
+Pistol		1
+
+The military soldiers unswervingly loyal to the Emperor, stormtroopers represented the most visible extension of Imperial might. They were shock troopers meant to strike with speed and accuracy, putting down insurrections and maintaining order on the farflung worlds of the Empire. Stormtroopers served both the ground-based armies of Palpatine's forces, and the space-based Imperial starfleet."
