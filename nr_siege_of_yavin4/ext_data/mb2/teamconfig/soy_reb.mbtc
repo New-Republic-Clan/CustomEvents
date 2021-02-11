@@ -8,7 +8,8 @@ EUAllowed	0
 
 Classes
 {
-	class1		"soy_Rebel"
+	class1		"soy_Rebelsoldier"
 	class2		"soy_Heavywookie"
 	class3		"soy_Rebeltechnician"
+	class4		"soy_Rebelmarksman"
 }

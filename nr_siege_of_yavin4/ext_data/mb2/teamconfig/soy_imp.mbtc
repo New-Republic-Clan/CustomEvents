@@ -8,7 +8,10 @@ EUAllowed	0
 
 Classes
 {
-	class1		"soy_Stormtrooper"
+	class1		"soy_Imperialstormtrooper"
+	class2		"soy_Imperialcommander"
+	class3		"soy_Imperialscout"
+	class4		"soy_Imperiallightassaulter"
 
 }
 
