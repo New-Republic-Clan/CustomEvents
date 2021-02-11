@@ -1,0 +1,20 @@
+//Siege team definition file.
+
+name "Siege1_Yavin_Imperials"
+FriendlyShader "sprites/imperial_attack" //Name of shader to display above heads of teammates (to others on this team)
+
+Classes
+{
+//Infantry
+	class1		"Imperial Light Assaulter"
+//Infantry
+	class2		"Imperial Assaulter"
+//Heavy
+	class3		"Imperial Heavy Trooper"
+//Vanguard
+	class4		"Imperial Scout"
+//Support
+	class5		"Imperial Commander"
+//Jedi
+	class6		"Dark Jedi Assassin"
+}
