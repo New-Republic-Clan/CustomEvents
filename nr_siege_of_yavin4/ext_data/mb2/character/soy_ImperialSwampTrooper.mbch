@@ -3,17 +3,16 @@
 ClassInfo
 {
 	name			"soy_ImperialSwampTrooper"
-	weapons			WP_BLASTER_PISTOL|WP_REPEATER
-	forcepowers		0
+	weapons			WP_BLASTER_PISTOL|WP_FLECHETTE|WP_THERMAL
+	attributes		MB_ATT_AMMO,2|MB_ATT_ARMOUR,2|MB_ATT_A280,3|MB_ATT_THERMALS,1|MB_ATT_GUNBASH	
 	maxhealth		125
 	maxarmor		75
 	startarmor		0
-	model			"stormie" 					//this is optional, if it's here it forces the model to this.
-	skin			"Mimban"					//this is optional, if it's here it forces the skin to this.
-	uishader		"models/players/stormie/mb2_icon_mimban"
-	class_shader	"gfx/mp/c_icon_heavy_weapons"
-	attributes		MB_ATT_DEXTERITY,1|MB_ATT_STAMINA,2	
-	extralives		1
+	model			"swamptrooper" 					
+	skin			"default"					
+	uishader		"models/players/swamptrooper/mb2_icon_default"
+	MBClass			MB_CLASS_ELITETROOPER	
+	extralives		2
 	classNumberLimit	2	
 }
 
@@ -23,10 +22,13 @@ description	"Swamptrooper
 Weaponry:
 SX-21 Scatter Blaster
 Blaster Pistol
+Frag Grenades (1)
 
 Equipemnt:
 
 Abilities:
+Gunbash
+Reinforcements (2)
 
 The swamp troopers of the 224th Imperial Armored Division fought on the swamp planet of Mimban during the Mimban campaign, 
 which saw the Empire battle forces of the Mimbanese Liberation Army for control of the planet and its vital resources. 

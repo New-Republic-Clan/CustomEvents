@@ -9,14 +9,12 @@ ClassInfo
 	maxhealth		100
 	maxarmor		0
 	startarmor		0
-	model			"rebel_guerilla" 					//this is optional, if it's here it forces the model to this.
+	model			"yun" 					//this is optional, if it's here it forces the model to this.
 	skin			"default"					//this is optional, if it's here it forces the skin to this.
-	uishader		"models/players/rebel_guerilla/mb2_icon_default"
-	class_shader	"gfx/mp/c_icon_vanguard"
+	uishader		"models/players/yun/mb2_icon_default"
 	holdables		HI_MEDPAC
-	classNumberLimit	2
+	classNumberLimit	1
 	attributes		MB_ATT_DEXTERITY,1|MB_ATT_STAMINA,2	
-	extralives			2	
 }
 
 description	"GarDaren

@@ -3,16 +3,16 @@
 ClassInfo
 {
 	name			"soy_ImperialStormSniper"
-	weapons			WP_BLASTER_PISTOL|WP_DISRUPTOR
-	forcepowers		0
-	classflags		CFL_EXTRA_AMMO
+	weapons			WP_BLASTER_PISTOL|WP_DISRUPTOR|WP_STUN_BATON|WP_THERMAL
+	attributes		MB_ATT_AMMO,3|MB_ATT_PISTOL,3|MB_ATT_PROJECTILE_RIFLE,1|MB_ATT_THERMALS,2|MB_ATT_DODGE,2|MB_ATT_ARMOUR,2|MB_ATT_DISRUPTOR,1
 	maxhealth		100
 	maxarmor		50
-	startarmor		0
-	model			"swamptrooper" 					//this is optional, if it's here it forces the model to this.
-	skin			"default"					//this is optional, if it's here it forces the skin to this.
-	uishader		"models/players/swamptrooper/mb2_icon_default"
-	class_shader	"gfx/mp/c_icon_vanguard"
+	model			"stormie"
+	skin			"shoulderwhite_Tan"
+	customred		0.9
+	customgreen		0.9
+	customblue		0.9
+	uishader		"models/players/stormie/mb2_icon_shoulderwhite_Tan"
 	holdables		HI_MEDPAC
 	classNumberLimit	2
 	extralives			1	

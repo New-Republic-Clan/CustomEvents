@@ -4,22 +4,18 @@ ClassInfo
 {
 	name			"soy_JanDodonna"
 	weapons			WP_BLASTER_PISTOL|WP_BLASTER|WP_REPEATER
-	forcepowers		0
-	maxhealth		125
-	starthealth		125
-	maxarmor		50
-	startarmor		0
-	model			"rebel" 					//this is optional, if it's here it forces the model to this.
-	skin			"desert"					//this is optional, if it's here it forces the skin to this.
-	uishader		"models/players/rebel/mb2_icon_desert"
-	class_shader	"gfx/mp/c_icon_heavy_weapons"
+	attributes		MB_ATT_PISTOL,3|MB_ATT_THERMALS,3|MB_ATT_DODGE,2|MB_ATT_ARMOUR,3|MB_ATT_AMMO,3|MB_ATT_RALLY,1	
+	maxhealth		155
+	starthealth		155
+	model			"xaoxing"
+	skin			"default"
+	uishader		"models/players/xaoxing/mb2_icon_default"
 	holdables		HI_SEEKER
 	attributes		MB_ATT_DEXTERITY,1|MB_ATT_STAMINA,2	
-	extralives			5	
+	extralives		5	
 }
 
 description	"Jan Dodonna
-
 
 Weaponry:
 SX-21 Scatter Blaster

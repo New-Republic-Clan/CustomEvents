@@ -4,19 +4,36 @@
 ClassInfo
 {
 	name			"soy_Rebelmarksman"
-	weapons			WP_BLASTER_PISTOL|WP_DISRUPTOR
-	classflags		CFL_EXTRA_AMMO
+	weapons			WP_MELEE|WP_BLASTER_PISTOL|WP_STUN_BATON
+	attributes		MB_ATT_PISTOL,1|MB_ATT_PROJECTILE_RIFLE,1|MB_ATT_AMMO,3|MB_ATT_HEALING,1|MB_ATT_ARMOUR,2
 	maxhealth		100
-	maxarmor		0
+	maxarmor		50
 	startarmor		0
-	model			"rebel_guerilla" 					//this is optional, if it's here it forces the model to this.
-	skin			"default"					//this is optional, if it's here it forces the skin to this.
-	uishader		"models/players/rebel_guerilla/mb2_icon_default"
-	class_shader	"gfx/mp/c_icon_vanguard"
+	model			"Rebel_Officer"
+	skin			"default"
+	uishader		"gfx/hud/FA_Icons/mb2_icon_rebelofficer"
 	holdables		HI_MEDPAC
 	classNumberLimit	2
 	attributes		MB_ATT_DEXTERITY,1|MB_ATT_STAMINA,2	
 	extralives			2	
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_STUN_BATON
+	WeaponBasedOff		WP_THERMAL
+	NewWorldModel		"models/weapons2/psg/disruptor_w.glm"
+	NewViewModel		"models/weapons2/psg/disruptor.md3"
+	Icon				"gfx/hud/w_icon_psg"
+	altFireEnabled 		1
+	WeaponName			"High-Velocity Rifle"
+	FlashSound0			"Sound/weapons/hvr/fire.wav"
+	primHitscanShot		1
+	primHitscanTracer	5
+	altHitscanShot		1
+	altHitscanTracer	5
+	primGore			1
+	altGore				1
 }
 
 description	"Rebel Marksmen
@@ -29,6 +46,8 @@ Blaster Pistol
 Equipemnt:
 
 Abilities:
+Reinforcements (2)
+
 
 Rebel Marksmen are known for the skill as elite snipers. Individuals trained to shoot an opponent from a distance, often hundreds to a thousand meters away, 
 and often from a concealed location. Patience, steady aim, and cunning were some of the attributes that were needed for a sniper. Stealth was a sniper's greatest asset."

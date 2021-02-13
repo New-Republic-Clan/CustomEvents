@@ -9,9 +9,9 @@ ClassInfo
 	starthealth		100
 	maxarmor		25
 	startarmor		0
-	model			"lando" 				//this is optional, if it's here it forces the model to this.
+	model			"atton" 				//this is optional, if it's here it forces the model to this.
 	skin			"default"
-	uishader		"models/players/lando/icon_default"
+	uishader		"models/players/atton/icon_default"
 	class_shader	"gfx/mp/c_icon_support"
 	holdables		HI_SHIELD|HI_EWEB
 	attributes		MB_ATT_DEXTERITY,1|MB_ATT_STAMINA,2

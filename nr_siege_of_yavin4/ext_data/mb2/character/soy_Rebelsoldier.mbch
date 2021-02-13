@@ -3,7 +3,8 @@
 ClassInfo
 {
 	name			"soy_Rebelsoldier"
-	weapons			WP_BLASTER_PISTOL|WP_BLASTER|WP_REPEATER
+	weapons 		WP_FLECHETTE|WP_MELEE
+	attributes  	MB_ATT_A280,1|MB_ATT_RESPAWNS,2|MB_ATT_ARMOUR,2|MB_ATT_AMMO,1
 	forcepowers		0
 	maxhealth		125
 	starthealth		125
@@ -14,20 +15,20 @@ ClassInfo
 	uishader		"models/players/rebel/mb2_icon_desert"
 	class_shader	"gfx/mp/c_icon_heavy_weapons"
 	holdables		HI_SEEKER
-	attributes		MB_ATT_DEXTERITY,1|MB_ATT_STAMINA,2	
-	extralives			5	
+	extralives			4	
 }
 
 description	"Rebel Soldier
 
 
 Weaponry:
-SX-21 Scatter Blaster
+A280 (1)
 Blaster Pistol
 
 Equipemnt:
 
 Abilities:
+Reinforcements (4)
 
 Rebel troopers, also known as Rebel soldiers or Alliance troopers, were the front-line soldiers of both the early rebel movement and later,
 the Rebel Alliance against the Galactic Empire during the Galactic Civil War. 
