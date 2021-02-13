@@ -2,7 +2,7 @@
 
 ClassInfo
 {
-	name			"soy_Imperialstormtrooper"
+	name			"soy_ImperialStormTrooper"
 	weapons			WP_BLASTER_PISTOL|WP_REPEATER
 	forcepowers		0
 	maxhealth		125
@@ -13,8 +13,19 @@ ClassInfo
 	uishader		"models/players/stormie/mb2_icon_mimban"
 	class_shader	"gfx/mp/c_icon_heavy_weapons"
 	attributes		MB_ATT_DEXTERITY,1|MB_ATT_STAMINA,2	
-	extralives		5	
+	extralives		4	
 }
 
-description	
-"Imperial Assaulter is a typical infantry force, well armed, destined to operate at the first line."
+description	"Imperial Stormtrooper
+
+Weaponry:
+E11 Blaster Rifle
+Blaster Pistol
+
+Equipemnt:
+
+Abilities:
+Stormtroopers were the elite soldiers of the Galactic Empire. Like Imperial-class Star Destroyers and TIE fighters, stormtroopers served as ever present reminders of the absolute power of Emperor Palpatine. 
+
+These faceless enforcers of the New Order were considered an extension of the Emperor's will, and often used efficient yet brutal tactics to keep thousands of star systems 
+throughout the galaxy in submission to the Empire."

@@ -1,0 +1,35 @@
+//Siege class def file.
+
+ClassInfo
+{
+	name			"soy_BrennTantor"
+	weapons			WP_BLASTER_PISTOL|WP_DEMP2|WP_DET_PACK
+	classflags		CFL_EXTRA_AMMO
+	maxhealth		100
+	starthealth		100
+	maxarmor		25
+	startarmor		0
+	model			"imperial" 				//this is optional, if it's here it forces the model to this.
+	headSwapModel  	"stormie"
+	skin			"commander"					//this is optional, if it's here it forces the skin to this.
+	uishader		"models/players/imperial/icon_commander"
+	class_shader	"gfx/mp/c_icon_support"
+	holdables		HI_SHIELD|HI_MEDPAC|HI_EWEB
+	classNumberLimit 1
+	attributes		MB_ATT_DEXTERITY,1|MB_ATT_STAMINA,2	
+}
+
+description	"Brenn Tantor
+
+
+Weaponry:
+SX-21 Scatter Blaster
+Blaster Pistol
+
+Equipemnt:
+
+Abilities:
+
+Brenn Tantor was a young Human male from Garos IV who dreamed of becoming one of the Imperial stormtroopers who kept the peace on his homeworld.
+
+Quickly Advancing through the ranks, Tantor was to become one of the first officers to learn how to command troops using the Battlefield Holographic Control Interface, or BHCI."

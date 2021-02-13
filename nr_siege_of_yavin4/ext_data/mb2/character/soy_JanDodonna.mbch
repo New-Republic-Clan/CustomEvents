@@ -1,0 +1,33 @@
+//Siege class def file.
+
+ClassInfo
+{
+	name			"soy_JanDodonna"
+	weapons			WP_BLASTER_PISTOL|WP_BLASTER|WP_REPEATER
+	forcepowers		0
+	maxhealth		125
+	starthealth		125
+	maxarmor		50
+	startarmor		0
+	model			"rebel" 					//this is optional, if it's here it forces the model to this.
+	skin			"desert"					//this is optional, if it's here it forces the skin to this.
+	uishader		"models/players/rebel/mb2_icon_desert"
+	class_shader	"gfx/mp/c_icon_heavy_weapons"
+	holdables		HI_SEEKER
+	attributes		MB_ATT_DEXTERITY,1|MB_ATT_STAMINA,2	
+	extralives			5	
+}
+
+description	"Jan Dodonna
+
+
+Weaponry:
+SX-21 Scatter Blaster
+Blaster Pistol
+
+Equipemnt:
+
+Abilities:
+
+Jan Dodonna was a legendary male human military officer from Commenor who served with the navy of the Galactic Republic during the Clone Wars, 
+within the navy of the Galactic Empire, and later, as a general in the rebellion against the Galactic Empire."

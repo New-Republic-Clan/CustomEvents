@@ -1,0 +1,36 @@
+//Siege class def file.
+
+ClassInfo
+{
+	name			"soy_Chanharr"
+	weapons			WP_MELEE|WP_BOWCASTER|WP_ROCKET_LAUNCHER
+	attributes		MB_ATT_BOWCASTER,3|MB_ATT_AMMO,3|MB_ATT_ROCKET_LAUNCHER,3|MB_ATT_PLX1,6|MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_WOOKIE_HEALTH,3	
+	maxhealth		250
+	starthealth		250
+	maxarmor		0
+	startarmor		0
+	model			"wookieev2" 					//this is optional, if it's here it forces the model to this.
+	skin			"default4"					//this is optional, if it's here it forces the skin to this.
+	uishader		"models/players/wookieev2/mb2_icon_default4"
+	class_shader		"gfx/mp/c_icon_demolitionist"
+	speed			0.75
+	classNumberLimit	1		
+}
+
+description	"Chanharr
+
+
+Weaponry:
+Rocket Launcher (6)
+Bowcaster
+
+Equipemnt:
+
+Abilities:
+Wookie Strength Level 3
+
+A brave, loyal and smart wookie. Chanharr joined the Rebel Alliance after seeing his parents brutally killed by the empire while trying to prevent him and his older brother Racharr 
+from being taken into slavery on Kashyyyk.
+
+While Chanharr was able to escape into the wilderness, Racharr was captured by the empire. Chanharr eventually escaped Kashyyyk and made contact with the Alliance. 
+Chanharr has vowed to fight until his brother is found"

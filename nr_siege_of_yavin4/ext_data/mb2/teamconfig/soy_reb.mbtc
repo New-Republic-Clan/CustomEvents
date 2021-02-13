@@ -8,8 +8,10 @@ EUAllowed	0
 
 Classes
 {
-	class1		"soy_Rebelsoldier"
-	class2		"soy_Heavywookie"
-	class3		"soy_Rebeltechnician"
-	class4		"soy_Rebelmarksman"
+	class1		"soy_Chanharr"
+	class2		"soy_GarDaren"
+	class3		"soy_JanDodonna"
+	class4		"soy_RebelMarksman"
+	class5		"soy_RebelSoldier"
+	class6		"soy_RebelTechnician"
 }

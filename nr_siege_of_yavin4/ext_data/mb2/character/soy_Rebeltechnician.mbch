@@ -2,7 +2,7 @@
 
 ClassInfo
 {
-	name			"soy_Rebeltechnician"
+	name			"soy_RebelTechnician"
 	weapons			WP_BLASTER_PISTOL|WP_DEMP2|WP_TRIP_MINE
 	classflags		CFL_EXTRA_AMMO|CFL_STATVIEWER
 	maxhealth		100
@@ -19,4 +19,21 @@ ClassInfo
 	extralives			2		
 }
 
-description	"Rebel Technician - equipped with various defense systems is destined to hold locations."
+description	"Rebel Technician
+
+
+Weaponry:
+SX-21 Scatter Blaster
+Blaster Pistol
+
+Equipemnt:
+EWEB 
+Shield
+
+Abilities:
+
+Rebel Technicians, normally some of the first to arrive with scouting parties for new forward bases, would setup the complex and sometimes
+dangerious power generators, defence and communications systems. 
+
+Many Technician's relied on their brains and superior knowledge of technology to get one over the empire. ."
+

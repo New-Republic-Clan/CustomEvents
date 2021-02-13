@@ -1,0 +1,34 @@
+//Siege class def file.
+
+ClassInfo
+{
+	name			"soy_ImperialSwampTrooper"
+	weapons			WP_BLASTER_PISTOL|WP_REPEATER
+	forcepowers		0
+	maxhealth		125
+	maxarmor		75
+	startarmor		0
+	model			"stormie" 					//this is optional, if it's here it forces the model to this.
+	skin			"Mimban"					//this is optional, if it's here it forces the skin to this.
+	uishader		"models/players/stormie/mb2_icon_mimban"
+	class_shader	"gfx/mp/c_icon_heavy_weapons"
+	attributes		MB_ATT_DEXTERITY,1|MB_ATT_STAMINA,2	
+	extralives		1
+	classNumberLimit	2	
+}
+
+description	"Swamptrooper
+
+
+Weaponry:
+SX-21 Scatter Blaster
+Blaster Pistol
+
+Equipemnt:
+
+Abilities:
+
+The swamp troopers of the 224th Imperial Armored Division fought on the swamp planet of Mimban during the Mimban campaign, 
+which saw the Empire battle forces of the Mimbanese Liberation Army for control of the planet and its vital resources. 
+
+Swamp troopers were further deployed to dense forested planets with limited mobility."

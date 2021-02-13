@@ -1,0 +1,37 @@
+//Siege class def file.
+//NOTE: light version used for Star Destroyer map
+
+ClassInfo
+{
+	name			"soy_GarDaren"
+	weapons			WP_BLASTER_PISTOL|WP_DISRUPTOR
+	classflags		CFL_EXTRA_AMMO
+	maxhealth		100
+	maxarmor		0
+	startarmor		0
+	model			"rebel_guerilla" 					//this is optional, if it's here it forces the model to this.
+	skin			"default"					//this is optional, if it's here it forces the skin to this.
+	uishader		"models/players/rebel_guerilla/mb2_icon_default"
+	class_shader	"gfx/mp/c_icon_vanguard"
+	holdables		HI_MEDPAC
+	classNumberLimit	2
+	attributes		MB_ATT_DEXTERITY,1|MB_ATT_STAMINA,2	
+	extralives			2	
+}
+
+description	"GarDaren
+
+
+Weaponry:
+SX-21 Scatter Blaster
+Blaster Pistol
+
+Equipemnt:
+
+Abilities:
+
+GarDaren is from Oktaro. A Talented sniper and resourceful Guerilla fighter. When the Empire returned to Oktaro, beliving them to be their liberators of yore, they were welcomed with open arms. 
+
+As with many Oktaros, GarDaren soon realised that the Empire had come to occupy their home planet and steal their resources. GarDaren soon began to organise small
+Militia attacks on the Imperial mining operations, during a failed attack, GarDaren and his Militia were all captured. All but 3 of his compatriots were executed and they managed to escape Oktaro, joining the Allience and vowing to avenge 
+their fallen friends."

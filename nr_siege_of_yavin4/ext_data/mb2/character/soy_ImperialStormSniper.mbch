@@ -1,0 +1,35 @@
+//Siege class def file.
+
+ClassInfo
+{
+	name			"soy_ImperialStormSniper"
+	weapons			WP_BLASTER_PISTOL|WP_DISRUPTOR
+	forcepowers		0
+	classflags		CFL_EXTRA_AMMO
+	maxhealth		100
+	maxarmor		50
+	startarmor		0
+	model			"swamptrooper" 					//this is optional, if it's here it forces the model to this.
+	skin			"default"					//this is optional, if it's here it forces the skin to this.
+	uishader		"models/players/swamptrooper/mb2_icon_default"
+	class_shader	"gfx/mp/c_icon_vanguard"
+	holdables		HI_MEDPAC
+	classNumberLimit	2
+	extralives			1	
+}
+
+description	"Imperial Stormsniper
+
+Weaponry:
+RT-97C Heavy Sniper Rifle
+Blaster Pistol
+Therminal Detonator
+
+Equipemnt:
+
+
+Abilities:
+As their name suggests, Stormtrooper Snipers received special training in the use of sniper rifles, their main weapon being the RT-97C heavy blaster rifles. 
+They also carried Baradium-core code key thermal detonators as part of their equipment, though they did not use them in battle.
+
+The Stormtrooper Snipers' armor was basic stormtrooper armor, albeit slightly stronger and more durable."
