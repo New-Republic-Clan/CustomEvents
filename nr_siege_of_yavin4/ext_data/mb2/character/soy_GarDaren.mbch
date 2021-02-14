@@ -9,8 +9,8 @@ ClassInfo
 	maxhealth		100
 	maxarmor		0
 	startarmor		0
-	model			"yun" 					//this is optional, if it's here it forces the model to this.
-	skin			"default"					//this is optional, if it's here it forces the skin to this.
+	model			"anakin" 					//this is optional, if it's here it forces the model to this.
+	skin			"yun"					//this is optional, if it's here it forces the skin to this.
 	uishader		"models/players/yun/mb2_icon_default"
 	holdables		HI_MEDPAC
 	classNumberLimit	1

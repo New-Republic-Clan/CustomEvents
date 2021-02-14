@@ -13,6 +13,7 @@ ClassInfo
 	MBClass 		MB_CLASS_SOLDIER	
 	attributes		MB_ATT_DEXTERITY,1|MB_ATT_STAMINA,2	
 	extralives		4	
+	classNumberLimit	0	
 }
 
 description	"Imperial Stormtrooper

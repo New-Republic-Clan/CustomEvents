@@ -16,6 +16,7 @@ ClassInfo
 	class_shader	"gfx/mp/c_icon_heavy_weapons"
 	holdables		HI_SEEKER
 	extralives			4	
+	classNumberLimit	0		
 }
 
 description	"Rebel Soldier

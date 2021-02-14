@@ -3,7 +3,7 @@
 name "soy_imp"
 
 ClassesAllowed	100
-TimePeriod	5
+TimePeriod	10
 EUAllowed	0
 
 Classes
