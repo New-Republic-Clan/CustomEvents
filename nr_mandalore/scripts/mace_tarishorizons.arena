@@ -1,0 +1,6 @@
+{
+map			"mace_tarishorizons"
+longname		"Horizons of Taris"
+fraglimit		10
+type			"ffa tffa"
+}
