@@ -216,62 +216,86 @@ textures/plasma_korr/trim_01
 
 textures/amace_taris/windows1
 {
-	qer_editorimage textures/amace_taris/windows1
-	q3map_lightimage textures/amace_taris/windows1_glow
-	q3map_surfacelight 1000
-	q3map_backSplash 0.5 8
-    {
-        map $lightmap
-    }
-    {
-        map textures/amace_taris/windows1
-        blendFunc GL_DST_COLOR GL_ZERO
-    }
-    {
-        map textures/amace_taris/windows1_glow
-        blendFunc GL_ONE GL_ONE
-	glow
-    }
+	q3map_shadeangle 120
+	qer_editorimage textures/amace_taris/buildingroof1
+	{
+		map textures/amace_taris/taris_env
+		rgbGen identity
+		tcGen environment
+	}
+	{
+		map textures/amace_taris/taris_env_sun_glow
+		tcGen environment
+		blendFunc GL_ONE GL_ONE
+		rgbGen const ( 0.85 0.65 0.65 )
+		glow
+	}
+	{
+		map textures/amace_taris/buildingroof1
+		blendFunc GL_DST_COLOR GL_SRC_COLOR
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthWrite
+	}
 }
 
 textures/amace_taris/windows2
 {
-	qer_editorimage textures/amace_taris/windows2
-	q3map_lightimage textures/amace_taris/windows2
-	q3map_surfacelight 400
-	q3map_backSplash 0.5 8
-    {
-        map $lightmap
-    }
-    {
-        map textures/amace_taris/windows2
-        blendFunc GL_DST_COLOR GL_ZERO
-    }
-    {
-        map textures/amace_taris/windows2_glow
-        blendFunc GL_ONE GL_ONE
-	glow
-    }
+	q3map_shadeangle 120
+	qer_editorimage textures/amace_taris/buildingroof1
+	{
+		map textures/amace_taris/taris_env
+		rgbGen identity
+		tcGen environment
+	}
+	{
+		map textures/amace_taris/taris_env_sun_glow
+		tcGen environment
+		blendFunc GL_ONE GL_ONE
+		rgbGen const ( 0.85 0.65 0.65 )
+		glow
+	}
+	{
+		map textures/amace_taris/buildingroof1
+		blendFunc GL_DST_COLOR GL_SRC_COLOR
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthWrite
+	}
 }
 
 textures/amace_taris/windows3
 {
-	qer_editorimage textures/amace_taris/windows3
-	q3map_lightimage textures/amace_taris/windows3
-	q3map_surfacelight 400
-	q3map_backSplash 0.5 8
-    {
-        map $lightmap
-    }
-    {
-        map textures/amace_taris/windows3
-        blendFunc GL_DST_COLOR GL_ZERO
-    }
-    {
-        map textures/amace_taris/windows3_glow
-        blendFunc GL_ONE GL_ONE
-	glow
-    }
+	q3map_shadeangle 120
+	qer_editorimage textures/amace_taris/buildingroof1
+	{
+		map textures/amace_taris/taris_env
+		rgbGen identity
+		tcGen environment
+	}
+	{
+		map textures/amace_taris/taris_env_sun_glow
+		tcGen environment
+		blendFunc GL_ONE GL_ONE
+		rgbGen const ( 0.85 0.65 0.65 )
+		glow
+	}
+	{
+		map textures/amace_taris/buildingroof1
+		blendFunc GL_DST_COLOR GL_SRC_COLOR
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthWrite
+	}
 }
 
 textures/amace_taris/orangefog

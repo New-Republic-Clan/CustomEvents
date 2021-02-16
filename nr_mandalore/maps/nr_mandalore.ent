@@ -384,11 +384,6 @@
 "origin" "968 5960 96"
 "classname" "info_player_siegeteam1"
 }
-// entity 414
-{
-"origin" "3448 4096 72"
-"classname" "NPC_Droid_Protocol"
-}
 {
 "wait" "4"
 "speed" "75"
