@@ -57,7 +57,7 @@ textures/amace_taris/taris
 {
 	skyParms textures/amace_taris/taris 1024 -
 	qer_editorimage textures/skies/sky
-	q3map_sunext 1.000000 0.843473 0.549996 550 50 55 1 2
+//	q3map_sunext 1.000000 0.843473 0.549996 550 50 55 1 2
 //	q3map_lightmapFilterRadius 0 8
 	surfaceparm 	sky
 	surfaceparm 	noimpact
@@ -219,12 +219,12 @@ textures/amace_taris/windows1
 	q3map_shadeangle 120
 	qer_editorimage textures/amace_taris/buildingroof1
 	{
-		map textures/amace_taris/taris_env
+		map textures/amace_taris/taris_env_dark_orig
 		rgbGen identity
 		tcGen environment
 	}
 	{
-		map textures/amace_taris/taris_env_sun_glow
+		map textures/amace_taris/taris_env_dark_orig
 		tcGen environment
 		blendFunc GL_ONE GL_ONE
 		rgbGen const ( 0.85 0.65 0.65 )
@@ -247,12 +247,12 @@ textures/amace_taris/windows2
 	q3map_shadeangle 120
 	qer_editorimage textures/amace_taris/buildingroof1
 	{
-		map textures/amace_taris/taris_env
+		map textures/amace_taris/taris_env_dark_orig
 		rgbGen identity
 		tcGen environment
 	}
 	{
-		map textures/amace_taris/taris_env_sun_glow
+		map textures/amace_taris/taris_env_dark_orig
 		tcGen environment
 		blendFunc GL_ONE GL_ONE
 		rgbGen const ( 0.85 0.65 0.65 )
@@ -275,12 +275,12 @@ textures/amace_taris/windows3
 	q3map_shadeangle 120
 	qer_editorimage textures/amace_taris/buildingroof1
 	{
-		map textures/amace_taris/taris_env
+		map textures/amace_taris/taris_env_dark_orig
 		rgbGen identity
 		tcGen environment
 	}
 	{
-		map textures/amace_taris/taris_env_sun_glow
+		map textures/amace_taris/taris_env_dark_orig
 		tcGen environment
 		blendFunc GL_ONE GL_ONE
 		rgbGen const ( 0.85 0.65 0.65 )
@@ -316,12 +316,12 @@ textures/amace_taris/buildingroof1
 	q3map_shadeangle 120
 	qer_editorimage textures/amace_taris/buildingroof1
 	{
-		map textures/amace_taris/taris_env
+		map textures/amace_taris/taris_env_dark_orig
 		rgbGen identity
 		tcGen environment
 	}
 	{
-		map textures/amace_taris/taris_env_sun_glow
+		map textures/amace_taris/taris_env_dark_orig
 		tcGen environment
 		blendFunc GL_ONE GL_ONE
 		rgbGen const ( 0.85 0.65 0.65 )
@@ -344,7 +344,7 @@ textures/amace_taris/buildingroof1_NOGLOW
 	q3map_shadeangle 120
 	qer_editorimage textures/amace_taris/buildingroof1
 	{
-		map textures/amace_taris/taris_env
+		map textures/amace_taris/taris_env_dark_orig
 		rgbGen identity
 		tcGen environment
 	}
@@ -365,12 +365,12 @@ textures/amace_taris/buildingroof2
 	q3map_shadeangle 120
 	qer_editorimage textures/amace_taris/buildingroof2
 	{
-		map textures/amace_taris/taris_env
+		map textures/amace_taris/taris_env_dark_orig
 		rgbGen identity
 		tcGen environment
 	}
 	{
-		map textures/amace_taris/taris_env_sun_glow
+		map textures/amace_taris/taris_env_dark_orig
 		tcGen environment
 		blendFunc GL_ONE GL_ONE
 		rgbGen const ( 0.85 0.65 0.65 )
@@ -419,7 +419,7 @@ textures/amace_taris/buildingroof3
 		tcGen environment
 	}
 	{
-		map textures/amace_taris/taris_env_sun_glow
+		map textures/amace_taris/taris_env_dark_orig
 		tcGen environment
 		blendFunc GL_ONE GL_ONE
 		rgbGen const ( 0.85 0.65 0.65 )
@@ -468,7 +468,7 @@ textures/amace_taris/buildingroof4
 		tcGen environment
 	}
 	{
-		map textures/amace_taris/taris_env_sun_glow
+		map textures/amace_taris/taris_env_dark_orig
 		tcGen environment
 		blendFunc GL_ONE GL_ONE
 		rgbGen const ( 0.85 0.65 0.65 )
@@ -497,7 +497,7 @@ textures/amace_taris/buildingroof4_NOGLOW
 	q3map_shadeangle 120
 	qer_editorimage textures/amace_taris/buildingroof4
 	{
-		map textures/amace_taris/taris_env
+		map textures/amace_taris/taris_env_dark_orig
 		rgbGen identity
 		tcGen environment
 	}
@@ -539,12 +539,12 @@ textures/amace_taris/buildingroof5
 	q3map_shadeangle 120
 	qer_editorimage textures/amace_taris/buildingroof5
 	{
-		map textures/amace_taris/taris_env
+		map textures/amace_taris/taris_env_dark_orig
 		rgbGen identity
 		tcGen environment
 	}
 	{
-		map textures/amace_taris/taris_env_sun_glow
+		map textures/amace_taris/taris_env_dark_orig
 		tcGen environment
 		blendFunc GL_ONE GL_ONE
 		rgbGen const ( 0.85 0.65 0.65 )
@@ -567,7 +567,7 @@ textures/amace_taris/buildingroof5_NOGLOW
 	q3map_shadeangle 120
 	qer_editorimage textures/amace_taris/buildingroof5
 	{
-		map textures/amace_taris/taris_env
+		map textures/amace_taris/taris_env_dark_orig
 		rgbGen identity
 		tcGen environment
 	}
@@ -588,12 +588,12 @@ textures/amace_taris/buildingroof6
 	q3map_shadeangle 120
 	qer_editorimage textures/amace_taris/buildingroof6
 	{
-		map textures/amace_taris/taris_env
+		map textures/amace_taris/taris_env_dark_orig
 		rgbGen identity
 		tcGen environment
 	}
 	{
-		map textures/amace_taris/taris_env_sun_glow
+		map textures/amace_taris/taris_env_dark_orig
 		tcGen environment
 		blendFunc GL_ONE GL_ONE
 		rgbGen const ( 0.85 0.65 0.65 )
@@ -637,7 +637,7 @@ textures/amace_taris/buildingroof1_side
 	q3map_shadeangle 120
 	qer_editorimage textures/amace_taris/buildingroof1_side
 	{
-		map textures/amace_taris/taris_env
+		map textures/amace_taris/taris_env_dark_orig
 		rgbGen identity
 		tcGen environment
 	}
@@ -658,7 +658,7 @@ textures/amace_taris/buildingroof3_side
 	q3map_shadeangle 120
 	qer_editorimage textures/amace_taris/buildingroof3_side
 	{
-		map textures/amace_taris/taris_env
+		map textures/amace_taris/taris_env_dark_orig
 		rgbGen identity
 		tcGen environment
 	}
@@ -679,7 +679,7 @@ textures/amace_taris/buildingroof4_side
 	q3map_shadeangle 120
 	qer_editorimage textures/amace_taris/buildingroof4_side
 	{
-		map textures/amace_taris/taris_env
+		map textures/amace_taris/taris_env_dark_orig
 		rgbGen identity
 		tcGen environment
 	}
@@ -707,12 +707,12 @@ textures/amace_taris/water
 	deformvertexes normal 0.1 1.85
 	deformvertexes wave 128 sin 0 1.5 0.3 2
 	{
-		map textures/amace_taris/taris_env
+		map textures/amace_taris/taris_env_dark_orig
 		tcGen environment
 		blendFunc GL_ONE GL_ONE
 	}
 	{
-		map textures/amace_taris/taris_env
+		map textures/amace_taris/taris_env_dark_orig
 		tcGen environment
 		blendFunc GL_DST_COLOR GL_ZERO
 	}
@@ -721,7 +721,7 @@ textures/amace_taris/water
 		blendFunc GL_DST_COLOR GL_ZERO
 	}
 	{
-		map textures/amace_taris/taris_env_sun_glow
+		map textures/amace_taris/taris_env_dark_orig
 		tcGen environment
 		rgbGen const ( 0.85 0.65 0.65 )
 		blendFunc GL_ONE GL_ONE
@@ -790,7 +790,7 @@ textures/amace_taris/InteriorGlass
         blendFunc GL_ZERO GL_ONE_MINUS_SRC_COLOR
     }
     {
-	map textures/amace_taris/taris_env
+	map textures/amace_taris/taris_env_dark_orig
         blendFunc GL_ONE GL_ONE
         alphaGen const 0.01
         tcGen environment
@@ -931,7 +931,7 @@ textures/amace_taris/floor4
 {
 	qer_editorimage textures/amace_taris/floor4
 	{
-		map textures/amace_taris/taris_env
+		map textures/amace_taris/taris_env_dark_orig
 		rgbGen identity
 		tcGen environment
 	}
