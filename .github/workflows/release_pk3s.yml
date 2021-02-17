@@ -26,6 +26,9 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: for i in */; do cd "$i"; zip -r "../${i%/}.pk3" *; cd ..; done
+        
+      - name: Generate combined ZIP
+        run: zip -r custom-maps.zip *.pk3       
 
       - name: Delete Release
         uses: ame-yu/action-delete-latest-release@v2
@@ -43,12 +46,19 @@ jobs:
           draft: false
           prerelease: false
           
-      - name: Upload Assets to Release with a wildcard
+      - name: Upload PK3 Assets to Release with a wildcard
         uses: csexton/release-asset-action@v2
         with:
           pattern: "*.pk3"
           github-token: ${{ secrets.GITHUB_TOKEN }}    
           release-url: ${{ steps.create_release.outputs.upload_url }}       
+
+      - name: Upload ZIP Assets to Release
+        uses: csexton/release-asset-action@v2
+        with:
+          pattern: "*.zip"
+          github-token: ${{ secrets.GITHUB_TOKEN }}    
+          release-url: ${{ steps.create_release.outputs.upload_url }} 
 
       - name: copy PK3s via SCP to server
         uses: appleboy/scp-action@master
@@ -74,4 +84,4 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_BOTS }}
         uses: Ilshidur/action-discord@master
         with:
-          args: 'New PK3s have been deployed to server. Visit https://github.com/New-Republic-Clan/MBII-Custom-Events/releases/tag/Latest to download'          
+          args: ${{ secrets.DISCORD_PK3S_UPDATED }}
