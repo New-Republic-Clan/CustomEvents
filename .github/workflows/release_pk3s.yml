@@ -50,18 +50,8 @@ jobs:
         with:
           pattern: "*.pk3"
           github-token: ${{ secrets.GITHUB_TOKEN }}    
-          release-url: ${{ steps.create_release.outputs.upload_url }}
+          release-url: ${{ steps.create_release.outputs.upload_url }}       
 
-      - name: copy file via ssh to server
-        uses: appleboy/scp-action@master
-        with:
-          host: ${{ secrets.SCP_HOST }}
-          username: ${{ secrets.SCP_USERNAME }}
-          password: ${{ secrets.SCP_PASSWORD }}
-          port: 22
-          source: "*.pk3"
-          target: "/opt/openjk/MBII"         
-          
       - name: copy PK3s via SCP to server
         uses: appleboy/scp-action@master
         with:
