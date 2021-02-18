@@ -10,7 +10,7 @@ ClassInfo
 	maxhealth		70
 	modelscale		0.5
 	model			"youngling"
-	skin			"kylekid"
+	skin			"default"
  	uishader		"gfx/FAicons/mb2_icon_youngling1"
 	MBClass			MB_CLASS_JEDI
 	classflags		CFL_FORCEBLINDING	
