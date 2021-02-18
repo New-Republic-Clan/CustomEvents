@@ -79,7 +79,14 @@ jobs:
           port: 22
           script: ${{ secrets.SERVER_RESTART_EVENTS }}     
           
-      - name: Discord notification
+      - name: Discord notification1
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_BOTS }}
+        uses: Ilshidur/action-discord@master
+        with:
+          args: "**${{github.event.head_commit.author.name}}** : ${{ github.event.head_commit.message }}"          
+          
+      - name: Discord notification2
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_BOTS }}
         uses: Ilshidur/action-discord@master
