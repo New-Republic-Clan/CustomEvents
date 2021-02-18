@@ -1,0 +1,22 @@
+//Siege team definition file.
+
+name "O67_Clones"
+
+ClassesAllowed 6
+TimePeriod 5
+EUAllowed 0
+
+Classes
+{
+	class1		"O67_Clone"
+	class2		"O67_Defender"
+	class3		"O67_Assassin"
+	class4		"O67_Captain"
+	class5		"O67_General"
+	class6		"O67_HeavyTrooper"
+}
+
+SubclassesForClass2
+{
+	Subclass1 "O67_Aerial"
+}

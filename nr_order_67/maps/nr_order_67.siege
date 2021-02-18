@@ -1,0 +1,217 @@
+Teams
+{
+	team1 Younglings
+	team2 Clones
+}
+
+LevelshotDesc
+{
+    desc1
+    {   
+        text "Oops! Palpatine accidently executed Order 67 instead of order 66. Order 67 requires all Jedi Younglings to be imprisoned and released inside the Jedi Temple and then hunted down for sport. 
+		Lock and load boys. Kill all younglings and activate the Beacon to signal victory! Every scalp returned to Palpatine gives you an extra day of shore leave."
+        
+        rect "410 147 220 55"
+        scale 0.125
+    }
+    desc2
+    {   
+        text "Ok listen up fellow younglings! The clones have decided we should be hunted down like a pack of TaunTauns during open season. Lets show them we are not just some little defenceless turds! We were trainned for this!"
+        
+        rect "410 258 220 55"
+        scale 0.125
+    }
+}
+
+mapgraphic "gfx/mplevels/mb2_jeditemple/map"
+missionname "Jedi Temple"
+radartopleft "-6068, 2657"
+radarbottomright "257, -5589"
+AutoMap
+{
+	AutoMap0
+	{
+		radargraphic "gfx/automap/mb2_jeditemple"
+		radargraphicfull "gfx/automap/mb2_jeditemplefull"
+		height "0"
+	}
+}
+
+HelpIcons
+{
+	//younglings
+	HelpIcon0
+	{
+		dynamic 1
+		end0 "finalobjective"
+		redicon HLP_DEFEND_SUB
+		blueicon HLP_DESTROY_SUB
+		specicon HLP_DEFEND_SUB
+		sideobjective 1
+	}
+	
+	//beacon hack
+	HelpIcon1
+	{
+		end0 "hackrelaytofinal"
+		origin "-5279 2111 734"
+		redicon HLP_DEFEND
+		blueicon HLP_HACK
+		specicon HLP_DEFEND
+	}
+	
+	//doors unlock
+	HelpIcon2
+	{
+		end0 "messagecouncilopen"
+		origin "-83 -1118 3108"
+		redicon HLP_DEFEND_SUB
+		blueicon HLP_HACK_SUB
+		specicon HLP_DEFEND_SUB
+		sideobjective 1
+	}
+	
+	//youngling long range icons
+	//starmap room
+	HelpIcon3
+	{
+		childradius 600
+		end0 "counteryounglings6"
+		end1 "finalobjective"
+		origin "-2980 -5512 688"
+		redicon HLP_DEFEND_SUB
+		blueicon HLP_DESTROY_SUB
+		specicon HLP_DEFEND_SUB
+		sideobjective 1
+	}
+	//library
+	HelpIcon4
+	{
+		childradius 950
+		end0 "counteryounglings4"
+		end1 "finalobjective"
+		origin "-5070 -1636 1098"
+		redicon HLP_DEFEND_SUB
+		blueicon HLP_DESTROY_SUB
+		specicon HLP_DEFEND_SUB
+		sideobjective 1
+	}
+	//briefing room
+	HelpIcon5
+	{
+		childradius 350
+		end0 "counteryounglings2"
+		end1 "finalobjective"
+		origin "-3044 -440 672"
+		redicon HLP_DEFEND_SUB
+		blueicon HLP_DESTROY_SUB
+		specicon HLP_DEFEND_SUB
+		sideobjective 1
+	}
+	//waiting room
+	HelpIcon6
+	{
+		childradius 400
+		end0 "counteryounglings7"
+		end1 "finalobjective"
+		origin "-300 -832 672"
+		redicon HLP_DEFEND_SUB
+		blueicon HLP_DESTROY_SUB
+		specicon HLP_DEFEND_SUB
+		sideobjective 1
+	}
+	//council
+	HelpIcon7
+	{
+		childradius 500
+		end0 "counteryounglings5"
+		end1 "finalobjective"
+		origin "-203 -832 3178"
+		redicon HLP_DEFEND_SUB
+		blueicon HLP_DESTROY_SUB
+		specicon HLP_DEFEND_SUB
+		sideobjective 1
+	}
+	//interception
+	HelpIcon8
+	{
+		childradius 950
+		end0 "counteryounglings1"
+		end1 "finalobjective"
+		origin "-4260 960 698"
+		redicon HLP_DEFEND_SUB
+		blueicon HLP_DESTROY_SUB
+		specicon HLP_DEFEND_SUB
+		sideobjective 1
+	}
+	//laboratory
+	HelpIcon9
+	{
+		childradius 300
+		end0 "counteryounglings3"
+		end1 "finalobjective"
+		origin "-5470 579 800"
+		redicon HLP_DEFEND_SUB
+		blueicon HLP_DESTROY_SUB
+		specicon HLP_DEFEND_SUB
+		sideobjective 1
+	}
+}
+
+roundbegin_target ""
+
+Younglings
+{
+	RequiredObjectives 1
+	UseTeam "O67_Younglings"
+	TeamIcon "gfx/2d/logos/mb_jediorder"
+	TeamColorOn	"1 0 0 1"
+	TeamColorOff ".7 0 0 1"
+
+	Objective1
+	{
+		goalname "ACCOMPLISH: Attract the Rescue Squad"
+		final 0
+		message_team1 "We are Saved!"
+		message_team2 "Well done!"
+		objdesc "ACCOMPLISH: Kill all the Clones."
+		objgfx "gfx/mplevels/mb2_jeditemple/objr"
+	}
+
+	wonround "The Jedi have prevailed!"
+	lostround "It's over. The Sith have defeated us."
+	roundover_sound_wewon ""
+	roundover_sound_welost ""
+	roundover_target "siegeend"
+	attackers 0
+	briefing "Hold the Clone troops."
+}
+
+Clones
+{
+	RequiredObjectives 1
+	Timed 300
+	UseTeam "O67_Clones"
+	TeamIcon "gfx/2d/logos/mb_sith"
+	TeamColorOn	"0 0 1 1"
+	TeamColorOff "0 0 .7 1"
+
+	Objective1
+	{
+		goalname "ACCOMPLISH: Kill the Jedi"
+		final 0
+		message_team1 "The Sith have defeated us."
+		message_team2 "We have overpowered the Jedi."
+		target ""
+		objdesc "ACCOMPLISH: Eliminate the Jedi."
+		objgfx "gfx/mplevels/mb2_jeditemple/objb"
+	}
+
+	wonround "The Jedi have been defeated!"
+	lostround "The assault was unsuccessful."
+	roundover_sound_wewon ""
+	roundover_sound_welost ""
+	roundover_target "siegeend"
+	attackers 1
+	briefing "Hunt down the Jedi Younglings."
+}
