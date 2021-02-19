@@ -77,7 +77,8 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           password: ${{ secrets.SERVER_PASSWORD }}
           port: 22
-          script: ${{ secrets.SERVER_RESTART_EVENTS }}     
+          script: ${{ secrets.SERVER_RESTART_EVENTS }}   
+          command_timeout: 30s
           
       - name: Discord notification1
         env:
