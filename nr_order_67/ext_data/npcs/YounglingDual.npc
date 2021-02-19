@@ -1,10 +1,10 @@
-YounglingDual
+younglingdual
 {
 	playerModel	youngling
 	customSkin	kylekid
 	saber		dual_2
 	scale 		50		
-	saberColor	blue
+	saberColor	red
 	weapon	WP_SABER
 	FP_HEAL			2
 	FP_LEVITATION	3
@@ -44,3 +44,4 @@ YounglingDual
 	dismemberProbLegs	100
 	dismemberProbHands	100
 	dismemberProbWaist	100
+}	

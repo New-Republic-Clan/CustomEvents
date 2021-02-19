@@ -1,9 +1,9 @@
-YounglingGiantKyle
+younglingboss
 {
 	playerModel	youngling
 	customSkin	kylekid
 	saber		O67_Young1Big
-	saberColor	blue
+	saberColor	silver
 	scale 		100		
 	weapon	WP_SABER
 	FP_HEAL			2
@@ -34,7 +34,7 @@ YounglingGiantKyle
 	class		CLASS_JEDI
 	yawSpeed	140
 	walkSpeed	55
-	runSpeed	200
+	runSpeed	300
 	snd			kyle_boss
 	sndcombat	kyle_boss
 	sndjedi		kyle_boss
@@ -44,3 +44,4 @@ YounglingGiantKyle
 	dismemberProbLegs	100
 	dismemberProbHands	100
 	dismemberProbWaist	100
+}

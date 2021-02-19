@@ -1,10 +1,10 @@
-YounglingStaff
+younglingstaff
 {
 	playerModel	youngling
 	customSkin	kylekid
 	saber		single_2
 	scale 		70		
-	saberColor	green
+	saberColor	red
 	weapon	WP_SABER
 	FP_HEAL			2
 	FP_LEVITATION	3
@@ -44,3 +44,4 @@ YounglingStaff
 	dismemberProbLegs	100
 	dismemberProbHands	100
 	dismemberProbWaist	100
+}	

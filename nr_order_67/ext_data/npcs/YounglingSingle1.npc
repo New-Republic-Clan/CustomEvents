@@ -1,9 +1,9 @@
-YounglingSingle1
+younglingsingle1
 {
 	playerModel	youngling
 	customSkin	kylekid
 	saber		single_1
-	saberColor	purple
+	saberColor	red
 	scale 		60		
 	weapon	WP_SABER
 	FP_HEAL			2
@@ -44,3 +44,4 @@ YounglingSingle1
 	dismemberProbLegs	100
 	dismemberProbHands	100
 	dismemberProbWaist	100
+}
