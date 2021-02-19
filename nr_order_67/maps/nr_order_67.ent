@@ -927,25 +927,25 @@
 }
 {
 "origin" "-4260 960 698"
-"icon" "gfx/mplevels/mb2_jeditemple/youngling"
+"icon" "gfx/mplevels/nr_order_67/youngling"
 "targetname" "counteryounglings1"
 "classname" "info_siege_radaricon"
 }
 {
 "targetname" "counteryounglings2"
-"icon" "gfx/mplevels/mb2_jeditemple/youngling"
+"icon" "gfx/mplevels/nr_order_67/youngling"
 "origin" "-3044 -440 672"
 "classname" "info_siege_radaricon"
 }
 {
 "origin" "-5470 579 800"
-"icon" "gfx/mplevels/mb2_jeditemple/youngling"
+"icon" "gfx/mplevels/nr_order_67/youngling"
 "targetname" "counteryounglings3"
 "classname" "info_siege_radaricon"
 }
 {
 "targetname" "counteryounglings4"
-"icon" "gfx/mplevels/mb2_jeditemple/youngling"
+"icon" "gfx/mplevels/nr_order_67/youngling"
 "origin" "-5070 -1636 1098"
 "classname" "info_siege_radaricon"
 }
@@ -1305,7 +1305,7 @@
 }
 {
 "origin" "-2980 -5512 688"
-"icon" "gfx/mplevels/mb2_jeditemple/youngling"
+"icon" "gfx/mplevels/nr_order_67/youngling"
 "targetname" "counteryounglings6"
 "classname" "info_siege_radaricon"
 }
@@ -1704,7 +1704,7 @@
 }
 {
 "origin" "-300 -832 672"
-"icon" "gfx/mplevels/mb2_jeditemple/youngling"
+"icon" "gfx/mplevels/nr_order_67/youngling"
 "targetname" "counteryounglings7"
 "classname" "info_siege_radaricon"
 }
@@ -2310,9 +2310,117 @@
 "origin" "-3096 -3312 616"
 "targetname" "spawnjedi"
 }
+
+
+// entity 354
 {
+"classname" "NPC_spawner"
+"teamowner" "1"
+"teamnodmg" "1"
+"origin" "-3038 -438 608"
+"NPC_type" "jediyoungling2"
+"spawnflags" "16"
+"angle" "180"
+"showhealth" "1"
+"NPC_target" "counteryounglings8"
+"helpiconindex" "0"
+}
+// entity 359
+{
+"targetname" "counteryounglings8"
+"icon" "gfx/mplevels/nr_order_67/youngling"
+"origin" "-3038 -438 608"
 "classname" "info_siege_radaricon"
-"targetname" "counteryounglings5"
-"icon" "gfx/mplevels/mb2_jeditemple/youngling"
-"origin" "-203 -832 3178"
+}
+
+
+
+// entity 355
+{
+"helpiconindex" "0"
+"NPC_target" "counteryounglings9"
+"showhealth" "1"
+"angle" "180"
+"spawnflags" "16"
+"NPC_type" "jediyoungling1"
+"origin" "-2318 -470 576"
+"teamnodmg" "1"
+"teamowner" "1"
+"classname" "NPC_spawner"
+}
+// entity 359
+{
+"targetname" "counteryounglings9"
+"icon" "gfx/mplevels/nr_order_67/youngling"
+"origin" "-2318 -470 576"
+"classname" "info_siege_radaricon"
+}
+
+
+
+// entity 356
+{
+"classname" "NPC_spawner"
+"teamowner" "1"
+"teamnodmg" "1"
+"origin" "-2686 706 744"
+"NPC_type" "jediyoungling4"
+"spawnflags" "16"
+"angle" "180"
+"showhealth" "1"
+"NPC_target" "counteryounglings10"
+"helpiconindex" "0"
+}
+// entity 359
+{
+"targetname" "counteryounglings10"
+"icon" "gfx/mplevels/nr_order_67/youngling"
+"origin" "-2686 706 744"
+"classname" "info_siege_radaricon"
+}
+
+
+// entity 357
+{
+"helpiconindex" "0"
+"NPC_target" "counteryounglings11"
+"showhealth" "1"
+"angle" "180"
+"spawnflags" "16"
+"NPC_type" "jediyoungling2"
+"origin" "-1638 -814 640"
+"teamnodmg" "1"
+"teamowner" "1"
+"classname" "NPC_spawner"
+}
+// entity 359
+{
+"targetname" "counteryounglings11"
+"icon" "gfx/mplevels/nr_order_67/youngling"
+"origin" "-1638 -814 640"
+"classname" "info_siege_radaricon"
+}
+
+
+
+// entity 358
+{
+"classname" "NPC_spawner"
+"teamowner" "1"
+"teamnodmg" "1"
+"origin" "-2366 10 784"
+"NPC_type" "jediyounglingkyle"
+"spawnflags" "16"
+"angle" "270"
+"showhealth" "1"
+"NPC_target" "counteryounglingskyle"
+"helpiconindex" "0"
+}
+
+// entity 359
+{
+"targetname" "counteryounglingskyle"
+"icon" "gfx/mplevels/nr_order_67/kyle"
+"origin" "-2366 10 784"
+"classname" "info_siege_radaricon"
 }

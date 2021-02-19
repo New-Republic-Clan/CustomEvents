@@ -8,8 +8,8 @@ LevelshotDesc
 {
     desc1
     {   
-        text "Oops! Palpatine accidently executed Order 67 instead of order 66. Order 67 requires all Jedi Younglings to be imprisoned and released inside the Jedi Temple and then hunted down for sport. 
-		Lock and load boys. Kill all younglings and activate the Beacon to signal victory! Every scalp returned to Palpatine gives you an extra day of shore leave."
+        text "Oops! Palpatine accidently executed Order 67 instead of Order 66. Order 67 declares all Jedi Younglings are to be given a serum to make them superhuman. They are then to be hunted by the 501st for sport.
+		Lock and load boys!"
         
         rect "410 147 220 55"
         scale 0.125

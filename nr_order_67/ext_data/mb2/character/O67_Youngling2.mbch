@@ -7,13 +7,12 @@ ClassInfo
 	sabercolor		4
 	saberstyle		SS_staff
 	attributes		MB_ATT_FORCEFOCUS,1|MB_ATT_FORCEBLOCK,2|MB_ATT_DEFLECT,1|MB_ATT_RESPAWNS,2|MB_ATT_FORCEFOCUS,1
-	maxhealth		70
+	maxhealth		120
 	modelscale		0.5
 	model			"youngling"
 	skin			"default_azekid"
  	uishader		"gfx/FAicons/mb2_icon_youngling1"
 	MBClass			MB_CLASS_JEDI
-	classflags		CFL_FORCEBLINDING	
  	saber1			"saber_bastila"																																																					
  	forcepowers		FP_LEVITATION,2|FP_SABER_DEFENSE,2|FP_PUSH,2|FP_SABER_OFFENSE,2|FP_TELEPATHY,1												
  	forceregen		1													
@@ -32,7 +31,6 @@ Saber Offense		(2)
 Saber Defense		(2)
 Force Push			(2)
 Force Jump			(2)
-Force Blind
 
 
 

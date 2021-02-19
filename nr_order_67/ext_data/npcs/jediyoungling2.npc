@@ -4,7 +4,7 @@ jediyoungling2
 	customSkin	default
 	saber		dual_1
 	scale 		50		
-	saberColor	green
+	saberColor	blue
 	weapon	WP_SABER
 	saberStyle	7
 	FP_HEAL			2
@@ -24,6 +24,7 @@ jediyoungling2
 	FP_SABER_DEFENSE 3
 	FP_SABER_OFFENSE 3
 	rank		commander
+	forceRegenRate	50	
 	reactions	5
 	aim			5
 	move		5
@@ -36,7 +37,7 @@ jediyoungling2
 	yawSpeed	140
 	walkSpeed	55
 	runSpeed	200
-	snd				jaden_male
+	snd			youngling
 	health		200
 	dismemberProbHead	100
 	dismemberProbArms	100

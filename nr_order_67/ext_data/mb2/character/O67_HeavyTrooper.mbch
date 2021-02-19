@@ -4,7 +4,7 @@ ClassInfo
 {
 	name				"O67_HeavyTrooper"
 	weapons				WP_REPEATER|WP_MELEE|WP_DEMP2
-	attributes			MB_ATT_CLONERIFLE,3|MB_ATT_AMMO,3|MB_ATT_ARMOUR,3|MB_ATT_PISTOL,1|MB_ATT_STAMINA,1
+	attributes			MB_ATT_CLONERIFLE,3|MB_ATT_AMMO,3|MB_ATT_ARMOUR,3|MB_ATT_PISTOL,1|MB_ATT_STAMINA,1|MB_ATT_RESPAWNS,2
 	maxhealth			100
 	maxarmor			100
 	speed				.9
@@ -43,5 +43,8 @@ Items:
 Stamina		(1)
 Armour		(3)
 Ammo		(3)
+
+Abilities:
+Reinforcements	(2)
 
 Every Clone squad had at least one Heavy Trooper.  These clones used rifles with enhanced firepower to lay down suppressive fire and devastate larger droids."

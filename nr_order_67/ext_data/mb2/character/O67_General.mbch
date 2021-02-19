@@ -4,7 +4,7 @@ ClassInfo
 {
 	name				"O67_General"
 	weapons				WP_DEMP2|WP_MELEE
-	attributes			MB_ATT_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_HEALING,2|MB_ATT_ARMOUR,3|MB_ATT_STAMINA,3|MB_ATT_DEXTERITY,3|MB_ATT_FLIPKICK
+	attributes			MB_ATT_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_HEALING,2|MB_ATT_ARMOUR,3|MB_ATT_STAMINA,3|MB_ATT_DEXTERITY,3|MB_ATT_FLIPKICK|MB_ATT_RESPAWNS,2
 	forcepowers			FP_SEE,1
 	maxhealth			100
 	maxarmor			100
@@ -51,6 +51,7 @@ Ammo		(3)
 Infrared Sensors (stat-seeing)
 
 Abilities:
+Reinforcements	(2)
 Dexterity	(3)
 Stamina		(3)
 Healing		(2)

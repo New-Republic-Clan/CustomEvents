@@ -1,7 +1,7 @@
 jediyoungling3
 {
 	playerModel	youngling
-	customSkin	kylekid
+	customSkin	default_azekid
 	saber		saber_youngling2
 	scale 		50		
 	saberColor	green
@@ -24,6 +24,7 @@ jediyoungling3
 	FP_SABER_DEFENSE 3
 	FP_SABER_OFFENSE 3
 	rank		commander
+	forceRegenRate	50	
 	reactions	5
 	aim			5
 	move		5
@@ -36,7 +37,7 @@ jediyoungling3
 	yawSpeed	140
 	walkSpeed	55
 	runSpeed	200
-	snd				jaden_male
+	snd			youngling
 	health		200
 	dismemberProbHead	100
 	dismemberProbArms	100

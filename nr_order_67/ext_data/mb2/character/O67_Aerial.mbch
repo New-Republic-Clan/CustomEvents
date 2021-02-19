@@ -4,7 +4,7 @@ ClassInfo
 {
 	name			"O67_Aerial"
 	weapons			WP_BLASTER|WP_MELEE|WP_DEMP2
-	attributes		MB_ATT_BLASTER,3|MB_ATT_AMMO,3|MB_ATT_FUEL,3|MB_ATT_JETPACK|MB_ATT_ARMOUR,2|MB_ATT_FLAMETHROWER|MB_ATT_PISTOL,1
+	attributes		MB_ATT_BLASTER,3|MB_ATT_AMMO,3|MB_ATT_FUEL,3|MB_ATT_JETPACK|MB_ATT_ARMOUR,2|MB_ATT_FLAMETHROWER|MB_ATT_PISTOL,1|MB_ATT_RESPAWNS,2
 	maxhealth		100
 	maxarmor		50
 	model			"clonetrooper_p2"
@@ -50,5 +50,8 @@ Ammo		(3)
 Jetpack
 Flamethrower
 Fuel		(3)
+
+Abilities:
+Reinforcements	(2)
 
 The Recon clones were traditionally used to scout areas and track enemy forces, but their ability to fight in the air was vital in defeating some droid designs, and made them a difficult enemy for any Jedi."
