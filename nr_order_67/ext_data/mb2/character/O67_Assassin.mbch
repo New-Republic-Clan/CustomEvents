@@ -9,7 +9,7 @@ ClassInfo
 	saberstyle			SS_DUAL
 	attributes			MB_ATT_DODGE,3|MB_ATT_ARMOUR,1|MB_ATT_DEXTERITY,3|MB_ATT_STAMINA,3|MB_ATT_HEALING,3|MB_ATT_FORCEBLOCK,1|MB_ATT_RESPAWNS,2
 	maxhealth			150
-	maxarmor			150
+	maxarmor			100
 	speed				1.1
 	forcepool			40
 	forceregen			2
