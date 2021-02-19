@@ -8,7 +8,9 @@ LevelshotDesc
 {
     desc1
     {   
-        text "Oops! Palpatine accidently executed Order 67 instead of Order 66. Order 67 declares all Jedi Younglings are to be given a serum to make them superhuman. They are then to be hunted by the 501st for sport. Lock and load boys!"
+        text "Oops! Palpatine accidently executed Order 67 instead of Order 66. Order 67 declares all Jedi Younglings are to be given a serum to make them superhuman. They are then to be hunted by the 501st for sport.
+		Lock and load boys! and Good Luck!
+"
         
         rect "410 147 220 55"
         scale 0.125

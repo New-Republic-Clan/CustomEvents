@@ -1,7 +1,7 @@
 YounglingDual
 {
-	playerModel	youngshak
-	customSkin	default
+	playerModel	youngling
+	customSkin	kylekid
 	saber		dual_2
 	scale 		50		
 	saberColor	blue
@@ -13,7 +13,7 @@ YounglingDual
 	FP_PULL			2
 	FP_TELEPATHY	2
 	FP_GRIP			0
-	FP_LIGHTNING	4
+	FP_LIGHTNING	3
 	FP_RAGE			0
 	FP_PROTECT		2
 	FP_ABSORB		2
@@ -22,29 +22,25 @@ YounglingDual
 	FP_SABERTHROW	3
 	FP_SABER_DEFENSE 3
 	FP_SABER_OFFENSE 3
-		rank		commander
-	forceRegenRate	50	
-	reactions	50
-	aim			50
-	move		50
-	aggression	50
-	evasion		50
-	intelligence	50
-	earshot		2024
-	hfov		290
-	vigilance	100
-	vfov		260
-	visrange	2024	
+	rank		commander
+	reactions	5
+	aim			5
+	move		5
+	aggression	5
+	evasion		5
+	intelligence	5
 	playerTeam	TEAM_ENEMY 
 	enemyTeam   TEAM_PLAYER
+	class		CLASS_JEDI
 	yawSpeed	140
 	walkSpeed	55
-	runSpeed	220
-	snd			youngling
-	health		300
-	dismemberProbHead	50
-	dismemberProbArms	50
-	dismemberProbLegs	50
-	dismemberProbHands	50
-	dismemberProbWaist	50
-}
+	runSpeed	200
+	snd			kyle_boss
+	sndcombat	kyle_boss
+	sndjedi		kyle_boss
+	health		200
+	dismemberProbHead	100
+	dismemberProbArms	100
+	dismemberProbLegs	100
+	dismemberProbHands	100
+	dismemberProbWaist	100
