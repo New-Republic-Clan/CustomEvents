@@ -11,8 +11,8 @@ ClassInfo
 	attributes		MB_ATT_FORCEFOCUS,1|MB_ATT_PISTOL,2|MB_ATT_FORCEBLOCK,1|MB_ATT_DEFLECT,1|MB_ATT_AMMO,3|MB_ATT_WOOKIE_STRENGTH,2|MB_ATT_STAMINA,2|MB_ATT_CORTOSIS,1	
 	maxhealth		150
 	modelscale		0.6
-	model			"youngling"
-	skin			"kylekid"
+	model			"kylekid"
+	skin			"default"
  	uishader		"gfx/FAicons/mb2_icon_youngling1"
 	MBClass			MB_CLASS_JEDI																																																																
  	forceregen		1													
