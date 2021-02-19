@@ -3,55 +3,41 @@
 ClassInfo
 {
 	name			"O67_Aerial"
-	weapons			WP_BLASTER|WP_MELEE|WP_DEMP2
-	attributes		MB_ATT_BLASTER,3|MB_ATT_AMMO,3|MB_ATT_FUEL,3|MB_ATT_JETPACK|MB_ATT_ARMOUR,2|MB_ATT_FLAMETHROWER|MB_ATT_PISTOL,1|MB_ATT_RESPAWNS,2
-	maxhealth		100
-	maxarmor		50
-	model			"clonetrooper_p2"
-	skin			"501_jetpack_rgb"
-	uishader		"gfx/hud/fa_icons/mb2_icon_clonep2_501_jp_blue"
-	customred		0.120
-	customgreen		0.275
-	customblue		0.474
-	MBClass			MB_CLASS_MANDALORIAN
+	model				"clonetrooper_p2"
+	skin				"501_jetpack_rgb"
+	uishader			"gfx/hud/fa_icons/mb2_icon_clonep2_501_jp_blue"
+	MBClass				MB_CLASS_ARCTROOPER
+	maxhealth			100
+	maxarmor			50
+	weapons				WP_FLECHETTE|WP_DEMP2|WP_MELEE|WP_TRIP_MINE
+	extralives			2
 	classNumberLimit	1
+	classflags			CFL_NO_JETPACK_OVERHEAT|CFL_NO_JETPACK_COOLDOWN
+	
+	attributes		MB_ATT_A280,2|MB_ATT_PISTOL,1|MB_ATT_AMMO,1|MB_ATT_JETPACK,1|MB_ATT_DEXTERITY,2|MB_ATT_STAMINA,0|MB_ATT_ARC_RIFLE_GRENADELAUNCHER,2|MB_ATT_PULSE_GRENADES,1
+	customred			0.137
+	customgreen			0.239
+	customblue			0.380
 	jetpackJetTag		*jetpack_jet
 	jetpackJet2Tag		*jetpack_jet2
 	jetpackJetOffset	"0, 0, 4"
 	jetpackJet2Offset	"0, 0, 4"
 }
 
-WeaponInfo0
-{
-	WeaponToReplace		WP_BLASTER
-	WeaponBasedOff		WP_REPEATER
-	NewWorldModel		"models/weapons2/dc-15s/dc-15s_w.glm"
-	NewViewModel		"models/weapons2/dc-15s/dc-15s.md3"
-	MuzzleEffect		"Blaster/MuzzleFlash01B"
-	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
-	MissileEffect		"Blaster/Shot02B"
-	AltMissileEffect	"Blaster/Shot02B"
-	FlashSound0			"sound/weapons/repeater/fire.mp3"  			//Optional: Sound played when the weapon fires
-	AltFlashSound0		"sound/weapons/repeater/fire.mp3"
-	Icon				"gfx/hud/w_icon_dc-15s" 				//Required: Weapon change icon
-	WeaponName			"DC-15S Carbine"    					//Required: Weapon change display name
-}
-
-description	"Aerial Recon
-
+description	"Jet Trooper
 
 Weaponry:
-Clone Pistol	(1)
-DC-15S Carbine	(3)
+Westar M5 Blaster Rifle w/ Grenade Launcher Attachment
+DC-17 Blaster Pistol
+1 Pulse Grenade
 
-Items:
-Armour		(2)
-Ammo		(3)
+Equipment:
+Class-II Armour
 Jetpack
-Flamethrower
-Fuel		(3)
 
 Abilities:
-Reinforcements	(2)
+2 Reinforcements
+Medium Dexterity
+Low Stamina
 
-The Recon clones were traditionally used to scout areas and track enemy forces, but their ability to fight in the air was vital in defeating some droid designs, and made them a difficult enemy for any Jedi."
+Clone jet troopers were part of the Grand Army of the Republic. Jet troopers utilized their limited flight jetpacks to rapidly cover great distances and gain aerial advantage over their enemies. The agility of the flying jet trooper made him difficult to hit and could ambush their enemies from behind. The troopers learned to incorporate their jetpacks in battlefield tactics, sometimes mounting ambushes like the Mandalorians who had trained them."

@@ -24,15 +24,19 @@ YounglingGiantKyle
 	FP_SABER_OFFENSE 3
 	rank		commander
 	forceRegenRate	50	
-	reactions	5
-	aim			5
-	move		5
-	aggression	5
-	evasion		5
-	intelligence	5
+	reactions	50
+	aim			50
+	move		50
+	aggression	50
+	evasion		50
+	intelligence	50
+	earshot		2024
+	hfov		290
+	vigilance	100
+	vfov		260
+	visrange	2024	
 	playerTeam	TEAM_ENEMY 
 	enemyTeam   TEAM_PLAYER
-	class		CLASS_DESANN
 	yawSpeed	140
 	walkSpeed	55
 	runSpeed	300

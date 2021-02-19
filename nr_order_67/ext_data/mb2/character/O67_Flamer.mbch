@@ -12,7 +12,6 @@ ClassInfo
 	customblue		0.474
 	uishader		"gfx/hud/FA_icons/mb2_icon_clonep1_blue"
 	MBClass			MB_CLASS_HERO
-	holdables		HI_SENTRY_GUN|HI_BINOCULARS|HI_MEDPAC_BIG|HI_CLOAK
 	classNumberLimit	1
 }
 
