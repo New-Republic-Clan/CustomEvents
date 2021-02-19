@@ -1,0 +1,46 @@
+YounglingSingle1
+{
+	playerModel	youngling
+	customSkin	default
+	saber		single_1
+	saberColor	purple
+	scale 		50		
+	weapon	WP_SABER
+	FP_HEAL			2
+	FP_LEVITATION	3
+	FP_SPEED		3
+	FP_PUSH			3
+	FP_PULL			2
+	FP_TELEPATHY	2
+	FP_GRIP			0
+	FP_LIGHTNING	0
+	FP_RAGE			0
+	FP_PROTECT		2
+	FP_ABSORB		2
+	FP_DRAIN		0
+	FP_SEE			2
+	FP_SABERTHROW	3
+	FP_SABER_DEFENSE 3
+	FP_SABER_OFFENSE 3
+	rank		commander
+	forceRegenRate	50	
+	reactions	5
+	aim			5
+	move		5
+	aggression	5
+	evasion		5
+	intelligence	5
+	playerTeam	TEAM_ENEMY 
+	enemyTeam   TEAM_PLAYER
+	class		CLASS_DESANN
+	yawSpeed	140
+	walkSpeed	55
+	runSpeed	200
+	snd			youngling
+	health		300
+	dismemberProbHead	50
+	dismemberProbArms	50
+	dismemberProbLegs	50
+	dismemberProbHands	50
+	dismemberProbWaist	50
+}

@@ -115,41 +115,6 @@
 "classname" "target_relay"
 }
 {
-"helpiconindex" "0"
-"NPC_target" "counteryounglings1"
-"showhealth" "1"
-"angle" "270"
-"spawnflags" "16"
-"NPC_type" "jediyoungling1"
-"origin" "-4258 960 626"
-"teamnodmg" "1"
-"teamowner" "1"
-"classname" "NPC_spawner"
-}
-{
-"helpiconindex" "0"
-"NPC_target" "counteryounglings3"
-"origin" "-5468 579 720"
-"NPC_type" "jediyoungling4"
-"spawnflags" "16"
-"angle" "270"
-"showhealth" "1"
-"teamnodmg" "1"
-"teamowner" "1"
-"classname" "NPC_spawner"
-}
-{
-"helpiconindex" "0"
-"NPC_target" "counteryounglings4"
-"origin" "-5068 -1636 1034"
-"NPC_type" "jediyoungling3"
-"angle" "270"
-"showhealth" "1"
-"teamnodmg" "1"
-"teamowner" "1"
-"classname" "NPC_spawner"
-}
-{
 "angle" "90"
 "origin" "-4468 -1932 1032"
 "classname" "info_player_start"
@@ -374,7 +339,7 @@
 "showhealth" "1"
 "angle" "180"
 "spawnflags" "16"
-"NPC_type" "jediyoungling2"
+"NPC_type" "YounglingStaff"
 "origin" "-3038 -438 608"
 "teamnodmg" "1"
 "teamowner" "1"
@@ -918,7 +883,7 @@
 "showhealth" "1"
 "angle" "270"
 "spawnflags" "16"
-"NPC_type" "jediyoungling1"
+"NPC_type" "YounglingSingle1"
 "origin" "-201 -835 3110"
 "NPC_target" "counteryounglings5"
 "teamnodmg" "1"
@@ -1298,7 +1263,7 @@
 "teamnodmg" "1"
 "showhealth" "1"
 "angle" "360"
-"NPC_type" "jediyoungling3"
+"NPC_type" "YounglingDual"
 "origin" "-2978 -5512 624"
 "NPC_target" "counteryounglings6"
 "classname" "NPC_spawner"
@@ -1695,7 +1660,7 @@
 "teamowner" "1"
 "teamnodmg" "1"
 "origin" "-294 -830 608"
-"NPC_type" "jediyoungling2"
+"NPC_type" "YounglingStaff"
 "spawnflags" "16"
 "angle" "180"
 "showhealth" "1"
@@ -2311,30 +2276,6 @@
 "targetname" "spawnjedi"
 }
 
-
-// entity 354
-{
-"classname" "NPC_spawner"
-"teamowner" "1"
-"teamnodmg" "1"
-"origin" "-3038 -438 608"
-"NPC_type" "jediyoungling2"
-"spawnflags" "16"
-"angle" "180"
-"showhealth" "1"
-"NPC_target" "counteryounglings8"
-"helpiconindex" "0"
-}
-// entity 359
-{
-"targetname" "counteryounglings8"
-"icon" "gfx/mplevels/nr_order_67/youngling"
-"origin" "-3038 -438 608"
-"classname" "info_siege_radaricon"
-}
-
-
-
 // entity 355
 {
 "helpiconindex" "0"
@@ -2342,13 +2283,12 @@
 "showhealth" "1"
 "angle" "180"
 "spawnflags" "16"
-"NPC_type" "jediyoungling1"
+"NPC_type" "YounglingSingle2"
 "origin" "-2318 -470 576"
 "teamnodmg" "1"
 "teamowner" "1"
 "classname" "NPC_spawner"
 }
-// entity 359
 {
 "targetname" "counteryounglings9"
 "icon" "gfx/mplevels/nr_order_67/youngling"
@@ -2364,21 +2304,19 @@
 "teamowner" "1"
 "teamnodmg" "1"
 "origin" "-2686 706 744"
-"NPC_type" "jediyoungling4"
+"NPC_type" "YounglingDual"
 "spawnflags" "16"
 "angle" "180"
 "showhealth" "1"
 "NPC_target" "counteryounglings10"
 "helpiconindex" "0"
 }
-// entity 359
 {
 "targetname" "counteryounglings10"
 "icon" "gfx/mplevels/nr_order_67/youngling"
 "origin" "-2686 706 744"
 "classname" "info_siege_radaricon"
 }
-
 
 // entity 357
 {
@@ -2387,13 +2325,12 @@
 "showhealth" "1"
 "angle" "180"
 "spawnflags" "16"
-"NPC_type" "jediyoungling2"
+"NPC_type" "YounglingStaff"
 "origin" "-1638 -814 640"
 "teamnodmg" "1"
 "teamowner" "1"
 "classname" "NPC_spawner"
 }
-// entity 359
 {
 "targetname" "counteryounglings11"
 "icon" "gfx/mplevels/nr_order_67/youngling"
@@ -2401,26 +2338,59 @@
 "classname" "info_siege_radaricon"
 }
 
-
-
 // entity 358
 {
 "classname" "NPC_spawner"
 "teamowner" "1"
 "teamnodmg" "1"
 "origin" "-2366 10 784"
-"NPC_type" "jediyounglingkyle"
+"NPC_type" "YounglingGiantKyle"
 "spawnflags" "16"
 "angle" "270"
 "showhealth" "1"
 "NPC_target" "counteryounglingskyle"
 "helpiconindex" "0"
 }
-
-// entity 359
 {
 "targetname" "counteryounglingskyle"
 "icon" "gfx/mplevels/nr_order_67/kyle"
 "origin" "-2366 10 784"
 "classname" "info_siege_radaricon"
+}
+
+//Some Extra Younglings
+{
+"helpiconindex" "0"
+"NPC_target" "counteryounglings1"
+"showhealth" "1"
+"angle" "270"
+"spawnflags" "16"
+"NPC_type" "YounglingSingle1"
+"origin" "-4258 960 626"
+"teamnodmg" "1"
+"teamowner" "1"
+"classname" "NPC_spawner"
+}
+{
+"helpiconindex" "0"
+"NPC_target" "counteryounglings3"
+"origin" "-5468 579 720"
+"NPC_type" "YounglingDual"
+"spawnflags" "16"
+"angle" "270"
+"showhealth" "1"
+"teamnodmg" "1"
+"teamowner" "1"
+"classname" "NPC_spawner"
+}
+{
+"helpiconindex" "0"
+"NPC_target" "counteryounglings4"
+"origin" "-5068 -1636 1034"
+"NPC_type" "YounglingDual"
+"angle" "270"
+"showhealth" "1"
+"teamnodmg" "1"
+"teamowner" "1"
+"classname" "NPC_spawner"
 }

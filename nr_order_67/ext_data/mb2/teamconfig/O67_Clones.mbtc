@@ -9,14 +9,16 @@ EUAllowed 0
 Classes
 {
 	class1		"O67_Clone"
-	class2		"O67_Defender"
-	class3		"O67_Assassin"
-	class4		"O67_Captain"
-	class5		"O67_General"
-	class6		"O67_HeavyTrooper"
+	class2		"O67_Sergeant"
 }
 
 SubclassesForClass2
 {
 	Subclass1 "O67_Aerial"
+	Subclass2 "O67_Defender"
+	Subclass3 "O67_Demo"
+	Subclass4 "O67_General"
+	Subclass5 "O67_HeavyTrooper"	
+	Subclass6 "O67_Sniper"
+	SubClass7 "O67_Flamer"
 }

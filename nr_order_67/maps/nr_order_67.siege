@@ -8,16 +8,14 @@ LevelshotDesc
 {
     desc1
     {   
-        text "Oops! Palpatine accidently executed Order 67 instead of Order 66. Order 67 declares all Jedi Younglings are to be given a serum to make them superhuman. They are then to be hunted by the 501st for sport.
-		Lock and load boys!"
+        text "Oops! Palpatine accidently executed Order 67 instead of Order 66. Order 67 declares all Jedi Younglings are to be given a serum to make them superhuman. They are then to be hunted by the 501st for sport. Lock and load boys!"
         
         rect "410 147 220 55"
         scale 0.125
     }
     desc2
     {   
-        text "Ok listen up fellow younglings! The clones have decided we should be hunted down like a pack of TaunTauns during open season. Lets show them we are not just some little defenceless turds! We were trainned for this!"
-        
+        text ""
         rect "410 258 220 55"
         scale 0.125
     }
@@ -190,25 +188,25 @@ Younglings
 Clones
 {
 	RequiredObjectives 1
-	Timed 300
+	Timed 800
 	UseTeam "O67_Clones"
-	TeamIcon "gfx/2d/logos/mb_sith"
+	TeamIcon "gfx/2d/logos/mb_clonerepublic"
 	TeamColorOn	"0 0 1 1"
 	TeamColorOff "0 0 .7 1"
 
 	Objective1
 	{
-		goalname "ACCOMPLISH: Kill the Jedi"
-		final 0
+		goalname "ACCOMPLISH: Kill the Younglings"
+		final 1
 		message_team1 "The Sith have defeated us."
-		message_team2 "We have overpowered the Jedi."
+		message_team2 "Congrats, you murdered the children!."
 		target ""
 		objdesc "ACCOMPLISH: Eliminate the Jedi."
 		objgfx "gfx/mplevels/mb2_jeditemple/objb"
 	}
 
-	wonround "The Jedi have been defeated!"
-	lostround "The assault was unsuccessful."
+	wonround "Childs Play!!"
+	lostround "You lost to a bunch of children!!"
 	roundover_sound_wewon ""
 	roundover_sound_welost ""
 	roundover_target "siegeend"

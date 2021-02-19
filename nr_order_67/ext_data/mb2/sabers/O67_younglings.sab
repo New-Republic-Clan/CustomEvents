@@ -1,7 +1,7 @@
 
-trials_youngshort1
+O67_Young1Single
 {
-	name		"trials_youngshort1"
+	name		"O67_Young1Single"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/saber_plasma/saber_youngling2.glm"
 	soundOn		"sound/weapons/saber/saberon.wav"
@@ -14,25 +14,29 @@ trials_youngshort1
 
 
 
-trials_youngshort2
+O67_Young1Dual
 {
-	name		"trials_youngshort2"
-	saberType	SABER_SINGLE
+	name		"O67_Young1Dual"
+	saberType	SABER_DUAL
+	numblades	4
+	saberStyle	"dual"
+	saberLength	 15
+	saberLength2 15	
 	saberModel	"models/weapons2/saber_plasma/saber_youngling.glm"
 	soundOn		"sound/weapons/saber/saberon.wav"
 	soundLoop	"sound/weapons/saber/saberhum4.wav"
 	soundOff	"sound/weapons/saber/saberoff.wav"
-	saberLength	30
 	saberColor	random
+	saber2Color	random	
 	NotInOpen 	1
 }
 
 
-trials_youngshort3
+O67_Young1Staff
 {
-	name		"trials_youngshort3"
-	saberType	SABER_SINGLE
-	saberModel	"models/weapons2/saber_plasma/saber_aayla.glm"
+	name		"O67_Young1Staff"
+	saberType	SABER_STAFF
+	saberModel	"models/weapons2/saber_plasma/saber_youngling.glm"
 	soundOn		"sound/weapons/saber/saberon.wav"
 	soundLoop	"sound/weapons/saber/saberhum4.wav"
 	soundOff	"sound/weapons/saber/saberoff.wav"
@@ -41,15 +45,16 @@ trials_youngshort3
 	NotInOpen 	1
 }
 
-trials_youngshort4
+O67_Young1Big
 {
-	name		"trials_youngshort4"
+	name		"O67_Young1Big"
 	saberType	SABER_SINGLE
-	saberModel	"models/weapons2/saber_6/saber_6.glm"
+	saberModel	"models/weapons2/saber_plasma/saber_youngling.glm"
 	soundOn		"sound/weapons/saber/saberon.wav"
 	soundLoop	"sound/weapons/saber/saberhum4.wav"
 	soundOff	"sound/weapons/saber/saberoff.wav"
-	saberLength	30
+	saberLength	200
 	saberColor	random
 	NotInOpen 	1
 }
+
