@@ -8,11 +8,11 @@ ClassInfo
 	maxhealth			80
 	maxarmor			0
 	weapons				WP_BLASTER|WP_MELEE
-	extralives  		6
+	extralives  		99
 	classNumberLimit	99
 	classflags			CFL_DISMEMBERFRAGILE
 	
-	attributes			MB_ATT_RESPAWNS,3|MB__ATT_BLASTER,3|MB_ATT_AMMO,3|MB_ATT_ASSEMBLE
+	attributes			MB_ATT_RESPAWNS,3|MB__ATT_BLASTER,3|MB_ATT_AMMO,3|MB_ATT_ASSEMBLE,1
 }
 
 WeaponInfo1
@@ -40,7 +40,7 @@ Weaponry:
 E-5 Blaster Rifle
 
 Abilities:
-9 Reinforcements
+UNLIMITED REINFORCEMENTS
 Assemble
 
 B1s were perhaps the most numerous—and expendable—soldiers in galactic history, and unlike most organic soldiers, they were capable of action in hostile environments such as underwater or in space. They were designed, for the most part, to defeat their enemies through sheer numbers, not through their ability to think (they were very vulnerable to tricks) and utilize combat skills (unlike clone troopers).
