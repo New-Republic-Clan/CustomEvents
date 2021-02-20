@@ -115,8 +115,8 @@
 "classname" "target_relay"
 }
 {
-"angle" "90"
-"origin" "-2336 -1184 728"
+"angle" "140"
+"origin" "-2268 -56 616"
 "classname" "info_player_start"
 }
 {

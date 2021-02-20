@@ -28,20 +28,24 @@ younglingstaff
 	move		5
 	aggression	5
 	evasion		5
+	earshot		      8192
+	visrange	      8192
+	vigilance	      1
+	hfov			360	
 	intelligence	5
 	playerTeam	TEAM_ENEMY 
 	enemyTeam   TEAM_PLAYER
 	class		CLASS_JEDI
 	yawSpeed	140
 	walkSpeed	55
-	runSpeed	200
-	snd			kyle_boss
-	sndcombat	kyle_boss
-	sndjedi		kyle_boss
-	health		200
+	runSpeed	350
+	snd			kylekid
+	sndcombat	kylekid
+	sndjedi		kylekid
+	health		400
 	dismemberProbHead	100
 	dismemberProbArms	100
 	dismemberProbLegs	100
 	dismemberProbHands	100
 	dismemberProbWaist	100
-}	
+}
