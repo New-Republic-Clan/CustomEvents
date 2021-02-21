@@ -10,7 +10,7 @@ ClassInfo
 	speed				.9
 	model				"clonetrooper_p1"
 	skin				"rgb"
-	uishader			"gfx/hud/fa_icons/mb2_icon_clonep2_bacara_blue"
+	uishader		"gfx/hud/FA_icons/mb2_icon_clonep1_blue"
 	customred			0.120
 	customgreen			0.275
 	customblue			0.474

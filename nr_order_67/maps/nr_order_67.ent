@@ -359,7 +359,7 @@
 "classname" "target_counter"
 }
 {
-"message" "A Youngling was killed !"
+"message" "A Youngling was slain!"
 "targetname" "younglingdied"
 "origin" "-3080 -574 616"
 "classname" "target_print"

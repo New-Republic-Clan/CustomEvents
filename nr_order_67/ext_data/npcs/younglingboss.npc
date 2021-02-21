@@ -26,19 +26,19 @@ younglingboss
 	FP_SABER_DEFENSE 3
 	FP_SABER_OFFENSE 3
 	rank		commander
-	reactions	5
-	aim			5
-	move		5
-	aggression	5
-	evasion		5
-	earshot		      8192
-	visrange	      8192
-	vigilance	      1
+	reactions	10
+	aim			10
+	move		10
+	aggression	10
+	evasion		10
+	earshot			4096
+	visrange		4096
+	vigilance	      10
 	hfov			180	
-	intelligence	5
+	intelligence	10
 	playerTeam	TEAM_ENEMY 
 	enemyTeam   TEAM_PLAYER
-	class		CLASS_JEDI
+	class		CLASS_DESANN
 	yawSpeed	140
 	walkSpeed	55
 	runSpeed	450

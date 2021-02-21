@@ -8,7 +8,7 @@ LevelshotDesc
 {
     desc1
     {   
-        text "Palpatine has executed Order 67. Order 67 is declared in the event all Jedi Younglings go MAD and become Demon Kyle Katarn Spawn. Activate the forcefield in the beacon room to stop their escape, and then they are to be hunted down. Lock and load boys! and Good Luck! You'll need it.
+        text "Palpatine has executed Order 67. Order 67 is declared in the event Jedi Younglings become Demon Kyle Katarn Spawn. Activate the forcefield to stop their escape, and then slay all the younglings. Lock and load boys! and Good Luck!.
 "
         
         rect "410 147 220 55"
