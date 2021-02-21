@@ -17,7 +17,7 @@ ClassInfo
 	speed				1.2
 	saber1				saber_ki_adi
 	sabercolor			4
-	saberstyle			SS_FAST
+	saberstyle			SS_FAST|SS_YELLOW
 }
 
 description	"Ki-Adi Mundi

@@ -7,12 +7,13 @@ ClassInfo
 	MBClass				MB_CLASS_SOLDIER
 	maxhealth			80
 	maxarmor			0
-	weapons				WP_BLASTER|WP_MELEE
+	weapons				WP_BLASTER
 	extralives  		99
 	classNumberLimit	99
 	classflags			CFL_DISMEMBERFRAGILE
 	
 	attributes			MB_ATT_RESPAWNS,3|MB__ATT_BLASTER,3|MB_ATT_AMMO,3|MB_ATT_ASSEMBLE,1
+	speed				0.8
 }
 
 WeaponInfo1

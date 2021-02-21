@@ -8,7 +8,7 @@ ClassInfo
 	maxhealth			120
 	maxarmor			25
 	weapons				WP_BRYAR_PISTOL|WP_MELEE|WP_TRIP_MINE
-	extralives			2
+	extralives			1
 	classNumberLimit	1
 	classflags			CFL_DISMEMBERFRAGILE|CFL_STATVIEWER
 	holdables			HI_HEALTHDISP|HI_MEDPAC_BIG|HI_SENTRY_GUN
@@ -57,7 +57,7 @@ Equipment:
 Class-I Armor
 
 Abilities:
-2 Reinforcements
+1 Reinforcement
 Can repair Droids
 Rally
 
