@@ -6,6 +6,9 @@ younglingsingle2
 	scale 		55	
 	saberColor	red
 	weapon	WP_SABER
+	forcePowerMax	200
+	forceRegenRate	50
+	forceRegenAmount	2	
 	FP_HEAL			2
 	FP_LEVITATION	3
 	FP_SPEED		3
@@ -31,7 +34,7 @@ younglingsingle2
 	earshot		      8192
 	visrange	      8192
 	vigilance	      1
-	hfov			360	
+	hfov			180	
 	intelligence	5
 	playerTeam	TEAM_ENEMY 
 	enemyTeam   TEAM_PLAYER

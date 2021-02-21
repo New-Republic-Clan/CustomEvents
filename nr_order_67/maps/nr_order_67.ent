@@ -2,10 +2,15 @@
 "classname" "worldspawn"
 "_color" "0.9 0.9 0.9"
 "angle" "125"
-"_minlight" "10"
-"_minvertexlight" "10"
+"fog" "textures/fogs/yavin_swamp"
+"_noshadersun" "1"
+"_minlight" "3"
+"_maxlight" "10"
+"_minvertexlight" "3"
+"_maxvertexlight" "10"
 "gridsize" "128 128 256"
 "music" "music/nr_order_67.mp3"
+"distancecull" "1800"
 }
 {
 "origin" "-2992 -5248 674"
@@ -337,7 +342,7 @@
 "helpiconindex" "0"
 "NPC_target" "counteryounglings2"
 "showhealth" "1"
-"angle" "180"
+"angle" "0"
 "spawnflags" "16"
 "NPC_type" "younglingstaff"
 "origin" "-3038 -438 608"
@@ -362,7 +367,7 @@
 {
 "targetname" "t10"
 "spawnflags" "2"
-"message" "The Jedi are down, send the Distress Call!"
+"message" "The Younglings are slain, Activate the forcefield!"
 "origin" "-2992 -574 644"
 "classname" "target_print"
 }
@@ -638,7 +643,7 @@
 }
 {
 "origin" "-5571 798 744"
-"message" "Please wait for Decontamination"
+"message" "Please wait for Death..."
 "spawnflags" "4"
 "wait" "13"
 "targetname" "decontaminationmessage2"
@@ -1262,7 +1267,7 @@
 "teamowner" "1"
 "teamnodmg" "1"
 "showhealth" "1"
-"angle" "360"
+"angle" "90"
 "NPC_type" "younglingdual"
 "origin" "-2978 -5512 624"
 "NPC_target" "counteryounglings6"
@@ -1689,7 +1694,7 @@
 "origin" "-5328 2248 688"
 "targetname" "killjedimessage"
 "spawnflags" "2"
-"message" "The Beacon is Programmed"
+"message" "The Forcefield was enabled!"
 "classname" "target_print"
 }
 {
@@ -1700,7 +1705,7 @@
 "classname" "target_delay"
 }
 {
-"message" "Kill the remaining Jedi !"
+"message" "Kill the remaining Younglings !"
 "spawnflags" "2"
 "targetname" "killjedimessage2"
 "origin" "-5304 2272 688"
@@ -1856,7 +1861,7 @@
 "model" "*96"
 }
 {
-"message" "The beacon has been activated."
+"message" "The Forcefield has been enabled."
 "spawnflags" "1"
 "targetname" "killjedimessage"
 "origin" "-5304 2248 688"
@@ -2281,13 +2286,14 @@
 "helpiconindex" "0"
 "NPC_target" "counteryounglings9"
 "showhealth" "1"
-"angle" "180"
+"angle" "245"
 "spawnflags" "16"
 "NPC_type" "younglingsingle2"
 "origin" "-2318 -470 576"
 "teamnodmg" "1"
 "teamowner" "1"
 "classname" "NPC_spawner"
+"spawnscript" "8"
 }
 {
 "targetname" "counteryounglings9"
@@ -2295,8 +2301,121 @@
 "origin" "-2318 -470 576"
 "classname" "info_siege_radaricon"
 }
+{
+"helpiconindex" "0"
+"teamowner" "1"
+"teamnodmg" "1"
+"origin" "-1760 -1800 688"
+"NPC_type" "younglingdual"
+"spawnflags" "16"
+"angle" "180"
+"showhealth" "1"
+"NPC_target" "counteryounglings15"
+"classname" "NPC_spawner"
+}
+{
+"targetname" "counteryounglings15"
+"icon" "gfx/mplevels/nr_order_67/youngling"
+"origin" "-1760 -1800 688"
+"classname" "info_siege_radaricon"
+}
 
 
+{
+"helpiconindex" "0"
+"teamowner" "1"
+"teamnodmg" "1"
+"origin" "-5244 311 720"
+"NPC_type" "younglingdual"
+"spawnflags" "16"
+"angle" "180"
+"showhealth" "1"
+"NPC_target" "counteryounglings16"
+"classname" "NPC_spawner"
+}
+{
+"targetname" "counteryounglings16"
+"icon" "gfx/mplevels/nr_order_67/youngling"
+"origin" "-5244 311 720"
+"classname" "info_siege_radaricon"
+}
+
+{
+"helpiconindex" "0"
+"teamowner" "1"
+"teamnodmg" "1"
+"origin" "-294 -1006 568"
+"NPC_type" "younglingdual"
+"spawnflags" "16"
+"angle" "180"
+"showhealth" "1"
+"NPC_target" "counteryounglings14"
+"classname" "NPC_spawner"
+}
+{
+"targetname" "counteryounglings14"
+"icon" "gfx/mplevels/nr_order_67/youngling"
+"origin" "-294 -1006 568"
+"classname" "info_siege_radaricon"
+}
+{
+"helpiconindex" "0"
+"teamowner" "1"
+"teamnodmg" "1"
+"origin" "-294 -1006 568"
+"NPC_type" "younglingdual"
+"spawnflags" "16"
+"angle" "180"
+"showhealth" "1"
+"NPC_target" "counteryounglings13"
+"classname" "NPC_spawner"
+}
+{
+"targetname" "counteryounglings13"
+"icon" "gfx/mplevels/nr_order_67/youngling"
+"origin" "-294 -1006 568"
+"classname" "info_siege_radaricon"
+}
+{
+"helpiconindex" "0"
+"NPC_target" "counteryounglings12"
+"origin" "-5468 579 720"
+"NPC_type" "younglingsingle2"
+"spawnflags" "16"
+"angle" "270"
+"showhealth" "1"
+"teamnodmg" "1"
+"teamowner" "1"
+"classname" "NPC_spawner"
+}
+{
+"targetname" "counteryounglings12"
+"icon" "gfx/mplevels/nr_order_67/youngling"
+"origin" "-5468 579 720"
+"classname" "info_siege_radaricon"
+}
+
+
+// entity 354
+{
+"helpiconindex" "0"
+"NPC_target" "counteryounglings11"
+"showhealth" "1"
+"angle" "0"
+"spawnflags" "16"
+"NPC_type" "younglingsingle2"
+"origin" "-3038 -438 608"
+"teamnodmg" "1"
+"teamowner" "1"
+"classname" "NPC_spawner"
+"spawnscript" "8"
+}
+{
+"targetname" "counteryounglings11"
+"icon" "gfx/mplevels/nr_order_67/youngling"
+"origin" "-3038 -438 608"
+"classname" "info_siege_radaricon"
+}
 
 // entity 356
 {
@@ -2310,6 +2429,7 @@
 "showhealth" "1"
 "NPC_target" "counteryounglings10"
 "helpiconindex" "0"
+"spawnscript" "8"
 }
 {
 "targetname" "counteryounglings10"
@@ -2330,6 +2450,7 @@
 "teamnodmg" "1"
 "teamowner" "1"
 "classname" "NPC_spawner"
+"spawnscript" "8"
 }
 {
 "targetname" "counteryounglings11"
@@ -2337,6 +2458,30 @@
 "origin" "-1638 -814 640"
 "classname" "info_siege_radaricon"
 }
+
+
+
+// entity 358
+{
+"classname" "NPC_spawner"
+"teamowner" "1"
+"teamnodmg" "1"
+"origin" "-2978 -5512 624"
+"NPC_type" "younglingdual"
+"spawnflags" "16"
+"angle" "90"
+"showhealth" "1"
+"NPC_target" "counteryounglings17"
+"helpiconindex" "0"
+"spawnscript" "8"
+}
+{
+"targetname" "counteryounglings17"
+"icon" "gfx/mplevels/nr_order_67/kyle"
+"origin" "-2978 -5512 624"
+"classname" "info_siege_radaricon"
+}
+
 
 // entity 358
 {
@@ -2350,6 +2495,7 @@
 "showhealth" "1"
 "NPC_target" "counteryounglingsboss"
 "helpiconindex" "0"
+"spawnscript" "8"
 }
 {
 "targetname" "counteryounglingsboss"
@@ -2370,6 +2516,7 @@
 "teamnodmg" "1"
 "teamowner" "1"
 "classname" "NPC_spawner"
+"spawnscript" "8"
 }
 {
 "helpiconindex" "0"
@@ -2382,6 +2529,7 @@
 "teamnodmg" "1"
 "teamowner" "1"
 "classname" "NPC_spawner"
+"spawnscript" "8"
 }
 {
 "helpiconindex" "0"
@@ -2393,4 +2541,5 @@
 "teamnodmg" "1"
 "teamowner" "1"
 "classname" "NPC_spawner"
+"spawnscript" "8"
 }
