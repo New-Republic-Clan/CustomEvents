@@ -11,6 +11,7 @@
 "gridsize" "128 128 256"
 "music" "music/nr_order_67.mp3"
 "distancecull" "1800"
+"outsideBias" "1"
 }
 {
 "origin" "-2992 -5248 674"
