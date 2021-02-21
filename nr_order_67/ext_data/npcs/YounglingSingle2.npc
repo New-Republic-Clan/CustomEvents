@@ -26,16 +26,16 @@ younglingsingle2
 	FP_SABER_DEFENSE 3
 	FP_SABER_OFFENSE 3
 	rank		commander
-	reactions	10
-	aim			10
-	move		10
-	aggression	10
-	evasion		10
+	reactions	5
+	aim			5
+	move		5
+	aggression	5
+	evasion		5
 	earshot			4096
 	visrange		4096
-	vigilance	      10
+	vigilance	      5
 	hfov			180	
-	intelligence	10
+	intelligence	5
 	playerTeam	TEAM_ENEMY 
 	enemyTeam   TEAM_PLAYER
 	class		CLASS_DESANN
