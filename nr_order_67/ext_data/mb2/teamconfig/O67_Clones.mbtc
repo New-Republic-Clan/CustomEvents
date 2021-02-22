@@ -23,5 +23,6 @@ SubclassesForClass2
 	SubClass7 "O67_Flamer"
 	SubClass8 "O67_Blaze"
 	SubClass9 "O67_Commando"
-	SubClass10 "O67_Arf"	
+	SubClass10 "O67_Arf"
+	SubClass11 "O67_riot"	
 }

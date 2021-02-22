@@ -1,0 +1,28 @@
+clone_bat
+{
+	name		"Riot Clone Trooper" 
+	saberType	SABER_SINGLE
+	saberModel	"models/weapons2/clone_bat/w_saber.glm"
+	soundOn		"sound/weapons/sword/draw1.mp3"
+	soundLoop	none
+	soundOff	"sound/weapons/sword/catch.mp3"
+	fallSound1	"sound/weapons/sword/fall4.mp3"
+	fallSound2	"sound/weapons/sword/fall5.mp3"
+	fallSound3	"sound/weapons/sword/fall6.mp3"
+	spinsound	"sound/weapons/melee/swing3.mp3"
+	swingSound1	"sound/weapons/melee/swing1.mp3"
+	swingSound2	"sound/weapons/melee/swing2.mp3"
+      saberLength	32
+      saberColor	random
+      noflips 1
+	noWallMarks	1
+	noDlight	1
+	noBlade	1
+	noClashFlare 1
+	trailStyle	2
+	noIdleEffect	1
+      throwable  0
+        kataMove     LS_HILT_BASH
+}
+
+
