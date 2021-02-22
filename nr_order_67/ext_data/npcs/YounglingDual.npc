@@ -41,7 +41,7 @@ younglingdual
 	class		CLASS_DESANN
 	yawSpeed	140
 	walkSpeed	55
-	runSpeed	450
+	runSpeed	400
 	snd			kylekid
 	sndcombat	kylekid
 	sndjedi		kylekid

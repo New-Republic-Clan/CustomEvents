@@ -1,16 +1,15 @@
 {
 "classname" "worldspawn"
-"_color" "0.9 0.9 0.9"
+"_color" "0.9 0.0 0.0"
 "angle" "125"
 "fog" "textures/fogs/yavin_swamp"
 "_noshadersun" "1"
-"_minlight" "1"
-"_minvertexlight" "1"
+"_minlight" "0.1"
+"_minvertexlight" "0.1"
 "fogstart" "1"
 "coldWorld" "1"
 "gridsize" "128 128 256"
 "music" "music/nr_order_67.mp3"
-"distancecull" "1800"
 "outsideBias" "1"
 }
 {
@@ -2461,6 +2460,21 @@
 }
 
 
+{
+"helpiconindex" "0"
+"NPC_target" "counteryounglings18"
+"showhealth" "1"
+"angle" "180"
+"spawnflags" "16"
+"NPC_type" "younglingstaff"
+"origin" "-158 -1398 568"
+"teamnodmg" "1"
+"teamowner" "1"
+"classname" "NPC_spawner"
+"spawnscript" "8"
+}
+
+
 
 // entity 358
 {
@@ -2544,3 +2558,11 @@
 "classname" "NPC_spawner"
 "spawnscript" "8"
 }
+
+{
+"origin" "-2912 -1824 592"
+"noise" "sound/nr_order_67/scream.mp3"
+"targetname" "t168"
+"classname" "target_speaker"
+}
+

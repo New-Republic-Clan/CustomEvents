@@ -806,7 +806,7 @@ textures/jeditemple/whitelampglow
 {
 	q3map_lightimage	textures/jeditemple/whitelamp.tga
 	qer_editorimage	textures/jeditemple/whitelampglow.tga
-	q3map_surfacelight	100
+	q3map_surfacelight	4000
 	q3map_nolightmap
     {
         map textures/jeditemple/whitelampglow

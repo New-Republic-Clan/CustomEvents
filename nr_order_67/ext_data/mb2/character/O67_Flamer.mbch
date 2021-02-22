@@ -1,28 +1,21 @@
 ClassInfo
 {
 	name			"O67_Flamer"
-	weapons			WP_TRIP_MINE|WP_DEMP2
-	attributes		MB_ATT_FUEL,3|MB_ATT_ARMOR,3|MB_ATT_DODGE,1|MB_ATT_FIRE_GRENADES,2|MB_ATT_FLAMETHROWER,2|MB_ATT_RESPAWNS,3
+	weapons			WP_REPEATER|WP_TRIP_MINE|WP_DEMP2|WP_MELEE
+	WP_RepeaterFlags HELD_KNOCKBACK|HELD_FLAME|HELD_SLOW	
+	attributes		MB_ATT_FUEL,3|MB_ATT_ARMOR,3|MB_ATT_DODGE,1|MB_ATT_FIRE_GRENADES,2|MB_ATT_RESPAWNS,3|MB_ATT_CLONERIFLE,3
+	classflags      CFL_WFLAMETHROWER
 	maxhealth		110
 	maxarmor		40
-	model			"clonetrooper_p2"
-	skin			"bacara_rgb"	
+	model			"FlameTrooper"
+	skin			"default"	
 	customred		0.120
 	customgreen		0.275
 	customblue		0.474
-	uishader		"gfx/hud/fa_icons/mb2_icon_clonep2_bacara_blue"
+	uishader		"models/players/FlameTrooper/mb2_icon_default"
 	MBClass			MB_CLASS_HERO
 	classNumberLimit	1
-}
 
-WeaponInfo1
-{
-	WeaponToReplace		WP_DEMP2
-	WeaponBasedOff		WP_DEMP2
-	NewWorldModel		"models/weapons2/dc-17_cw/dc-17_w.glm"
-	NewViewModel		"models/weapons2/dc-17_cw/dc-17_cw.md3"
-	Icon				"gfx/hud/w_icon_dc-17_cw.tga"
-	WeaponName			"DC-17 Hand Blaster"
 }
 
 WeaponInfo0
@@ -38,12 +31,36 @@ WeaponInfo0
 	WeaponName			"Incendiary Grenade"
 }
 
+WeaponInfo1
+{
+	WeaponToReplace		WP_DEMP2
+	WeaponBasedOff		WP_DEMP2
+	NewWorldModel		"models/weapons2/dc-17_cw/dc-17_w.glm"
+	NewViewModel		"models/weapons2/dc-17_cw/dc-17_cw.md3"
+	Icon				"gfx/hud/w_icon_dc-17_cw.tga"
+	WeaponName			"DC-17 Hand Blaster"
+}
+
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_REPEATER
+	WeaponBasedOff		WP_REPEATER
+	NewWorldModel		"models/weapons2/flamethrower/flamethrower.glm"
+	NewViewModel		"models/weapons2/flamethrower/flamethrower.md3"
+	Icon				"gfx/hud/w_icon_flamerifle.tga"
+	WeaponName			"BT X-42 Flame Thrower"
+	customAmmo			999	
+}
+
 
 description	"Clone Flame Trooper
 
 Weapons:
 
 BT X-42 Flamethrower (1)
+Incendiary Grenade (2)
+DC-17 Hand Blaster
 
 Attributes:
 Dodge: (1)

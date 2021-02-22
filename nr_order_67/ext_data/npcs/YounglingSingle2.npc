@@ -41,7 +41,7 @@ younglingsingle2
 	class		CLASS_DESANN
 	yawSpeed	140
 	walkSpeed	55
-	runSpeed	350
+	runSpeed	400
 	snd			kylekid
 	sndcombat	kylekid
 	sndjedi		kylekid
