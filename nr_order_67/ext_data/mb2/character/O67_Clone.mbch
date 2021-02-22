@@ -4,7 +4,7 @@ ClassInfo
 {
 	name			"O67_Clone"
 	weapons			WP_REPEATER|WP_MELEE
-	attributes		MB_ATT_CLONERIFLE,1|MB_ATT_AMMO,3|MB_ATT_ARMOUR,2|MB_ATT_RESPAWNS,3|MB_ATT_STAMINA,1|MB_ATT_GUNBASH
+	attributes		MB_ATT_CLONERIFLE,1|MB_ATT_AMMO,3|MB_ATT_ARMOUR,2|MB_ATT_STAMINA,1|MB_ATT_GUNBASH
 	maxhealth		50
 	maxarmor		40
 	model			"clonetrooper_p2"
@@ -14,6 +14,7 @@ ClassInfo
 	customgreen		0.275
 	customblue		0.474
 	MBClass			MB_CLASS_CLONETROOPER
+	extralives		4		
 }
 
 WeaponInfo0
@@ -44,7 +45,7 @@ Ammo		(3)
 
 Abilities:
 Gunbash
-Reinforcements	(3)
+Reinforcements	(4)
 Stamina			(1)
 
 The Clone Trooper, pride of the Republic.  Cloned using the genetic template of Jango Fett, these mass produced troopers were naturally talented in combat."

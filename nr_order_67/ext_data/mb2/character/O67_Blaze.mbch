@@ -4,7 +4,7 @@ ClassInfo
 {
 	name			"O67_Blaze"
 	weapons			WP_CONCUSSION|WP_MELEE
-	attributes		MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_JETPACK,1|MB_ATT_HULL_STRENGTH,2|MB_ATT_FUEL,2|MB_ATT_WOOKIEE_FURY,1|MB_ATT_HULL_STRENGTH,1
+	attributes		MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_JETPACK,1|MB_ATT_HULL_STRENGTH,2|MB_ATT_FUEL,2|MB_ATT_WOOKIEE_FURY,1|MB_ATT_HULL_STRENGTH,1|MB_ATT_FLAMETHROWER
 	classflags		CFL_HEAVYMELEE|CFL_BLOODYMELEE
 	maxhealth		250
 	maxArmor		250
@@ -21,14 +21,30 @@ ClassInfo
 	jetpackFuelAmount 8	
 	rageSoundOverride 	"sound/weapons/overchargeend.wav"
 	bargeSoundOverride 	"sound/SBD/SBDWalk2.mp3"	
+	speed 0.7
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_CONCUSSION
+	WeaponBasedOff		WP_CONCUSSION
+	NewWorldModel		"models/weapons2/CR-1_cannon/rifle_w.glm"
+	NewViewModel		"models/weapons2/CR-1_cannon/rifle.md3"
+	MissileEffect		"Blaster/Shot01B"
+	FlashSound0			"sound/weapons/t-21/alt_fire.mp3"
+	Icon				"gfx/hud/w_icon_cr1_blastcannon"
+	WeaponName			"Blaze Wrist Cannon"
+	altFireEnabled		0
+	clipSize			900
+	customAmmo			900		
 }
 
 description			"Clone Blaze Trooper
 
 Weaponry:
 Fists
-Arm Mounted Laser (Primary)
-Arm Mount Cannon (Secondary)
+Arm Mounted Laser
+Wrist Mount Flame Thrower (Special)
 
 Attributes:
 Blaze Strength

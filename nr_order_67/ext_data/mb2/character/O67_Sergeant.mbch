@@ -7,17 +7,18 @@ ClassInfo
 	attributes			MB_ATT_RESPAWNS,2|MB_ATT_PISTOL,1|MB_ATT_BLASTER,3|MB_ATT_CLONERIFLE,3|MB_ATT_ARMOUR,2|MB_ATT_AMMO,3
 	maxhealth			100
 	maxarmor			50
-	model				"clonetrooper_p1"
-	skin				"shiny_rgb"
+	model				"clonetrooper_p2"
+	skin				"501"
 	customred			0.120
 	customgreen			0.275
 	customblue			0.474
-	uishader			"gfx/hud/fa_icons/mb2_icon_clonep1_shiny_blue"
+	uishader			"models/players/clonetrooper_p2/mb2_icon_501"
 	MBClass				MB_CLASS_CLONETROOPER
 	classNumberLimit	1
 	classflags			CFL_SHOTGUN
 	extralives			0
 	rateOfFire 			0.5
+	WP_BLASTERFlags		HELD_KNOCKBACK
 }
 
 WeaponInfo0
@@ -35,7 +36,7 @@ WeaponInfo0
 	clipSize			100
 }
 
-description	"Clone Trooper (Sergeant)
+description	"Clone Sergeant
 
 Weaponry:
 Clone Pistol (1)

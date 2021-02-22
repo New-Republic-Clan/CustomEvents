@@ -2,9 +2,9 @@
 
 ClassInfo
 {
-	name				"O67_Defender"
+	name				"O67_Shock"
 	weapons				WP_REPEATER|WP_MELEE|WP_THERMAL
-	attributes			MB_ATT_CLONERIFLE,2|MB_ATT_AMMO,2|MB_ATT_ARMOUR,2|MB_ATT_CLONEBLOBS,3|MB_ATT_THERMALS,2|MB_ATT_RESPAWNS,2
+	attributes			MB_ATT_CLONERIFLE,3|MB_ATT_AMMO,2|MB_ATT_ARMOUR,2|MB_ATT_CLONEBLOBS,3|MB_ATT_THERMALS,2
 	maxhealth			100
 	maxarmor			50
 	model				"clonetrooper_p2"
@@ -16,6 +16,7 @@ ClassInfo
 	MBClass				MB_CLASS_CLONETROOPER
 	holdables			HI_SENTRY_GUN|HI_EWEB
 	classNumberLimit	2
+	extralives			3	
 }
 
 WeaponInfo0
@@ -28,7 +29,7 @@ WeaponInfo0
 	WeaponName			"Clonetrooper Rifle"    					//Required: Weapon change display name
 }
 
-description	"Clone Defender
+description	"Clone Shock Trooper
 
 
 Weaponry:

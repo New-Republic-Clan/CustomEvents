@@ -15,11 +15,13 @@ Classes
 SubclassesForClass2
 {
 	Subclass1 "O67_Aerial"
-	Subclass2 "O67_Defender"
+	Subclass2 "O67_Shock"
 	Subclass3 "O67_Demo"
-	Subclass4 "O67_General"
+	Subclass4 "O67_Commander"
 	Subclass5 "O67_HeavyTrooper"	
 	Subclass6 "O67_Sniper"
 	SubClass7 "O67_Flamer"
 	SubClass8 "O67_Blaze"
+	SubClass9 "O67_Commando"
+	SubClass10 "O67_Arf"	
 }
