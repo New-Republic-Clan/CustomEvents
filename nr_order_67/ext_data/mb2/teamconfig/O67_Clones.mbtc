@@ -21,4 +21,5 @@ SubclassesForClass2
 	Subclass5 "O67_HeavyTrooper"	
 	Subclass6 "O67_Sniper"
 	SubClass7 "O67_Flamer"
+	SubClass8 "O67_Blaze"
 }

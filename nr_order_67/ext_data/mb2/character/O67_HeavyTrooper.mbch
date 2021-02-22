@@ -10,7 +10,7 @@ ClassInfo
 	speed				.9
 	model				"clonetrooper_p2"
 	skin				"bacara_rgb"	
-	uishader			"gfx/hud/FA_icons/mb2_icon_clonep1_blue"
+	uishader			"gfx/hud/fa_icons/mb2_icon_clonep2_bacara_blue"
 	customred			0.120
 	customgreen			0.275
 	customblue			0.474
@@ -37,7 +37,7 @@ description	"Clone Heavy Trooper
 
 Weaponry:
 Clone Pistol	(1)
-Clone Rifle DC-15	(3)
+Clone Z6 Rotary Cannon	(3)
 
 Items:
 Stamina		(1)
@@ -47,4 +47,4 @@ Ammo		(3)
 Abilities:
 Reinforcements	(2)
 
-Every Clone squad had at least one Heavy Trooper.  These clones used rifles with enhanced firepower to lay down suppressive fire and devastate larger droids."
+Every Clone squad had at least one Heavy Trooper.  These clones used Z6 Rotary Cannons with enhanced firepower to lay down suppressive fire and devastate larger droids."
