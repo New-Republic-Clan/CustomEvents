@@ -4,7 +4,7 @@ ClassInfo
 {
 	name			"O67_Blaze"
 	weapons			WP_CONCUSSION|WP_MELEE
-	attributes		MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_JETPACK,1|MB_ATT_HULL_STRENGTH,2|MB_ATT_FUEL,2|MB_ATT_WOOKIEE_FURY,1|MB_ATT_HULL_STRENGTH,1|MB_ATT_FLAMETHROWER
+	attributes		MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_JETPACK,1|MB_ATT_HULL_STRENGTH,2|MB_ATT_FUEL,3|MB_ATT_WOOKIEE_FURY,1|MB_ATT_HULL_STRENGTH,1|MB_ATT_FLAMETHROWER
 	classflags		CFL_HEAVYMELEE|CFL_BLOODYMELEE
 	maxhealth		250
 	maxArmor		250
@@ -18,7 +18,7 @@ ClassInfo
 	jetpackJetTag		*jetpack_jet
 	jetpackJet2Tag		*jetpack_jet2
 	jetpackFuelCooldown 1000
-	jetpackFuelAmount 8	
+	jetpackFuelAmount 	10
 	rageSoundOverride 	"sound/weapons/overchargeend.wav"
 	bargeSoundOverride 	"sound/SBD/SBDWalk2.mp3"	
 	speed 0.7
