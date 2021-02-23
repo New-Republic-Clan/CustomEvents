@@ -163,7 +163,7 @@ Younglings
 {
 	RequiredObjectives 1
 	UseTeam "O67_Younglings"
-	TeamIcon "gfx/2d/logos/mb_jediorder"
+	TeamIcon "gfx/2d/logos/mb_demon"
 	TeamColorOn	"1 0 0 1"
 	TeamColorOff ".7 0 0 1"
 
@@ -189,7 +189,7 @@ Younglings
 Clones
 {
 	RequiredObjectives 1
-	Timed 800
+	Timed 1800
 	UseTeam "O67_Clones"
 	TeamIcon "gfx/2d/logos/mb_clonerepublic"
 	TeamColorOn	"0 0 1 1"

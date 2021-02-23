@@ -8,7 +8,7 @@ ClassInfo
 	maxhealth		85
 	maxarmor		50
 	model			"+clo_ARFPack"
-	skin			"default"
+	skin			"boomer"
 	uishader		"models/players/+clo_ARFPack/mb2_icon_default.jpg"
 	customred		0.120
 	customgreen		0.275
