@@ -8,7 +8,7 @@ ClassInfo
 	classflags		CFL_HEAVYMELEE|CFL_BLOODYMELEE
 	maxhealth		250
 	maxArmor		250
-	model			"Tech"				//this is optional, if it's here it forces the model to this.
+	model			"woo_blaze501"				//this is optional, if it's here it forces the model to this.
 	skin			"default"					//this is optional, if it's here it forces the skin to this.
 	uishader		"models/players/woo_blaze501/mb2_icon_default"
 	MBClass			MB_CLASS_WOOKIE
