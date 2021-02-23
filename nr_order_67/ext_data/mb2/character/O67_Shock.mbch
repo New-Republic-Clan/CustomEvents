@@ -6,7 +6,7 @@ ClassInfo
 	weapons				WP_REPEATER|WP_MELEE|WP_THERMAL
 	attributes			MB_ATT_CLONERIFLE,3|MB_ATT_AMMO,2|MB_ATT_ARMOUR,2|MB_ATT_CLONEBLOBS,3|MB_ATT_THERMALS,2
 	maxhealth			100
-	maxarmor			50
+	maxarmor			100
 	model				"clonetrooper_p2"
 	skin				"shock_rgb"
 	uishader			"gfx/hud/fa_icons/mb2_icon_clonep2_shock_blue"
@@ -14,9 +14,8 @@ ClassInfo
 	customgreen			0.275
 	customblue			0.474
 	MBClass				MB_CLASS_CLONETROOPER
-	holdables			HI_SENTRY_GUN|HI_EWEB
 	classNumberLimit	2
-	extralives			3	
+	extralives			2
 }
 
 WeaponInfo0
@@ -26,24 +25,24 @@ WeaponInfo0
 	NewWorldModel		"models/weapons2/dc-15_ext/dc-15_ext_w.glm"  	//Required: New 3rd person/dropped weapon model
 	NewViewModel		"models/weapons2/dc-15_ext/dc-15_ext.md3"   	//Required: New 1st person weapon model
 	Icon				"gfx/hud/w_icon_clonerifle_blobs" 			//Required: Weapon change icon
-	WeaponName			"Clonetrooper Rifle"    					//Required: Weapon change display name
+	WeaponName			"DC-15S Carbine CR3"    					//Required: Weapon change display name
 }
 
 description	"Clone Shock Trooper
 
 
 Weaponry:
-Clone Carbine DC-15		(2)
-Clone Carbine Explosive Rounds		(3)
+DC-15S Carbine	(3)
+DC-15S Explosive Rounds		(3)
+DC-15S Blobs
 Fragmentation Grenades	(2)
 
 Items:
 Armour		(2)
 Ammo		(2)
-Portable E-Web Gun Turret
-Portable Sentry Gun
 
 Abilities:
-Reinforcements	(2)
+Lives 		(3)
 
-The clone defender units were trained to hold an area at all costs.  They were often used during the war to protect camps and checkpoints from separatist attacks."
+Clone shock troopers, also referred to as shocktroopers, stormtroopers, or guardsmen, were the clone troopers of the Coruscant Guard, an elite force founded during the Clone Wars.
+Using slightly heavier armor than standard clones and advanced weapons training. Shocktroopers were a strong force."

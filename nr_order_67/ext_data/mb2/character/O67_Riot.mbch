@@ -23,7 +23,7 @@ ClassInfo
 	modelscale			1.0
 	classNumberLimit	1
 	classflags			CFL_HASQ3|CFL_STRONGAGAINSTPHYSICAL|CFL_NOLOCATIONALDAMAGE
-	extralives			3
+	extralives			2
 	WP_SABERFlags		HELD_KNOCKDOWN	
 }
 
@@ -64,11 +64,15 @@ description	"Clone Riot Trooper
 
 
 Weaponry:
-Riot Shield
+Riot Shield (Infinite Blocking)
 DC-15S Blaster Carbine
 
 Items:
 Armour		(3)
+
+Abilities:
+Lives 		(3)
+
 
 Clone riot troopers, also known as riot clone troopers, were specialized clone shock troopers of the Coruscant Guard who were trained in riot control.
 Using a Riot shield which can tank heavy attacks with using their shield to block. There only offensive is a single blaster "

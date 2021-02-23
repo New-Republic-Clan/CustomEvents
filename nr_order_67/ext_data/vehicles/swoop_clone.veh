@@ -37,6 +37,7 @@ armor 		125
 toughness 		40.0
 malfunctionArmorLevel	50
 model			swoop
+skin			silver
 radarIcon		"gfx/menus/radar/swoop"
 
 riderAnim		BOTH_VS_IDLE

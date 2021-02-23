@@ -2,24 +2,24 @@
 
 ClassInfo
 {
-name			"O67_Medic"
-weapons			WP_MELEE|WP_DEMP2|WP_BLASTER
-attributes		MB_ATT_PISTOL,1|MB_ATT_BLASTER,3|MB_ATT_HEALING,2|MB_ATT_ARMOUR,2|MB_ATT_AMMO,3
-forcePowers		FP_TEAM_HEAL,2
-maxhealth		80
-maxarmor		80
-model			"clonetrooper_p2"
-skin			"501_Medic"
-uishader		"models/players/clonetrooper_p2/mb2_icon_medic"
-customred		0.630
-customgreen		0.198
-customblue		0.198
-forcepool		50
-forceregen		10
-MBCLASS			MB_CLASS_JEDI
-classNumberLimit	1
-speed				0.9
-ExtraLives			3
+	name			"O67_Medic"
+	weapons			WP_MELEE|WP_DEMP2|WP_BLASTER
+	attributes		MB_ATT_PISTOL,1|MB_ATT_BLASTER,3|MB_ATT_HEALING,2|MB_ATT_ARMOUR,2|MB_ATT_AMMO,3
+	forcePowers		FP_TEAM_HEAL,2
+	maxhealth		80
+	maxarmor		80
+	model			"clonetrooper_p2"
+	skin			"501_Medic"
+	uishader		"models/players/clonetrooper_p2/mb2_icon_medic"
+	customred		0.630
+	customgreen		0.198
+	customblue		0.198
+	forcepool		50
+	forceregen		10
+	MBCLASS			MB_CLASS_JEDI
+	classNumberLimit	1
+	speed				0.9
+	extralives			2
 }
 
 WeaponInfo0
@@ -56,9 +56,10 @@ DC-17 Hand Blaster (1)
 
 
 Attributes:
-Armour (2)
-Ammo (3)
-Self Heal (2)
-Team Heal (2)
+Armour 		(2)
+Ammo 		(3)
+Self Heal 	(2)
+Team Heal 	(2)
+Lives 		(3)
 
 Clone trooper medics were specifically bred to treat their fellow clones who were injured. On Kamino, these clones were given specialized equipment and the Kaminoans instructed them on how to medically treat the clone body."

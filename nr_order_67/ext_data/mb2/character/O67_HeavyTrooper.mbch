@@ -16,7 +16,7 @@ ClassInfo
 	customblue			0.474
 	MBClass				MB_CLASS_CLONETROOPER
 	classNumberLimit	2
-	ExtraLives			3
+	extralives			2
 }
 
 WeaponInfo0
@@ -46,6 +46,6 @@ Armour		(3)
 Ammo		(3)
 
 Abilities:
-Reinforcements	(3)
+Lives 		(3)
 
 Every Clone squad had at least one Heavy Trooper.  These clones used Z6 Rotary Cannons with enhanced firepower to lay down suppressive fire and devastate larger droids."

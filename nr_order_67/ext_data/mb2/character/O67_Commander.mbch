@@ -19,7 +19,7 @@ ClassInfo
 	speed				1.05
 	classNumberLimit	1
 	classflags 			CFL_STATVIEWER|CFL_AKIMBOPISTOL3
-	extralives			3		
+	extralives			2		
 }
 
 WeaponInfo0
@@ -58,6 +58,7 @@ Stamina		(3)
 Healing		(2)
 Radar		(1)
 Flipkick
+Lives 		(3)
 
 Commander Appo,otherwise known as Clone Commander CC-1119.
 

@@ -10,10 +10,8 @@ ClassInfo
 	maxhealth			100
 	maxarmor			50
 	weapons				WP_FLECHETTE|WP_DEMP2|WP_MELEE|WP_TRIP_MINE
-	extralives			2
 	classNumberLimit	1
-	classflags			CFL_NO_JETPACK_OVERHEAT|CFL_NO_JETPACK_COOLDOWN
-	attributes			MB_ATT_A280,2|MB_ATT_PISTOL,1|MB_ATT_AMMO,1|MB_ATT_JETPACK,1|MB_ATT_DEXTERITY,2|MB_ATT_STAMINA,0|MB_ATT_ARC_RIFLE_GRENADELAUNCHER,2|MB_ATT_PULSE_GRENADES,1
+	attributes			MB_ATT_A280,2|MB_ATT_PISTOL,1|MB_ATT_AMMO,1|MB_ATT_JETPACK,1|MB_ATT_DEXTERITY,2|MB_ATT_STAMINA,0|MB_ATT_ARC_RIFLE_GRENADELAUNCHER,2|MB_ATT_PULSE_GRENADES,1|MB_ATT_FUEL,3
 	customred			0.137
 	customgreen			0.239
 	customblue			0.380
@@ -21,6 +19,7 @@ ClassInfo
 	jetpackJet2Tag		*jetpack_jet2
 	jetpackJetOffset	"0, 0, 4"
 	jetpackJet2Offset	"0, 0, 4"
+	extralives			2	
 }
 
 description	"Jet Trooper
@@ -35,8 +34,9 @@ Class-II Armour
 Jetpack
 
 Abilities:
-2 Reinforcements
 Medium Dexterity
 Low Stamina
+Max Jetpack Fuel
+Lives 	(3)
 
 Clone jet troopers were part of the Grand Army of the Republic. Jet troopers utilized their limited flight jetpacks to rapidly cover great distances and gain aerial advantage over their enemies. The agility of the flying jet trooper made him difficult to hit and could ambush their enemies from behind. The troopers learned to incorporate their jetpacks in battlefield tactics, sometimes mounting ambushes like the Mandalorians who had trained them."

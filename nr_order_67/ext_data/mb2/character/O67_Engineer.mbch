@@ -2,21 +2,22 @@
 
 ClassInfo
 {
-name			"O67_Engineer"
-weapons			WP_MELEE|WP_DEMP2|WP_BLASTER
-attributes		MB_ATT_PISTOL,1|MB_ATT_BLASTER,3|MB_ATT_ARMOUR,2|MB_ATT_AMMO,3
-maxhealth		80
-maxarmor		80
-model			"clonetrooper_p2"
-skin			"327_rgb"
-uishader		"models/players/clonetrooper_p2/mb2_icon_engineer"
-customred		0.630
-customgreen		0.198
-customblue		0.198
-MBCLASS			MB_CLASS_CLONE
-classNumberLimit	1
-speed				0.9
-ExtraLives			3
+	name			"O67_Engineer"
+	weapons			WP_MELEE|WP_DEMP2|WP_BLASTER
+	attributes		MB_ATT_PISTOL,1|MB_ATT_BLASTER,3|MB_ATT_ARMOUR,2|MB_ATT_AMMO,3
+	maxhealth		80
+	maxarmor		80
+	model			"clonetrooper_p2"
+	skin			"327_rgb"
+	uishader		"models/players/clonetrooper_p2/mb2_icon_engineer"
+	customred		0.630
+	customgreen		0.198
+	customblue		0.198
+	MBCLASS			MB_CLASS_CLONE
+	holdables			HI_SENTRY_GUN|HI_EWEB|HI_SHIELD
+	classNumberLimit	1
+	speed				0.9
+	extralives			2
 }
 
 WeaponInfo0
@@ -57,7 +58,8 @@ Sentry Gun
 Forcefield
 
 Attributes:
-Armour (2)
-Ammo (3)
+Armour 	(2)
+Ammo 	(3)
+Lives 	(3)
 
 Clone Engineers were clone trooper engineers of the Galactic Republic that were active during the Clone Wars against the Confederacy of Independent Systems. "

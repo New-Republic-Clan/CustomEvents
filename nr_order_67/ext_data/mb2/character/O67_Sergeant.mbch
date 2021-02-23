@@ -4,7 +4,7 @@ ClassInfo
 {
 	name				"O67_Sergent"
 	weapons				WP_BLASTER|WP_DEMP2|WP_MELEE
-	attributes			MB_ATT_RESPAWNS,2|MB_ATT_PISTOL,1|MB_ATT_BLASTER,3|MB_ATT_CLONERIFLE,3|MB_ATT_ARMOUR,2|MB_ATT_AMMO,3
+	attributes			MB_ATT_PISTOL,1|MB_ATT_BLASTER,3|MB_ATT_CLONERIFLE,3|MB_ATT_ARMOUR,2|MB_ATT_AMMO,3
 	maxhealth			100
 	maxarmor			50
 	model				"clonetrooper_p2"
@@ -16,9 +16,9 @@ ClassInfo
 	MBClass				MB_CLASS_CLONETROOPER
 	classNumberLimit	1
 	classflags			CFL_SHOTGUN
-	extralives			0
 	rateOfFire 			0.5
 	WP_BLASTERFlags		HELD_KNOCKBACK
+	extralives			2	
 }
 
 WeaponInfo0
@@ -39,12 +39,13 @@ WeaponInfo0
 description	"Clone Sergeant
 
 Weaponry:
-Clone Pistol (1)
-Clone Shotgun (3)
+Clone Pistol 	(1)
+Clone Shotgun 	(3)
 
 Attributes:
-Reinforcements (1)
-Armour (2)
-Ammo (3)
+Shotgun Extended Knockback
+Lives 			(3)
+Armour 			(2)
+Ammo 			(3)
 
-Cloned and raised in the cities of Kamino, the clone troopers, trained and drilled since birth, came to be regarded as one of the most efficient military forces ever to have existed in galactic history."
+Clone Sergeant,[1] also known as clone trooper sergeant, was a rank held by clone troopers in the Galactic Republic's Grand Army who commanded squads of nine troopers. Using a CR-1 Shotgun as their primary defence they could push back large groups of enemies."
