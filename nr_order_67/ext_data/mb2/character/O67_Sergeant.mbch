@@ -16,7 +16,7 @@ ClassInfo
 	MBClass				MB_CLASS_CLONETROOPER
 	classNumberLimit	1
 	classflags			CFL_SHOTGUN
-	rateOfFire 			0.5
+	rateOfFire 			0.7
 	WP_BLASTERFlags		HELD_KNOCKBACK
 	extralives			2	
 }
@@ -33,7 +33,7 @@ WeaponInfo0
 	Icon				"gfx/hud/w_icon_cr1_blastcannon"
 	WeaponName			"Clone CR-1 Shotgun"
 	altFireEnabled		0
-	clipSize			100
+	clipSize			120
 }
 
 description	"Clone Sergeant

@@ -13,7 +13,7 @@ uishader			"models/players/clonetrooper_p2/mb2_icon_swoop"
 MBClass				MB_CLASS_DROIDEKA
 classNumberLimit	1
 customveh			swoop_clone
-ExtraLives			1
+ExtraLives			2
 }
 
 WeaponInfo0

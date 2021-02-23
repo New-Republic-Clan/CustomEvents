@@ -8,7 +8,7 @@ LevelshotDesc
 {
     desc1
     {   
-        text "Palpatine has executed Order 67. Order 67 is declared in the event Jedi Younglings become possesed. All Clones Units to assist! Activate the forcefield to stop their escape, and then slay all the younglings. Work as a team and Good Luck!.
+        text "Palpatine has executed Order 67. Order 67 is declared in the event Jedi Younglings become possesed. All Clones Units to assist! Activate the self destruct in the beacon room to prevent the escape. Work as a team and Good Luck!.
 "
         
         rect "410 147 220 55"
@@ -194,17 +194,6 @@ Clones
 	TeamIcon "gfx/2d/logos/mb_clonerepublic"
 	TeamColorOn	"0 0 1 1"
 	TeamColorOff "0 0 .7 1"
-
-	Objective1
-	{
-		goalname "ACCOMPLISH: Kill the Younglings"
-		final 1
-		message_team1 "The Sith have defeated us."
-		message_team2 "Congrats, you murdered the children!."
-		target ""
-		objdesc "ACCOMPLISH: Eliminate the Jedi."
-		objgfx "gfx/mplevels/mb2_jeditemple/objb"
-	}
 
 	wonround "Childs Play!!"
 	lostround "You lost to a bunch of children!!"

@@ -15,7 +15,7 @@ ClassInfo
 	customblue		0.474
 	classNumberLimit	2
 	MBClass			MB_CLASS_ARCTROOPER
-	extralives			3	
+	extralives		2
 	speed 2.0
 }
 

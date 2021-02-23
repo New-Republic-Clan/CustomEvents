@@ -5,7 +5,7 @@ ClassInfo
 	name				"O67_Riot"
 	weapons				WP_SABER|WP_BLASTER
 	saber1				clone_shield
-	saberstyle			SS_HEAVY
+	saberstyle			SS_STRONG
 	attributes			MB_ATT_ARMOUR,3|MB_ATT_FORCEBLOCK,3|MB_ATT_CORTOSIS
 	maxhealth			250
 	maxarmor			250
@@ -17,10 +17,9 @@ ClassInfo
 	customgreen			0.275
 	customblue			0.474
 	MBClass				MB_CLASS_JEDI
-	forcepool			40
+	forcepool			140
 	forceregen			2
-	BPmultiplier		3
-	modelscale			1.0
+	BPmultiplier		10
 	classNumberLimit	1
 	classflags			CFL_HASQ3|CFL_STRONGAGAINSTPHYSICAL|CFL_NOLOCATIONALDAMAGE
 	extralives			2
@@ -35,7 +34,7 @@ WeaponInfo0
 	NewViewModel		"models/weapons2/dummy/dummy.md3"   	//Required: New 1st person weapon model
 	Icon				"models/weapons2/clone_shield/w_icon_shield" 	//Required: Weapon change icon
 	WeaponName			"Riot Shield"    					//Required: Weapon change display name
-	primFireEnabled 	"0"
+	primFireEnabled 	"1"
 	FlashSound0			"sound/weapons/minigun/fire.wav" 
 	ChargeSound			"sound/weapons/minigun/fire.wav" 
 	

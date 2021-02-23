@@ -45,7 +45,7 @@ younglingboss
 	snd			kylekid
 	sndcombat	kylekid
 	sndjedi		kylekid
-	health		550
+	health		350
 	dismemberProbHead	100
 	dismemberProbArms	100
 	dismemberProbLegs	100

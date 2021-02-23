@@ -895,30 +895,8 @@
 "teamowner" "1"
 "classname" "NPC_spawner"
 }
-{
-"origin" "-4260 960 698"
-"icon" "gfx/mplevels/nr_order_67/youngling"
-"targetname" "counteryounglings1"
-"classname" "info_siege_radaricon"
-}
-{
-"targetname" "counteryounglings2"
-"icon" "gfx/mplevels/nr_order_67/youngling"
-"origin" "-3044 -440 672"
-"classname" "info_siege_radaricon"
-}
-{
-"origin" "-5470 579 800"
-"icon" "gfx/mplevels/nr_order_67/youngling"
-"targetname" "counteryounglings3"
-"classname" "info_siege_radaricon"
-}
-{
-"targetname" "counteryounglings4"
-"icon" "gfx/mplevels/nr_order_67/youngling"
-"origin" "-5070 -1636 1098"
-"classname" "info_siege_radaricon"
-}
+
+
 {
 "origin" "-4296 944 634"
 "target" "counteryounglings"
@@ -1273,12 +1251,7 @@
 "NPC_target" "counteryounglings6"
 "classname" "NPC_spawner"
 }
-{
-"origin" "-2980 -5512 688"
-"icon" "gfx/mplevels/nr_order_67/youngling"
-"targetname" "counteryounglings6"
-"classname" "info_siege_radaricon"
-}
+
 {
 "target" "counteryounglings"
 "targetname" "counteryounglings6"
@@ -1672,12 +1645,7 @@
 "NPC_target" "counteryounglings7"
 "classname" "NPC_spawner"
 }
-{
-"origin" "-300 -832 672"
-"icon" "gfx/mplevels/nr_order_67/youngling"
-"targetname" "counteryounglings7"
-"classname" "info_siege_radaricon"
-}
+
 {
 "target" "counteryounglings"
 "targetname" "counteryounglings7"
@@ -2295,12 +2263,7 @@
 "classname" "NPC_spawner"
 "spawnscript" "8"
 }
-{
-"targetname" "counteryounglings9"
-"icon" "gfx/mplevels/nr_order_67/youngling"
-"origin" "-2318 -470 576"
-"classname" "info_siege_radaricon"
-}
+
 {
 "helpiconindex" "0"
 "teamowner" "1"
@@ -2313,12 +2276,7 @@
 "NPC_target" "counteryounglings15"
 "classname" "NPC_spawner"
 }
-{
-"targetname" "counteryounglings15"
-"icon" "gfx/mplevels/nr_order_67/youngling"
-"origin" "-1760 -1800 688"
-"classname" "info_siege_radaricon"
-}
+
 
 
 {
@@ -2333,12 +2291,6 @@
 "NPC_target" "counteryounglings16"
 "classname" "NPC_spawner"
 }
-{
-"targetname" "counteryounglings16"
-"icon" "gfx/mplevels/nr_order_67/youngling"
-"origin" "-5244 311 720"
-"classname" "info_siege_radaricon"
-}
 
 {
 "helpiconindex" "0"
@@ -2352,12 +2304,7 @@
 "NPC_target" "counteryounglings14"
 "classname" "NPC_spawner"
 }
-{
-"targetname" "counteryounglings14"
-"icon" "gfx/mplevels/nr_order_67/youngling"
-"origin" "-294 -1006 568"
-"classname" "info_siege_radaricon"
-}
+
 {
 "helpiconindex" "0"
 "teamowner" "1"
@@ -2370,12 +2317,7 @@
 "NPC_target" "counteryounglings13"
 "classname" "NPC_spawner"
 }
-{
-"targetname" "counteryounglings13"
-"icon" "gfx/mplevels/nr_order_67/youngling"
-"origin" "-294 -1006 568"
-"classname" "info_siege_radaricon"
-}
+
 {
 "helpiconindex" "0"
 "NPC_target" "counteryounglings12"
@@ -2388,12 +2330,7 @@
 "teamowner" "1"
 "classname" "NPC_spawner"
 }
-{
-"targetname" "counteryounglings12"
-"icon" "gfx/mplevels/nr_order_67/youngling"
-"origin" "-5468 579 720"
-"classname" "info_siege_radaricon"
-}
+
 
 
 // entity 354
@@ -2410,12 +2347,6 @@
 "classname" "NPC_spawner"
 "spawnscript" "8"
 }
-{
-"targetname" "counteryounglings11"
-"icon" "gfx/mplevels/nr_order_67/youngling"
-"origin" "-3038 -438 608"
-"classname" "info_siege_radaricon"
-}
 
 // entity 356
 {
@@ -2430,12 +2361,6 @@
 "NPC_target" "counteryounglings10"
 "helpiconindex" "0"
 "spawnscript" "8"
-}
-{
-"targetname" "counteryounglings10"
-"icon" "gfx/mplevels/nr_order_67/youngling"
-"origin" "-2686 706 744"
-"classname" "info_siege_radaricon"
 }
 
 // entity 357
@@ -2452,13 +2377,6 @@
 "classname" "NPC_spawner"
 "spawnscript" "8"
 }
-{
-"targetname" "counteryounglings11"
-"icon" "gfx/mplevels/nr_order_67/youngling"
-"origin" "-1638 -814 640"
-"classname" "info_siege_radaricon"
-}
-
 
 {
 "helpiconindex" "0"
@@ -2490,13 +2408,6 @@
 "helpiconindex" "0"
 "spawnscript" "8"
 }
-{
-"targetname" "counteryounglings17"
-"icon" "gfx/mplevels/nr_order_67/kyle"
-"origin" "-2978 -5512 624"
-"classname" "info_siege_radaricon"
-}
-
 
 // entity 358
 {
@@ -2512,12 +2423,7 @@
 "helpiconindex" "0"
 "spawnscript" "8"
 }
-{
-"targetname" "counteryounglingsboss"
-"icon" "gfx/mplevels/nr_order_67/kyle"
-"origin" "-2366 10 784"
-"classname" "info_siege_radaricon"
-}
+
 
 //Some Extra Younglings
 {
