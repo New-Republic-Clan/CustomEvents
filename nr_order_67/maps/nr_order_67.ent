@@ -2578,8 +2578,7 @@
 {
 "origin" "-4456 -2896 728"
 "random" "3000"
-"fxFile" "effects/mace/RC_Placeholder.efx"
-"fxFileEnhanced2" "effects/volumetic/smoke.efx"
+"fxFile" "volumetric/smoke"
 "delay" "1000"
 "classname" "fx_runner"
 "targetname" "doorboom"
@@ -2589,6 +2588,14 @@
 
 // Dead Clones
 
+
+
+{
+"origin" "-3216 -2904 680"
+"angle"	 "315"
+"classname" "misc_model_static"
+"model" "models/mapobjects/Skeletons/crucified/crucified.md3"
+}
 
 {
 "origin" "-2720 -2612 578"

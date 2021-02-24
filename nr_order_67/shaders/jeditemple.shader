@@ -265,6 +265,7 @@ tcGen environment
 textures/jeditemple/floor-circle
 {
 	qer_editorimage	textures/jeditemple/floor-circle
+	portal
 	q3map_material	Rock
     {
         map textures/imperial/env_shiny_floor
@@ -301,6 +302,7 @@ textures/jeditemple/bridgefloor2
 textures/jeditemple/libraryfloor
 {
 	qer_editorimage	textures/jeditemple/libraryfloor
+	portal
 	q3map_material	Rock
     {
         map textures/imperial/env_shiny_floor
@@ -751,6 +753,7 @@ textures/jeditemple/u_metalorange04
 textures/jeditemple/u_metalorange
 {
 	qer_editorimage	textures/jeditemple/u_metalorange
+	portal
 	q3map_material	Rock
     {
         map textures/imperial/env_shiny_floor
@@ -787,6 +790,7 @@ textures/jeditemple/pillarbase
 textures/jeditemple/marblefloor
 {
 	qer_editorimage	textures/jeditemple/marblefloor
+	portal
 	q3map_material	Rock
     {
         map textures/imperial/env_shiny_floor
