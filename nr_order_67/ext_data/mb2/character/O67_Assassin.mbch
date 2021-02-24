@@ -10,7 +10,7 @@ ClassInfo
 	attributes			MB_ATT_ASSEMBLE,1|MB_ATT_DODGE,3|MB_ATT_ARMOUR,1|MB_ATT_DEXTERITY,3|MB_ATT_STAMINA,3|MB_ATT_FORCEBLOCK,1
 	maxhealth			80
 	maxarmor			80
-	speed				1.0
+	speed				1.4
 	forcepool			20
 	forceregen			2
 	model				"clonetrooper"

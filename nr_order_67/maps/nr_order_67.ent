@@ -1437,10 +1437,12 @@
 "classname" "trigger_multiple"
 "model" "*88"
 }
+
+/* Switch to Unlock Secondary Doors */
 {
 "team" "2"
 "angle" "360"
-"target" "newrelay1"
+"target" "newrelay1" //Opens Doors
 "spawnflags" "6"
 "noise" "sound/movers/switches/switch1.mp3"
 "targetname" "triggeronceincouncil"
@@ -1471,12 +1473,7 @@
 "targetname" "messagecouncilopen"
 "classname" "target_print"
 }
-{
-"origin" "-112 -1116 3184"
-"target" "messagecouncilopen"
-"targetname" "middleforimpsrelay"
-"classname" "target_relay"
-}
+
 {
 "targetname" "targetrelaytofinal"
 "target" "t9"
@@ -2331,6 +2328,10 @@
 "origin" "-2978 -5512 624"
 "classname" "NPC_spawner"
 }
+
+
+
+// In Council Chambers
 {
 "helpiconindex" "0"
 "showhealth" "1"
@@ -2342,6 +2343,55 @@
 "teamowner" "1"
 "classname" "NPC_spawner"
 }
+
+// Calls Message "Secondary Doors Open"
+{
+"origin" "-112 -1116 3184"
+"target" "messagecouncilopen"
+"targetname" "middleforimpsrelay"
+"classname" "target_relay"
+}
+
+
+// Triggered, Falls from Ceiling in Council Chambers
+{
+"helpiconindex" "0"
+"showhealth" "1"
+"angle" "270"
+"spawnflags" "16"
+"NPC_type" "younglingdouble"
+"origin" "-201 -835 3374"
+"teamnodmg" "1"
+"targetname" "councilfallingyoungling"
+"teamowner" "1"
+"classname" "NPC_spawner"
+}
+
+// Sound Effect triggered when that button is pushed
+
+{
+"targetname" "councilfallingyounglingsfx"
+"noise" "sound/nr_order_67/scream"
+"spawnflags" "1"
+"origin" "-5755 492 660"
+"classname" "target_speaker"
+}
+
+// Two New Relays fire off these tasks above
+{
+"targetname" "middleforimpsrelay"
+"target" "councilfallingyounglingsfx"
+"origin" "-88 -1052 3128"
+"classname" "target_relay"
+}
+
+{
+"targetname" "middleforimpsrelay"
+"target" "councilfallingyoungling"
+"origin" "-40 -1052 3128"
+"classname" "target_relay"
+}
+
 
 // Behind Library Door 1
 {
@@ -2478,7 +2528,7 @@
 "origin" "-5328 2248 688"
 "targetname" "thatstooeasydoor"
 "spawnflags" "2"
-"message" "Yeah, it's not going to be that easy!"
+"message" "Damn, this ways blocked!!"
 "classname" "target_print"
 "private" "1"
 }
@@ -2529,10 +2579,35 @@
 "origin" "-4456 -2896 728"
 "random" "3000"
 "fxFile" "effects/mace/RC_Placeholder.efx"
-"fxFileEnhanced2" "effects/mace/rc_flakexplo.efx"
+"fxFileEnhanced2" "effects/volumetic/smoke.efx"
 "delay" "1000"
 "classname" "fx_runner"
 "targetname" "doorboom"
 "startoff"	"1"
 "oneshot"	"1"
+}
+
+// Dead Clones
+
+
+{
+"origin" "-2720 -2612 578"
+"angle"	 "315"
+"classname" "misc_model_static"
+"model" "models/map_objects/rcclones/corpse_1.MD3"
+}
+
+
+{
+"origin" "-2328 -1840 576"
+"angle"	 "180"
+"classname" "misc_model_static"
+"model" "models/map_objects/rcclones/corpse_1.MD3"
+}
+
+{
+"origin" "-1248 -840 514"
+"angle"	 "90"
+"classname" "misc_model_static"
+"model" "models/map_objects/rcclones/corpse_3_headless.MD3"
 }
