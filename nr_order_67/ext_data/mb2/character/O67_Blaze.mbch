@@ -3,9 +3,9 @@
 ClassInfo
 {
 	name			"O67_Blaze"
-	weapons			WP_CONCUSSION|WP_MELEE
-	attributes		MB_ATT_ASSEMBLE,1|MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_JETPACK,1|MB_ATT_HULL_STRENGTH,2|MB_ATT_FUEL,3|MB_ATT_WOOKIEE_FURY,1|MB_ATT_HULL_STRENGTH,1|MB_ATT_FLAMETHROWER|MB_ATT_CORTOSIS|MB_ATT_MAGNETIC_PLATING,1|MB_ATT_HEALING,1
-	classflags		CFL_HEAVYMELEE|CFL_BLOODYMELEE
+	weapons			WP_REPEATER|WP_CONCUSSION|WP_MELEE
+	attributes		MB_ATT_ASSEMBLE,1|MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_JETPACK,2|MB_ATT_HULL_STRENGTH,2|MB_ATT_FUEL,2|MB_ATT_WOOKIEE_FURY,1|MB_ATT_CORTOSIS|MB_ATT_HEALING,1|MB_ATT_CLONERIFLE,3
+	classflags		CFL_HEAVYMELEE|CFL_BLOODYMELEE|CFL_WFLAMETHROWER
 	maxhealth		250
 	maxArmor		250
 	model			"woo_blaze501"				//this is optional, if it's here it forces the model to this.
@@ -22,6 +22,8 @@ ClassInfo
 	rageSoundOverride 	"sound/weapons/overchargeend.wav"
 	bargeSoundOverride 	"sound/SBD/SBDWalk2.mp3"	
 	speed 0.7
+	WP_CONCUSSIONFlags	HELD_LOWDAMAGE
+	WP_RepeaterFlags HELD_FLAME
 }
 
 WeaponInfo0
@@ -30,21 +32,39 @@ WeaponInfo0
 	WeaponBasedOff		WP_CONCUSSION
 	NewWorldModel		"models/weapons2/CR-1_cannon/rifle_w.glm"
 	NewViewModel		"models/weapons2/CR-1_cannon/rifle.md3"
-	MissileEffect		"Blaster/Shot01B"
-	FlashSound0			"sound/weapons/t-21/alt_fire.mp3"
+	MuzzleEffect		"Blaster/MuzzleFlash01G"	   					//Optional: New muzzle effect
+	AltMuzzleEffect		"Blaster/MuzzleFlash01G" 						//Optional: New alt muzzle effect
+	MissileEffect		"Blaster/Shot11G"  								//Optional: New effect to be displayed on the projectile
+	Missile3Effect		"Blaster/Shot03G"  								//Optional: New effect to be displayed on the projectile
+	AltMissileEffect	"Blaster/Shot11G"  								//Optional: Ditto for the alt fire
+	PowerupShotEffect	"Blaster/Shot04G"  								//Optional: Ditto for the alt fire
+	ChargeEffect		"gfx/effects/greenFrontFlash"
+	OverchargeEffect	"Blaster/MuzzleCharge01G"
+	FlashSound0			"sound/weapons/dc17m/fire.wav"
 	Icon				"gfx/doom_wpicons/w_icon_arm"
 	WeaponName			"Blaze Wrist Cannon"
 	altFireEnabled		1
-	clipSize			900
-	customAmmo			900		
+	clipSize			800
+	customAmmo			800		
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_REPEATER
+	WeaponBasedOff		WP_REPEATER
+	NewWorldModel		"models/weapons2/CR-1_cannon/rifle_w.glm"
+	NewViewModel		"models/weapons2/CR-1_cannon/rifle.md3"
+	Icon				"gfx/doom_wpicons/w_icon_arm"
+	WeaponName			"Blaze Wrist Flamer"
+	customAmmo			800	
 }
 
 description			"Clone Blaze Trooper
 
 Weaponry:
 Fists
-Arm Mounted Laser
-Wrist Mount Flame Thrower
+Blaze Wrist Cannon
+Blaze Wrist Flamer
 
 Attributes:
 Heavy Blaze Cortosis Armoror
@@ -57,4 +77,4 @@ Stats:
 HP: (250)
 Armor: (250)
 
-The clone blaze trooper was an advanced jet trooper. It had very heavy armor, limited flight capability and a hulking big weight used to overpower foes. Wrist Mounted Arm Cannots and Flame throwers made the Blaze Troopers feared by friend and foe alike."
+The clone blaze trooper was an advanced jet trooper. It had very heavy armor, limited flight capability and a hulking big weight used to overpower foes. Wrist Mounted Arm Cannons and Flame throwers made the Blaze Troopers feared by friend and foe alike."

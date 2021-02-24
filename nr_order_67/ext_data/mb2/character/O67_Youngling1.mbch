@@ -20,7 +20,7 @@ ClassInfo
 	speed			1.9
 	extralives		99
 	classflags		CFL_ACIDBLOOD|CFL_BLOODYMELEE
-	respawnWait		8
+	respawnWait		10000
 }
 
 description	"Jedi Youngling

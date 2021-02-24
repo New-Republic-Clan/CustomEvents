@@ -8,7 +8,7 @@ LevelshotDesc
 {
     desc1
     {   
-        text "Palpatine has executed Order 67. Order 67 is declared in the event his Sith Magic has backfired and Jedi Younglings become possesed. All Clones Units to assist! Gain Access to the beacon room and Activate the self destruct to prevent them escaping. Good Luck!.
+        text "Palpatine has executed Order 67. Order 67 is declared in the event his Sith sorcery has backfired and Jedi Younglings become possesed. All Clones Units to assist! Gain access to the beacon room and Activate the self destruct to prevent them escaping. Good Luck!.
 "
         
         rect "410 147 220 55"
@@ -16,7 +16,7 @@ LevelshotDesc
     }
     desc2
     {   
-        text "Hyal Ajak anjat Châts Chwayat Dwomutsiqsa Derriphan Kintik Sutta Chwituskak kill Jidai Nun Won"
+        text "Zudyti clones.  Tau Geida Kia Akizas Mus Nuotekimas.  Vonia Is Kraujas ir Kristi Atsak iv Guduma Ikuny!"
         rect "410 258 220 55"
         scale 0.125
     }
