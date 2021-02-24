@@ -3,10 +3,10 @@ ClassInfo
 	name			"O67_Flamer"
 	weapons			WP_REPEATER|WP_TRIP_MINE|WP_DEMP2|WP_MELEE
 	WP_RepeaterFlags HELD_FLAME|HELD_KNOCKBACK	
-	attributes		MB_ATT_FUEL,3|MB_ATT_ARMOR,3|MB_ATT_FIRE_GRENADES,2|MB_ATT_CLONERIFLE,3
-	classflags      CFL_WFLAMETHROWER
+	attributes		MB_ATT_ASSEMBLE,1|MB_ATT_FUEL,3|MB_ATT_ARMOR,3|MB_ATT_FIRE_GRENADES,2|MB_ATT_CLONERIFLE,3
+	classflags      CFL_WFLAMETHROWER|CFL_EXTRAFLAMEDAMAGE
 	maxhealth		110
-	maxarmor		40
+	maxarmor		110
 	model			"FlameTrooper"
 	skin			"default"	
 	customred		0.120

@@ -8,7 +8,7 @@ LevelshotDesc
 {
     desc1
     {   
-        text "Palpatine has executed Order 67. Order 67 is declared in the event Jedi Younglings become possesed. All Clones Units to assist! Activate the self destruct in the beacon room to prevent the escape. Work as a team and Good Luck!.
+        text "Palpatine has executed Order 67. Order 67 is declared in the event his Sith Magic has backfired and Jedi Younglings become possesed. All Clones Units to assist! Gain Access to the beacon room and Activate the self destruct to prevent them escaping. Good Luck!.
 "
         
         rect "410 147 220 55"
@@ -16,7 +16,7 @@ LevelshotDesc
     }
     desc2
     {   
-        text ""
+        text "Hyal Ajak anjat Châts Chwayat Dwomutsiqsa Derriphan Kintik Sutta Chwituskak kill Jidai Nun Won"
         rect "410 258 220 55"
         scale 0.125
     }
@@ -35,128 +35,6 @@ AutoMap
 		height "0"
 	}
 }
-
-HelpIcons
-{
-	//younglings
-	HelpIcon0
-	{
-		dynamic 1
-		end0 "finalobjective"
-		redicon HLP_DEFEND_SUB
-		blueicon HLP_DESTROY_SUB
-		specicon HLP_DEFEND_SUB
-		sideobjective 1
-	}
-	
-	//beacon hack
-	HelpIcon1
-	{
-		end0 "hackrelaytofinal"
-		origin "-5279 2111 734"
-		redicon HLP_DEFEND
-		blueicon HLP_HACK
-		specicon HLP_DEFEND
-	}
-	
-	//doors unlock
-	HelpIcon2
-	{
-		end0 "messagecouncilopen"
-		origin "-83 -1118 3108"
-		redicon HLP_DEFEND_SUB
-		blueicon HLP_HACK_SUB
-		specicon HLP_DEFEND_SUB
-		sideobjective 1
-	}
-	
-	//youngling long range icons
-	//starmap room
-	HelpIcon3
-	{
-		childradius 600
-		end0 "counteryounglings6"
-		end1 "finalobjective"
-		origin "-2980 -5512 688"
-		redicon HLP_DEFEND_SUB
-		blueicon HLP_DESTROY_SUB
-		specicon HLP_DEFEND_SUB
-		sideobjective 1
-	}
-	//library
-	HelpIcon4
-	{
-		childradius 950
-		end0 "counteryounglings4"
-		end1 "finalobjective"
-		origin "-5070 -1636 1098"
-		redicon HLP_DEFEND_SUB
-		blueicon HLP_DESTROY_SUB
-		specicon HLP_DEFEND_SUB
-		sideobjective 1
-	}
-	//briefing room
-	HelpIcon5
-	{
-		childradius 350
-		end0 "counteryounglings2"
-		end1 "finalobjective"
-		origin "-3044 -440 672"
-		redicon HLP_DEFEND_SUB
-		blueicon HLP_DESTROY_SUB
-		specicon HLP_DEFEND_SUB
-		sideobjective 1
-	}
-	//waiting room
-	HelpIcon6
-	{
-		childradius 400
-		end0 "counteryounglings7"
-		end1 "finalobjective"
-		origin "-300 -832 672"
-		redicon HLP_DEFEND_SUB
-		blueicon HLP_DESTROY_SUB
-		specicon HLP_DEFEND_SUB
-		sideobjective 1
-	}
-	//council
-	HelpIcon7
-	{
-		childradius 500
-		end0 "counteryounglings5"
-		end1 "finalobjective"
-		origin "-203 -832 3178"
-		redicon HLP_DEFEND_SUB
-		blueicon HLP_DESTROY_SUB
-		specicon HLP_DEFEND_SUB
-		sideobjective 1
-	}
-	//interception
-	HelpIcon8
-	{
-		childradius 950
-		end0 "counteryounglings1"
-		end1 "finalobjective"
-		origin "-4260 960 698"
-		redicon HLP_DEFEND_SUB
-		blueicon HLP_DESTROY_SUB
-		specicon HLP_DEFEND_SUB
-		sideobjective 1
-	}
-	//laboratory
-	HelpIcon9
-	{
-		childradius 300
-		end0 "counteryounglings3"
-		end1 "finalobjective"
-		origin "-5470 579 800"
-		redicon HLP_DEFEND_SUB
-		blueicon HLP_DESTROY_SUB
-		specicon HLP_DEFEND_SUB
-		sideobjective 1
-	}
-}
-
 roundbegin_target ""
 
 Younglings
@@ -169,21 +47,21 @@ Younglings
 
 	Objective1
 	{
-		goalname "ACCOMPLISH: Attract the Rescue Squad"
+		goalname "Kill the outsiders so we can escape!"
 		final 0
 		message_team1 "We are Saved!"
 		message_team2 "Well done!"
-		objdesc "ACCOMPLISH: Kill all the Clones."
+		objdesc "ACCOMPLISH: kill all outsiders."
 		objgfx "gfx/mplevels/mb2_jeditemple/objr"
 	}
 
-	wonround "The Jedi have prevailed!"
-	lostround "It's over. The Sith have defeated us."
+	wonround "Now is the time to bring death!"
+	lostround "The outsiders have sealed our fate!!"
 	roundover_sound_wewon ""
 	roundover_sound_welost ""
 	roundover_target "siegeend"
 	attackers 0
-	briefing "Hold the Clone troops."
+	briefing "Kill all of the outsiders."
 }
 
 Clones
@@ -194,12 +72,22 @@ Clones
 	TeamIcon "gfx/2d/logos/mb_clonerepublic"
 	TeamColorOn	"0 0 1 1"
 	TeamColorOff "0 0 .7 1"
+	
+	Objective1
+	{
+		goalname "ACCOMPLISH: Activate the temples self destruct"
+		final 0
+		message_team1 "Good Job Solider!"
+		message_team2 "Well done!"
+		objdesc "ACCOMPLISH: Activate the self destruct"
+		objgfx "gfx/mplevels/mb2_jeditemple/objr"
+	}	
 
-	wonround "Childs Play!!"
+	wonround "KABOOM! Childs Play!!"
 	lostround "You lost to a bunch of children!!"
 	roundover_sound_wewon ""
 	roundover_sound_welost ""
 	roundover_target "siegeend"
 	attackers 1
-	briefing "Hunt down the Jedi Younglings."
+	briefing "Activate the self destruct"
 }

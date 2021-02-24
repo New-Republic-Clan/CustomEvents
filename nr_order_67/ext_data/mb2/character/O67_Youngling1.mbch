@@ -4,20 +4,23 @@ ClassInfo
 {
 	name			"O67_Youngling1"
 	weapons			WP_SABER|WP_MELEE
-	sabercolor		3
+	sabercolor		0
 	saberstyle		SS_Medium
-	attributes		MB_ATT_FORCEFOCUS,1|MB_ATT_FORCEBLOCK,2|MB_ATT_DEFLECT,1|MB_ATT_RESPAWNS,2|MB_ATT_FORCEFOCUS,1
-	maxhealth		120
-	modelscale		0.5
-	model			"youngling"
+	attributes		MB_ATT_FORCEFOCUS,1|MB_ATT_FORCEBLOCK,2|MB_ATT_DEFLECT,3|MB_ATT_FORCEFOCUS,1|MB_ATT_ROSHTAUNT
+	maxhealth		170
+	modelscale		0.6
+	model			"kyoungling"
 	skin			"default"
- 	uishader		"gfx/FAicons/mb2_icon_youngling1"
+ 	uishader		"models/players/kyoungling/mb_icon_default"
 	MBClass			MB_CLASS_JEDI
  	saber1			"trials_youngshort2"																																																					
- 	forcepowers		FP_LEVITATION,2|FP_SABER_DEFENSE,2|FP_PUSH,2|FP_SABER_OFFENSE,2|FP_TELEPATHY,1												
+ 	forcepowers		FP_LEVITATION,3|FP_SABER_DEFENSE,3|FP_PUSH,3|FP_SABER_OFFENSE,3|FP_TELEPATHY,3|FP_LIGHTNING,3										
  	forceregen		1													
  	forcepool   	100			
-	speed			1.0	
+	speed			1.9
+	extralives		99
+	classflags		CFL_ACIDBLOOD|CFL_BLOODYMELEE
+	respawnWait		8
 }
 
 description	"Jedi Youngling
@@ -32,9 +35,9 @@ Saber Defense		(2)
 Force Push			(2)
 Force Jump			(2)
 
-
-
 Abilities:
-Reinforcements		(2)
+Deadly Chant 		(Taunting Causes Damage)
+Lives 				(99)
+Respawn Delay		8 Seconds
 
-Don't under estimate these Younglings. Not only are they angry! but they have a few tricks up their sleeves."
+Possed by dark forces! these younglings are far from the ones you would expect to see in the Jedi Temple."

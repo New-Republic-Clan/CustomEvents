@@ -4,7 +4,7 @@ ClassInfo
 {
 	name				"O67_General"
 	weapons				WP_DEMP2|WP_MELEE
-	attributes			MB_ATT_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_HEALING,2|MB_ATT_ARMOUR,3|MB_ATT_STAMINA,3|MB_ATT_DEXTERITY,3|MB_ATT_FLIPKICK
+	attributes			MB_ATT_PISTOL,3|MB_ATT_AMMO,3|MB_ATT_HEALING,2|MB_ATT_ARMOUR,3|MB_ATT_STAMINA,3|MB_ATT_DEXTERITY,3|MB_ATT_FLIPKICK|MB_ATT_HEALING,3|MB_ATT_RALLY,1
 	forcepowers			FP_SEE,1
 	maxhealth			100
 	maxarmor			100
@@ -52,18 +52,14 @@ Ammo		(3)
 Infrared Sensors (stat-seeing)
 
 Abilities:
-Reinforcements	(2)
+Rally (All Troops Rally On Commander)
 Dexterity	(3)
 Stamina		(3)
 Healing		(2)
 Radar		(1)
 Flipkick
 Lives 		(3)
+Self Healing (3)
 
-Commander Appo,otherwise known as Clone Commander CC-1119.
-
-Vader considered him one of the most elite of all commanders. 
-
-The ARC Generals were given the very best training, and often gifted with a greater level of independance in their genetic programming than other clones.  
-
-The Generals were responsible for the direction of large battalions of Clones, and in some cases even chose names for themselves, working side by side with the Jedi as individuals."
+Clone Commanders, also known as clone trooper commanders, were the highiest ranking members in the Grand Army of the Republic held by clone trooper officers who 
+led regiments of 2,304 troopers"

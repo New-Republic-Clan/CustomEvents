@@ -4,7 +4,7 @@ ClassInfo
 {
 	name			"O67_Blaze"
 	weapons			WP_CONCUSSION|WP_MELEE
-	attributes		MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_JETPACK,1|MB_ATT_HULL_STRENGTH,2|MB_ATT_FUEL,3|MB_ATT_WOOKIEE_FURY,1|MB_ATT_HULL_STRENGTH,1|MB_ATT_FLAMETHROWER
+	attributes		MB_ATT_ASSEMBLE,1|MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_JETPACK,1|MB_ATT_HULL_STRENGTH,2|MB_ATT_FUEL,3|MB_ATT_WOOKIEE_FURY,1|MB_ATT_HULL_STRENGTH,1|MB_ATT_FLAMETHROWER|MB_ATT_CORTOSIS|MB_ATT_MAGNETIC_PLATING,1|MB_ATT_HEALING,1
 	classflags		CFL_HEAVYMELEE|CFL_BLOODYMELEE
 	maxhealth		250
 	maxArmor		250
@@ -32,9 +32,9 @@ WeaponInfo0
 	NewViewModel		"models/weapons2/CR-1_cannon/rifle.md3"
 	MissileEffect		"Blaster/Shot01B"
 	FlashSound0			"sound/weapons/t-21/alt_fire.mp3"
-	Icon				"gfx/hud/w_icon_cr1_blastcannon"
+	Icon				"gfx/doom_wpicons/w_icon_arm"
 	WeaponName			"Blaze Wrist Cannon"
-	altFireEnabled		0
+	altFireEnabled		1
 	clipSize			900
 	customAmmo			900		
 }
@@ -44,10 +44,10 @@ description			"Clone Blaze Trooper
 Weaponry:
 Fists
 Arm Mounted Laser
-Wrist Mount Flame Thrower (Special)
+Wrist Mount Flame Thrower
 
 Attributes:
-Heavy Blaze Armor
+Heavy Blaze Cortosis Armoror
 Blaze Strength
 Blaze Melee Damage
 Blaze Power Boost (Rage)

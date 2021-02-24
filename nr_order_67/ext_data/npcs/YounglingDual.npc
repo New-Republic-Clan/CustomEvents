@@ -1,7 +1,7 @@
 younglingdual
 {
-	playerModel	youngling
-	customSkin	kylekid
+	playerModel	kyoungling
+	customSkin	default
 	saber		dual_2
 	scale 		50		
 	saberColor	red

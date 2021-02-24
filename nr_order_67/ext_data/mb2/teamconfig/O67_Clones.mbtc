@@ -31,6 +31,5 @@ SubclassesForClass3
 	SubClass3 "O67_Riot"
 	SubClass4 "O67_Medic"	
 	SubClass5 "O67_Engineer"	
-	SubClass6 "O67_Swoop"	
-	SubClass7 "O67_Assassin"
+	SubClass6 "O67_Assassin"
 }

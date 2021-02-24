@@ -5,10 +5,11 @@ ClassInfo
 	name				"O67_Riot"
 	weapons				WP_SABER|WP_BLASTER
 	saber1				clone_shield
-	saberstyle			SS_STRONG
-	attributes			MB_ATT_ARMOUR,3|MB_ATT_FORCEBLOCK,3|MB_ATT_CORTOSIS
-	maxhealth			250
-	maxarmor			250
+	saberstyle			SS_MEDIUM
+	attributes			MB_ATT_ASSEMBLE,1|MB_ATT_ARMOUR,3|MB_ATT_FORCEBLOCK,2|MB_ATT_CORTOSIS
+	forcepowers			FP_SABER_DEFENSE,3
+	maxhealth			80
+	maxarmor			100
 	speed				1.0
 	model				"clonetrooper_p2"
 	skin				"shock_rgb"
@@ -19,9 +20,8 @@ ClassInfo
 	MBClass				MB_CLASS_JEDI
 	forcepool			140
 	forceregen			2
-	BPmultiplier		10
 	classNumberLimit	1
-	classflags			CFL_HASQ3|CFL_STRONGAGAINSTPHYSICAL|CFL_NOLOCATIONALDAMAGE
+	classflags			CFL_STRONGAGAINSTPHYSICAL|CFL_NOLOCATIONALDAMAGE
 	extralives			2
 	WP_SABERFlags		HELD_KNOCKDOWN	
 }
@@ -34,7 +34,7 @@ WeaponInfo0
 	NewViewModel		"models/weapons2/dummy/dummy.md3"   	//Required: New 1st person weapon model
 	Icon				"models/weapons2/clone_shield/w_icon_shield" 	//Required: Weapon change icon
 	WeaponName			"Riot Shield"    					//Required: Weapon change display name
-	primFireEnabled 	"1"
+	primFireEnabled 	"0"
 	FlashSound0			"sound/weapons/minigun/fire.wav" 
 	ChargeSound			"sound/weapons/minigun/fire.wav" 
 	

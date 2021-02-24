@@ -1,7 +1,7 @@
 younglingstaff
 {
-	playerModel	youngling
-	customSkin	kylekid
+	playerModel	kyoungling
+	customSkin	default
 	saber		single_2
 	scale 		70		
 	saberColor	red
@@ -15,12 +15,12 @@ younglingstaff
 	FP_PUSH			3
 	FP_PULL			2
 	FP_TELEPATHY	2
-	FP_GRIP			0
+	FP_GRIP			3
 	FP_LIGHTNING	3
-	FP_RAGE			0
+	FP_RAGE			3
 	FP_PROTECT		2
 	FP_ABSORB		2
-	FP_DRAIN		0
+	FP_DRAIN		3
 	FP_SEE			2
 	FP_SABERTHROW	3
 	FP_SABER_DEFENSE 3
