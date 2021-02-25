@@ -6,11 +6,11 @@ ClassInfo
 	maxhealth		85
 	maxarmor		40
 	model			"clonetrooper_p2"
-	skin			"501"
+	skin			"deviss_rgb"
+	uishader		"gfx/hud/fa_icons/mb2_icon_arcp2_deviss_blue"
 	customred		0.120
 	customgreen		0.275
 	customblue		0.474
-	uishader		"models/players/clonetrooper_p2/mb2_icon_501"
 	MBClass			MB_CLASS_HERO
 	holdables		HI_BINOCULARS
 	classNumberLimit	1
@@ -22,10 +22,11 @@ WeaponInfo0
 {
 	WeaponToReplace		WP_DEMP2
 	WeaponBasedOff		WP_DEMP2
-	NewWorldModel		"models/weapons2/dc-17_cw/dc-17_w.glm"
-	NewViewModel		"models/weapons2/dc-17_cw/dc-17_cw.md3"
-	Icon				"gfx/hud/w_icon_dc-17_cw.tga"
-	WeaponName			"DC-17 Hand Blaster"
+	NewWorldModel		"models/weapons2/dc-17/dc-17_w.glm"
+	NewViewModel		"models/weapons2/dc-17/dc-17.md3"
+	Icon				"gfx/hud/w_icon_dc-17"
+	FlashSound0			"sound/weapons/bf_dc-17p/fire.wav"	
+	WeaponName			"DC-17 Pistol"
 }
 
 WeaponInfo1
@@ -38,7 +39,7 @@ WeaponInfo1
 	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
 	MissileEffect		"Blaster/Shot02B"
 	AltMissileEffect 	"Blaster/Shot02B"
-	FlashSound0			"sound/weapons/repeater/fire.mp3"
+	FlashSound0			"sound/weapons/bf_dc-15x/fire.wav"
 	Icon				"gfx/hud/w_icon_dlt-18"
 	WeaponName			"DC-15X Sniper Rifle"
 }
@@ -53,8 +54,8 @@ WeaponInfo2
 	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
 	MissileEffect		"Blaster/Shot02B"
 	AltMissileEffect 	"Blaster/Shot02B"
-	FlashSound0			"sound/weapons/repeater/fire.mp3"
-	AltFlashSound0		"sound/weapons/repeater/fire.mp3"
+	FlashSound0			"sound/weapons/bf_dc-15s/fire.wav"
+	AltFlashSound0		"sound/weapons/bf_dc-15s/fire.wav"
 	Icon				"gfx/hud/w_icon_dc-15s"
 	WeaponName			"DC-15S Blaster Carbine"
 	customammo			480

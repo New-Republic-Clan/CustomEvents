@@ -3,7 +3,7 @@
 ClassInfo
 {
 	name			"O67_Clone"
-	weapons			WP_REPEATER|WP_MELEE
+	weapons			WP_REPEATER|WP_MELEE|WP_DEMP2
 	attributes		MB_ATT_CLONERIFLE,1|MB_ATT_AMMO,3|MB_ATT_ARMOUR,2|MB_ATT_STAMINA,1
 	maxhealth		50
 	maxarmor		40
@@ -19,25 +19,33 @@ ClassInfo
 
 WeaponInfo0
 {
-	WeaponToReplace		WP_BLASTER
+	WeaponToReplace		WP_REPEATER
 	WeaponBasedOff		WP_REPEATER
-	NewWorldModel		"models/weapons2/dc-15s/dc-15s_w.glm"
-	NewViewModel		"models/weapons2/dc-15s/dc-15s.md3"
-	MuzzleEffect		"Blaster/MuzzleFlash01B"   				//Optional: New muzzle effect
-	AltMuzzleEffect		"Blaster/MuzzleFlash01B" 				//Optional: New alt muzzle effect
-	MissileEffect		"Blaster/Shot02B"  					//Optional: New effect to be displayed on the projectile
-	AltMissileEffect 	"Blaster/Shot02B"  					//Optional: Ditto for the alt fire
-	FlashSound0			"sound/weapons/repeater/fire.mp3"  			//Optional: Sound played when the weapon fires
-	AltFlashSound0		"sound/weapons/repeater/fire.mp3"
-	Icon				"gfx/hud/w_icon_dc-15s" 				//Required: Weapon change icon
-	WeaponName			"DC-15S Carbine"    					//Required: Weapon change display name
+	NewWorldModel		"models/weapons2/dc-15_ext/dc-15_ext_w.glm"  	//Required: New 3rd person/dropped weapon model
+	NewViewModel		"models/weapons2/dc-15_ext/dc-15_ext.md3"   	//Required: New 1st person weapon model
+	Icon				"gfx/hud/w_icon_clonerifle_blobs" 			//Required: Weapon change icon
+	WeaponName			"DC-15 Carbine"    					//Required: Weapon change display name
+	FlashSound0			"sound/weapons/bf_dc-15s/fire.wav"
+	AltFlashSound0		"sound/weapons/bf_dc-15s/fire.wav"				//Required: Weapon change display name
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_DEMP2
+	WeaponBasedOff		WP_DEMP2
+	NewWorldModel		"models/weapons2/dc-17/dc-17_w.glm"
+	NewViewModel		"models/weapons2/dc-17/dc-17.md3"
+	Icon				"gfx/hud/w_icon_dc-17"
+	WeaponName			"DC-17 Pistol"
+	FlashSound0			"sound/weapons/bf_dc-17p/fire.wav"
 }
 
 description	"Clone Trooper
 
 
 Weaponry:
-DC-15S Carbine	(1)
+DC-15 Carbine	(1)
+DC-17 Pistol (1)
 
 Items:
 Armour		(3)

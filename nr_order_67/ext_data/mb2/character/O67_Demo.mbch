@@ -8,8 +8,8 @@ ClassInfo
 	maxhealth			100
 	maxarmor			60
 	model				"clonetrooper_p2"
-	skin				"cody_rgb"
-	uishader			"gfx/hud/fa_icons/mb2_icon_clonep2_cody_blue"
+	skin				"bacara_rgb"	
+	uishader			"gfx/hud/fa_icons/mb2_icon_clonep2_bacara_blue"
 	customred			0.120
 	customgreen			0.275
 	customblue			0.474
@@ -33,8 +33,18 @@ WeaponInfo0
 	WeaponName			"Thermal Detonator"    					//Required: Weapon change display name
 }
 
-description	"Clone Demolition Trooper
+WeaponInfo1
+{
+	WeaponToReplace		WP_DEMP2
+	WeaponBasedOff		WP_DEMP2
+	NewWorldModel		"models/weapons2/dc-17/dc-17_w.glm"
+	NewViewModel		"models/weapons2/dc-17/dc-17.md3"
+	FlashSound0			"sound/weapons/bf_dc-17p/fire.wav"	
+	Icon				"gfx/hud/w_icon_dc-17"
+	WeaponName			"DC-17 Pistol"
+}
 
+description	"Clone Demolition Trooper
 
 Weaponry:
 Clone Pistol	(1)

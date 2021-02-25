@@ -22,6 +22,18 @@ ClassInfo
 	extralives			2	
 }
 
+WeaponInfo0
+{
+	WeaponToReplace		WP_DEMP2
+	WeaponBasedOff		WP_DEMP2
+	NewWorldModel		"models/weapons2/dc-17/dc-17_w.glm"
+	NewViewModel		"models/weapons2/dc-17/dc-17.md3"
+	Icon				"gfx/hud/w_icon_dc-17"
+	WeaponName			"DC-17 Pistol"
+	FlashSound0			"sound/weapons/bf_dc-17p/fire.wav"	
+}
+
+
 description	"Jet Trooper
 
 Weaponry:

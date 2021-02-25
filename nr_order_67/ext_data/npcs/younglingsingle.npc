@@ -38,7 +38,7 @@ younglingsingle
 	intelligence	5
 	playerTeam	TEAM_ENEMY 
 	enemyTeam   TEAM_PLAYER
-	class		CLASS_DESANN
+	class		CLASS_REBORN
 	yawSpeed	140
 	walkSpeed	55
 	runSpeed	350

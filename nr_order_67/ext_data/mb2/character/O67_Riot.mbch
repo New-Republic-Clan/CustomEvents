@@ -3,7 +3,7 @@
 ClassInfo
 {
 	name				"O67_Riot"
-	weapons				WP_SABER|WP_BLASTER
+	weapons				WP_SABER|WP_BLASTER|WP_DEMP2
 	saber1				clone_shield
 	saberstyle			SS_MEDIUM
 	attributes			MB_ATT_ASSEMBLE,1|MB_ATT_ARMOUR,3|MB_ATT_FORCEBLOCK,2|MB_ATT_CORTOSIS
@@ -11,6 +11,7 @@ ClassInfo
 	maxhealth			80
 	maxarmor			100
 	speed				1.0
+	BPmultiplier		9.0
 	model				"clonetrooper_p2"
 	skin				"shock_rgb"
 	uishader			"models/players/clonetrooper_p2/mb2_icon_riot"
@@ -34,10 +35,7 @@ WeaponInfo0
 	NewViewModel		"models/weapons2/dummy/dummy.md3"   	//Required: New 1st person weapon model
 	Icon				"models/weapons2/clone_shield/w_icon_shield" 	//Required: Weapon change icon
 	WeaponName			"Riot Shield"    					//Required: Weapon change display name
-	primFireEnabled 	"0"
-	FlashSound0			"sound/weapons/minigun/fire.wav" 
-	ChargeSound			"sound/weapons/minigun/fire.wav" 
-	
+	primFireEnabled 	"1"
 }
 
 
@@ -51,13 +49,23 @@ WeaponInfo1
 	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
 	MissileEffect		"Blaster/Shot02B"
 	AltMissileEffect 	"Blaster/Shot02B"
-	FlashSound0			"sound/weapons/repeater/fire.mp3"
-	AltFlashSound0		"sound/weapons/repeater/fire.mp3"
+	FlashSound0			"sound/weapons/bf_dc-15s/fire.wav"
+	AltFlashSound0		"sound/weapons/bf_dc-15s/fire.wav"
 	Icon				"gfx/hud/w_icon_dc-15s"
 	WeaponName			"DC-15S Blaster Carbine"
 	customammo			480
 }
 
+WeaponInfo2
+{
+	WeaponToReplace		WP_DEMP2
+	WeaponBasedOff		WP_DEMP2
+	NewWorldModel		"models/weapons2/dc-17/dc-17_w.glm"
+	NewViewModel		"models/weapons2/dc-17/dc-17.md3"
+	Icon				"gfx/hud/w_icon_dc-17"
+	WeaponName			"DC-17 Pistol"
+	FlashSound0			"sound/weapons/bf_dc-17p/fire.wav"	
+}
 
 description	"Clone Riot Trooper
 

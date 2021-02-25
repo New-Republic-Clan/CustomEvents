@@ -29,8 +29,19 @@ WeaponInfo0
 	NewBarrelModel		"models/weapons2/z6_rotary/rotary_cannon_barrel.md3"
 	Icon				"gfx/hud/w_icon_rotary_cannon" 			//Required: Weapon change icon
 	WeaponName			"Z6 Rotary Cannon"    					//Required: Weapon change display name
-	FlashSound0			"sound/weapons/minigun/fire.wav" 
+	FlashSound0			"sound/weapons/bf_z6/fire.wav" 
 	customAmmo 			999 	
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_DEMP2
+	WeaponBasedOff		WP_DEMP2
+	NewWorldModel		"models/weapons2/dc-17/dc-17_w.glm"
+	NewViewModel		"models/weapons2/dc-17/dc-17.md3"
+	Icon				"gfx/hud/w_icon_dc-17"
+	WeaponName			"DC-17 Pistol"
+	FlashSound0			"sound/weapons/bf_dc-17p/fire.wav"	
 }
 
 description	"Clone Heavy Trooper

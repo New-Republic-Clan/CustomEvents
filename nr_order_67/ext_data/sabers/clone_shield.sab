@@ -18,12 +18,27 @@ clone_shield
 	noClashFlare	1
 	trailStyle		1	
 	kataMove     LS_HILT_BASH
-	noRollStab			1
+	noRollStab			0
+	transitionDamage	0	
+	noPullAttack		0
+	noBackAttack		0
+	noStabDown			0
+	noWallRuns			0
+	noWallFlips			0
+	noWallGrab 			0
+	noRolls 			0
+	noFlips 			0
+	noCartwheels 		0
+	noKicks 			0
+	noMirrorAttacks 	0
+
 	blasterBlocking 1 	
 	numblades	4
 	bounceOnWalls	1	
 	saberRadius	20
-	damageScale 0.5		
+	damageScale 0.01
+	
+	knockbackScale 99			
 	alwaysBlock	1
 	spinsound	"sound/weapons/clawshield/spin.mp3"
 	swingSound1	"sound/weapons/clawshield/swing1.mp3"
