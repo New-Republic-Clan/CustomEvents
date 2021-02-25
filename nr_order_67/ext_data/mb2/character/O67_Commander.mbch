@@ -30,6 +30,7 @@ WeaponInfo0
 	NewViewModel		"models/weapons2/dc-17/dc-17.md3"
 	Icon				"gfx/hud/w_icon_dc-17_dual"
 	WeaponName			"Dual DC17 Pistols"
+	FlashSound0			"sound/weapons/bf_dc-17p/fire.wav"		
 	customAmmo			800		// 100 shots
 	clipSize			60		// 8 shots with regen
 }
