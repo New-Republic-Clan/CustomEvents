@@ -16,7 +16,8 @@ ClassInfo
 	MBClass				MB_CLASS_ARCTROOPER
 	classNumberLimit	1
     classflags			CFL_REALTD
-	extralives			2	
+	extralives			2
+	speed 0.9	
 }
 
 WeaponInfo0

@@ -1,0 +1,21 @@
+
+kyoung_dual_1
+{
+	name		@MENUS_STAFF_HILT1
+	saberType	SABER_STAFF
+	saberModel	"models/weapons2/saber_dual_5/saber_dual_5.glm"
+	soundOn		"sound/chars/kylekid/misc/jchase1.mp3"
+	soundLoop	"sound/weapons/saber_shadow/saberhum.wav"
+	soundOff	"ssound/weapons/saber_shadow/saberoffquick.mp3"
+	saberColor	random
+	numBlades	2
+	saberLength	32
+	saberStyle	staff
+	throwable		0
+	singleBladeStyle	medium
+	singleBladeThrowable		1
+	brokenSaber1	brokenstaff
+	brokenSaber2	brokenstaff
+	twoHanded		1
+}
+

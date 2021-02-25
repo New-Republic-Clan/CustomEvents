@@ -1,16 +1,18 @@
 {
 "classname" "worldspawn"
-"_color" "0.9 0.0 0.0"
+
 "angle" "125"
-"fog" "textures/fogs/yavin_swamp"
+"fog" "textures/fogs/fog"
 "_noshadersun" "1"
 "_minlight" "0.1"
 "_minvertexlight" "0.1"
 "fogstart" "1"
-"coldWorld" "1"
 "gridsize" "128 128 256"
 "music" "music/nr_order_67.mp3"
 "outsideBias" "1"
+"message" "hello world"
+"ambient" "50"
+"_color" "1 0 0"
 }
 {
 "origin" "-2992 -5248 674"
@@ -2618,3 +2620,39 @@
 "classname" "misc_model_static"
 "model" "models/map_objects/rcclones/corpse_3_headless.MD3"
 }
+
+{
+"origin" "-2824 -3960 584"
+"angle"	 "90"
+"classname" "misc_model_static"
+"model" "models/map_objects/rocky_ruins/bone_pile.md3"
+}
+
+{
+"origin" "-2824 -3808 554"
+"classname" "fx_runner"
+"fxFile" "*heavyrainfog"
+}
+{
+"origin" "-2920 -1768 554"
+"classname" "fx_runner"
+"fxFile" "*heavyrainfog"
+}
+{
+"origin" "-2328 -848 554"
+"classname" "fx_runner"
+"fxFile" "*heavyrainfog"
+}
+{
+"origin" "-1248 -784 554"
+"classname" "fx_runner"
+"fxFile" "*heavyrainfog"
+}
+{
+"origin" "-96 -792 554"
+"classname" "fx_runner"
+"fxFile" "*heavyrainfog"
+}
+
+
+

@@ -2,7 +2,9 @@ younglingdual
 {
 	playerModel	kyoungling
 	customSkin	default
-	saber		dual_2
+	saber		kyoung_single_1
+	saber2		kyoung_single_1	
+	saberStyle	6	
 	scale 		50		
 	saberColor	red
 	weapon	WP_SABER
@@ -41,7 +43,7 @@ younglingdual
 	class		CLASS_DESANN
 	yawSpeed	140
 	walkSpeed	55
-	runSpeed	400
+	runSpeed	350
 	snd			kylekid
 	sndcombat	kylekid
 	sndjedi		kylekid

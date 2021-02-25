@@ -1,0 +1,13 @@
+
+kyoung_single_1
+{
+	name		@MENUS_SINGLE_HILT1
+	saberType	SABER_SINGLE
+	saberModel	"models/weapons2/saber_1/saber_1.glm"
+	soundOn		"sound/chars/kylekid/misc/jchase1.mp3"
+	soundLoop	"sound/weapons/saber_shadow/saberhum.wav"
+	soundOff	"ssound/weapons/saber_shadow/saberoffquick.mp3"
+	saberLength	40
+	saberColor	random
+}
+

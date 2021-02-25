@@ -13,7 +13,7 @@ ClassInfo
 	skin			"default"
  	uishader		"models/players/kyoungling/mb_icon_default"
 	MBClass			MB_CLASS_JEDI
- 	saber1			"trials_youngshort2"																																																					
+ 	saber1			"kyoung_single_1"																																																					
  	forcepowers		FP_LEVITATION,3|FP_SABER_DEFENSE,3|FP_PUSH,3|FP_SABER_OFFENSE,3|FP_TELEPATHY,3|FP_LIGHTNING,3										
  	forceregen		1													
  	forcepool   	100			

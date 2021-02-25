@@ -2,8 +2,9 @@ younglingstaff
 {
 	playerModel	kyoungling
 	customSkin	default
-	saber		single_2
-	scale 		70		
+	saber		kyoung_dual_1
+	scale 		70	
+	saberStyle	7	
 	saberColor	red
 	weapon	WP_SABER
 	forcePowerMax	200
@@ -41,7 +42,7 @@ younglingstaff
 	class		CLASS_DESANN
 	yawSpeed	140
 	walkSpeed	55
-	runSpeed	400
+	runSpeed	350
 	snd			kylekid
 	sndcombat	kylekid
 	sndjedi		kylekid

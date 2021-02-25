@@ -2,7 +2,7 @@ younglingboss
 {
 	playerModel	kyoungling
 	customSkin	default
-	saber		O67_Young1Big
+	saber		kyoung_single_1
 	saberColor	red
 	scale 		120		
 	weapon	WP_SABER
