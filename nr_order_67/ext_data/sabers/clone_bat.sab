@@ -12,17 +12,66 @@ clone_bat
 	spinsound	"sound/weapons/melee/swing3.mp3"
 	swingSound1	"sound/weapons/melee/swing1.mp3"
 	swingSound2	"sound/weapons/melee/swing2.mp3"
-      saberLength	32
-      saberColor	random
-      noflips 1
+    saberLength	32
+    saberColor	random
+    noflips 1
 	noWallMarks	1
 	noDlight	1
 	noBlade	1
 	noClashFlare 1
 	trailStyle	2
 	noIdleEffect	1
-      throwable  0
-        kataMove     LS_HILT_BASH
+    throwable  0
+    kataMove     LS_HILT_BASH
+	
+	noRollStab			0
+	transitionDamage	0	
+	noPullAttack		0
+	noBackAttack		0
+	noStabDown			0
+	noWallRuns			0
+	noWallFlips			0
+	noWallGrab 			0
+	noRolls 			0
+	noFlips 			0
+	noCartwheels 		0
+	noKicks 			0
+	noMirrorAttacks 	0
+	damageScale 0.5	
+	knockbackScale 99
+	splashKnockback 10		
+	alwaysBlock	1
+	spinsound	"sound/weapons/clawshield/spin.mp3"
+	swingSound1	"sound/weapons/clawshield/swing1.mp3"
+	swingSound2	"sound/weapons/clawshield/swing2.mp3"
+	swingSound3	"sound/weapons/clawshield/swing3.mp3"
+	fallSound1	"sound/weapons/clawshield/fall1.mp3"
+	fallSound2	"sound/weapons/clawshield/fall2.mp3"
+	fallSound3	"sound/weapons/clawshield/fall3.mp3"
+	hitSound1	"sound/weapons/clawshield/slash1.mp3"
+	hitSound2	"sound/weapons/clawshield/slash2.mp3"
+	hitSound3	"sound/weapons/clawshield/slash3.mp3"
+	blockSound1	"sound/weapons/clawshield/block1.mp3"
+	blockSound2	"sound/weapons/clawshield/block2.mp3"
+	blockSound3	"sound/weapons/clawshield/block3.mp3"
+	bounceSound1	"sound/weapons/clawshield/bounce1.mp3"
+	bounceSound2	"sound/weapons/clawshield/bounce2.mp3"
+	bounceSound3	"sound/weapons/clawshield/bounce3.mp3"
+	hit2Sound1	"sound/weapons/clawshield/slash1.mp3"
+	hit2Sound2	"sound/weapons/clawshield/slash2.mp3"
+	hit2Sound3	"sound/weapons/clawshield/slash3.mp3"
+	block2Sound1	"sound/weapons/clawshield/block1.mp3"
+	block2Sound2	"sound/weapons/clawshield/block2.mp3"
+	block2Sound3	"sound/weapons/clawshield/block3.mp3"
+	blockEffect	"melee_weap/block.efx"
+	hitPersonEffect "melee_weap/attack.efx"
+	hitOtherEffect	"melee_weap/other.efx"
+	blockEffect2	"melee_weap/block.efx"
+	hitPersonEffect2 "melee_weap/attack.efx"
+	hitOtherEffect2	"melee_weap/other.efx"
+	g2MarksShader		"gfx/damage/bloodcutmark"
+	g2WeaponMarkShader	"gfx/effects/bloodsplat"		
+		
 }
 
 

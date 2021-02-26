@@ -36,9 +36,10 @@ clone_shield
 	numblades	4
 	bounceOnWalls	1	
 	saberRadius	20
-	damageScale 0.01
+	damageScale 0.5
 	
-	knockbackScale 99			
+	knockbackScale 99
+	splashKnockback 10		
 	alwaysBlock	1
 	spinsound	"sound/weapons/clawshield/spin.mp3"
 	swingSound1	"sound/weapons/clawshield/swing1.mp3"

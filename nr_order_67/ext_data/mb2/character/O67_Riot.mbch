@@ -11,10 +11,10 @@ ClassInfo
 	maxhealth			80
 	maxarmor			100
 	speed				1.0
-	BPmultiplier		9.0
-	model				"clonetrooper_p2"
-	skin				"shock_rgb"
-	uishader			"models/players/clonetrooper_p2/mb2_icon_riot"
+	BPmultiplier		9.9
+	model				"clonetrooper_p1"
+	skin				"riot"
+	uishader			"models/players/clonetrooper_p1/mb2_icon_riot"
 	customred			0.120
 	customgreen			0.275
 	customblue			0.474
@@ -72,7 +72,7 @@ description	"Clone Riot Trooper
 
 Weaponry:
 Riot Shield (Secondary Blocking, Infinite BP)
-Riot Shield (Primary Attack, No Damage but High Knockback and Knockdown)
+Riot Shield (Primary Attack, Low Damage but High Knockback and Knockdown)
 DC-15S Blaster Carbine
 
 Items:
