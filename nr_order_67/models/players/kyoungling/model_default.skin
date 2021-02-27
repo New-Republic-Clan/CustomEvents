@@ -7,5 +7,5 @@ l_hand,models/players/youngling/macemitts.tga
 r_arm,models/players/youngling/skirtfoot.tga
 r_hand,models/players/kyoungling/ykylemitts.tga
 head,models/players/kyoungling/ykyleface.tga
-head_helm,models/players/youngling/helmnew.tga
+head_helm,*none
 hips_skirt,models/players/youngling/skirtfoot.tga

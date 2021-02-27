@@ -4,7 +4,7 @@ younglingsingle
 	customSkin	default
 	saber		kyoung_single_1		
 	saberColor	red
-	scale 		60		
+	scale 		55		
 	weapon	WP_SABER
 	forcePowerMax	200
 	forceRegenRate	50
@@ -38,7 +38,7 @@ younglingsingle
 	intelligence	5
 	playerTeam	TEAM_ENEMY 
 	enemyTeam   TEAM_PLAYER
-	class		CLASS_REBORN
+	class		CLASS_DESANN
 	yawSpeed	140
 	walkSpeed	55
 	runSpeed	350

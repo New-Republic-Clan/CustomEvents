@@ -3,7 +3,7 @@ younglingstaff
 	playerModel	kyoungling
 	customSkin	default
 	saber		kyoung_dual_1
-	scale 		70	
+	scale 		65	
 	saberStyle	7	
 	saberColor	red
 	weapon	WP_SABER
@@ -39,7 +39,7 @@ younglingstaff
 	intelligence	5
 	playerTeam	TEAM_ENEMY 
 	enemyTeam   TEAM_PLAYER
-	class		CLASS_REBORN
+	class		CLASS_DESANN
 	yawSpeed	140
 	walkSpeed	55
 	runSpeed	350

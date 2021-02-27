@@ -36,7 +36,7 @@ clone_shield
 	numblades	4
 	bounceOnWalls	1	
 	saberRadius	20
-	damageScale 0.5
+	damageScale 0.1
 	
 	knockbackScale 99
 	splashKnockback 10		

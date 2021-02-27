@@ -825,7 +825,7 @@
 "angle" "-1"
 "classname" "func_door"
 "model" "*32"
-"start_open" "1"
+"spawnflags" "9"
 }
 {
 "angle" "180"
@@ -869,15 +869,31 @@
 "model" "*37"
 }
 
+{
+"targetname" "boo"
+"noise" "sound/nr_order_67/scream.wav"
+"origin" "-158 -1454 560"
+"classname" "target_speaker"
+}
 
 {
 "target" "t5"
+"target2" "liftactivateactions"
+"target3" "t24573"
 "spawnflags" "4"
-"wait" "16"
+"wait" "12"
 "noise" "sound/movers/switches/switch1.mp3"
 "classname" "trigger_multiple"
 "model" "*38"
 }
+
+{
+"classname" "target_relay"
+"target" "liftyoungling"
+"target2" "boo"
+"targetname" "liftactivateactions"
+}
+
 {
 "angle" "360"
 "soundset" "door1"
@@ -1121,6 +1137,8 @@
 "classname" "func_door"
 "model" "*61"
 }
+
+// The Lift Going Up to Council
 {
 "spawnflags" "12"
 "lip" "2700"
@@ -1130,6 +1148,7 @@
 "targetname" "t5"
 "soundset" "medium_platform"
 "dmg" "20"
+"delay" "1"
 "classname" "func_door"
 "model" "*62"
 }
@@ -2091,6 +2110,20 @@
 "showhealth" "1"
 "classname" "NPC_spawner"
 }
+
+/* Council Room Lift door between */
+{
+"helpiconindex" "0"
+"teamowner" "1"
+"teamnodmg" "1"
+"origin" "-174 -1262 3136"
+"NPC_type" "younglingdual"
+"spawnflags" "16"
+"angle" "180"
+"showhealth" "1"
+"classname" "NPC_spawner"
+}
+
 {
 "helpiconindex" "0"
 "teamowner" "1"
@@ -2102,17 +2135,7 @@
 "showhealth" "1"
 "classname" "NPC_spawner"
 }
-{
-"helpiconindex" "0"
-"teamowner" "1"
-"teamnodmg" "1"
-"origin" "-294 -1006 568"
-"NPC_type" "younglingdual"
-"spawnflags" "16"
-"angle" "180"
-"showhealth" "1"
-"classname" "NPC_spawner"
-}
+
 {
 "helpiconindex" "0"
 "teamowner" "1"
@@ -2147,6 +2170,8 @@
 "teamowner" "1"
 "classname" "NPC_spawner"
 }
+
+// Briefing Room 2
 {
 "helpiconindex" "0"
 "showhealth" "1"
@@ -2157,7 +2182,6 @@
 "teamnodmg" "1"
 "teamowner" "1"
 "classname" "NPC_spawner"
-"spawnscript" "8"
 }
 // Back Room 1
 {
@@ -2170,7 +2194,6 @@
 "angle" "180"
 "showhealth" "1"
 "helpiconindex" "0"
-"spawnscript" "8"
 }
 
 // Back Room 1
@@ -2184,8 +2207,9 @@
 "angle" "180"
 "showhealth" "1"
 "helpiconindex" "0"
-"spawnscript" "8"
 }
+
+// Side Hallway
 {
 "helpiconindex" "0"
 "showhealth" "1"
@@ -2196,9 +2220,11 @@
 "teamnodmg" "1"
 "teamowner" "1"
 "classname" "NPC_spawner"
-"spawnscript" "8"
 }
+
+// Spawns into lift on first button push
 {
+"targetname" "liftyoungling"
 "helpiconindex" "0"
 "showhealth" "1"
 "angle" "180"
@@ -2208,8 +2234,9 @@
 "teamnodmg" "1"
 "teamowner" "1"
 "classname" "NPC_spawner"
-"spawnscript" "8"
 }
+
+
 {
 "classname" "NPC_spawner"
 "teamowner" "1"
@@ -2220,7 +2247,6 @@
 "angle" "90"
 "showhealth" "1"
 "helpiconindex" "0"
-"spawnscript" "8"
 }
 {
 "classname" "NPC_spawner"
@@ -2232,7 +2258,6 @@
 "angle" "270"
 "showhealth" "1"
 "helpiconindex" "0"
-"spawnscript" "8"
 }
 {
 "helpiconindex" "0"
@@ -2244,7 +2269,6 @@
 "teamnodmg" "1"
 "teamowner" "1"
 "classname" "NPC_spawner"
-"spawnscript" "8"
 }
 {
 "helpiconindex" "0"
@@ -2256,7 +2280,6 @@
 "teamnodmg" "1"
 "teamowner" "1"
 "classname" "NPC_spawner"
-"spawnscript" "8"
 }
 {
 "helpiconindex" "0"
@@ -2267,20 +2290,21 @@
 "teamnodmg" "1"
 "teamowner" "1"
 "classname" "NPC_spawner"
-"spawnscript" "8"
 }
+
+// In Briefing Room
 {
 "helpiconindex" "0"
 "showhealth" "1"
 "angle" "0"
 "spawnflags" "16"
 "NPC_type" "younglingstaff"
-"origin" "-3038 -438 608"
+"origin" "-3038 -502 608"
 "teamnodmg" "1"
 "teamowner" "1"
 "classname" "NPC_spawner"
 }
-/* Main Hall way 1 */
+// Main Hall way 1
 {
 "helpiconindex" "0"
 "showhealth" "1"
@@ -2291,11 +2315,10 @@
 "teamnodmg" "1"
 "teamowner" "1"
 "classname" "NPC_spawner"
-"spawnscript" "8"
 }
 
 
-/* Main Hall way 2 */
+// Main Hall way 2
 {
 "helpiconindex" "0"
 "showhealth" "1"
@@ -2306,9 +2329,9 @@
 "teamnodmg" "1"
 "teamowner" "1"
 "classname" "NPC_spawner"
-"spawnscript" "8"
 }
 
+// Pre Council Room 1
 {
 "helpiconindex" "0"
 "teamowner" "1"
@@ -2320,6 +2343,20 @@
 "showhealth" "1"
 "classname" "NPC_spawner"
 }
+
+// Pre Council Room 2
+{
+"helpiconindex" "0"
+"teamowner" "1"
+"teamnodmg" "1"
+"origin" "-294 -1006 568"
+"NPC_type" "younglingdual"
+"spawnflags" "16"
+"angle" "180"
+"showhealth" "1"
+"classname" "NPC_spawner"
+}
+
 {
 "helpiconindex" "0"
 "teamowner" "1"

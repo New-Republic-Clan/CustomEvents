@@ -14,11 +14,11 @@ ClassInfo
 	customred		0.630
 	customgreen		0.198
 	customblue		0.198
-	forcepool		50
-	forceregen		10
+	forcepool		100
+	forceregen		50
 	MBCLASS			MB_CLASS_JEDI
 	classNumberLimit	1
-	speed				0.9
+	speed				1.2
 	extralives			2
 }
 
@@ -45,6 +45,7 @@ WeaponInfo1
 	NewWorldModel		"models/weapons2/dc-17/dc-17_w.glm"
 	NewViewModel		"models/weapons2/dc-17/dc-17.md3"
 	Icon				"gfx/hud/w_icon_dc-17"
+	FlashSound0			"sound/weapons/bf_dc-17p/fire.wav"	
 	WeaponName			"DC-17 Pistol"
 }
 

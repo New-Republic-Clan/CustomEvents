@@ -1,10 +1,10 @@
 younglingboss
 {
-	playerModel	kyoungling
+	playerModel	byoungling
 	customSkin	default
 	saber		kyoung_single_1
 	saberColor	red
-	scale 		120		
+	scale 		100		
 	weapon	WP_SABER
 	forcePowerMax	2000
 	forceRegenRate	500
@@ -40,12 +40,12 @@ younglingboss
 	enemyTeam   TEAM_PLAYER
 	class		CLASS_DESANN
 	yawSpeed	140
-	walkSpeed	55
-	runSpeed	450
+	walkSpeed	75
+	runSpeed	550
 	snd			kylekid
 	sndcombat	kylekid
 	sndjedi		kylekid
-	health		450
+	health		550
 	dismemberProbHead	100
 	dismemberProbArms	100
 	dismemberProbLegs	100
