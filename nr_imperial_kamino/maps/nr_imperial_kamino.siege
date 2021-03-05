@@ -1,7 +1,7 @@
 Teams
 {
-	team1 Republic
-	team2 CIS
+	team1 Kaminoans
+	team2 Empire
 }
 
 LevelshotDesc
@@ -114,8 +114,8 @@ roundbegin_target ""
 Kaminoans
 {
 	RequiredObjectives 1						
-	UseTeam "NRK_Kam" 							
-	TeamIcon "gfx/2d/logos/mb_clonerepublic"
+	UseTeam "NRK_KAM" 							
+	TeamIcon "gfx/2d/logos/mb_Empire"
 	TeamColorOn	"1 0 0 1"
 	TeamColorOff ".7 0 0 1"	
 
@@ -149,21 +149,21 @@ Kaminoans
 		objgfx "gfx/mplevels/mb2_kamino/obj3"
 	}
 
-	wonround "We held off the CIS forces."
-	lostround "We have lost."
+	wonround "We held off the Empire, for now."
+	lostround "They've broken through, get to the escape shuttles!"
 	roundover_sound_wewon ""
 	roundover_sound_welost ""
 	roundover_target "roundover"
 	attackers 0
-	briefing "Defend the armoury room."
+	briefing "Defend the armoury, Lama Su must survive."
 }
 
-Imperials
+Empire
 {
 	RequiredObjectives 1
 	Timed 300	
-	UseTeam "NRK_Imp"
-	TeamIcon "gfx/2d/logos/mb_cis"
+	UseTeam "NRK_IMP"
+	TeamIcon "gfx/2d/logos/mb_Empire"
 	TeamColorOn	"0 0 1 1"
 	TeamColorOff "0 0 .7 1"
 
@@ -207,11 +207,11 @@ Imperials
 		objgfx "gfx/mplevels/mb2_kamino/obj3"
 	}
 
-	wonround "The facility was destroyed."
-	lostround "The assault was unsuccessful."
+	wonround "The cloning facility is disabled."
+	lostround "The assault has failed."
 	roundover_sound_wewon ""
 	roundover_sound_welost ""
 	roundover_target "roundoverimp"
 	attackers 1
-	briefing "Destroy armoury room."
+	briefing "Destroy the armoury or kill Lama Su."
 }
