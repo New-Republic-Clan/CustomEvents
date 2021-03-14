@@ -1,0 +1,61 @@
+//Siege class def file.
+
+ClassInfo
+{
+	name				"O67_Shock"
+	weapons				WP_REPEATER|WP_MELEE|WP_THERMAL|WP_DEMP2
+	attributes			MB_ATT_ASSEMBLE,1|MB_ATT_CLONERIFLE,3|MB_ATT_AMMO,2|MB_ATT_ARMOUR,2|MB_ATT_CLONEBLOBS,3|MB_ATT_THERMALS,2
+	maxhealth			100
+	maxarmor			100
+	model				"clonetrooper_p2"
+	skin				"shock_rgb"
+	uishader			"gfx/hud/fa_icons/mb2_icon_clonep2_shock_blue"
+	customred			0.120
+	customgreen			0.275
+	customblue			0.474
+	MBClass				MB_CLASS_CLONETROOPER
+	classNumberLimit	2
+	extralives			2
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_REPEATER
+	WeaponBasedOff		WP_REPEATER
+	NewWorldModel		"models/weapons2/dc-15_ext/dc-15_ext_w.glm"  	//Required: New 3rd person/dropped weapon model
+	NewViewModel		"models/weapons2/dc-15_ext/dc-15_ext.md3"   	//Required: New 1st person weapon model
+	Icon				"gfx/hud/w_icon_clonerifle_blobs" 			//Required: Weapon change icon
+	WeaponName			"DC-15 Carbine"    					//Required: Weapon change display name
+	FlashSound0			"sound/weapons/bf_dc-15s/fire.wav"
+	AltFlashSound0		"sound/weapons/bf_dc-15s/fire.wav"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_DEMP2
+	WeaponBasedOff		WP_DEMP2
+	NewWorldModel		"models/weapons2/dc-17/dc-17_w.glm"
+	NewViewModel		"models/weapons2/dc-17/dc-17.md3"
+	Icon				"gfx/hud/w_icon_dc-17"
+	WeaponName			"DC-17 Pistol"
+	FlashSound0			"sound/weapons/bf_dc-17p/fire.wav"
+}
+
+description	"Clone Shock Trooper
+
+
+Weaponry:
+DC-15S Carbine	(3)
+DC-15S Explosive Rounds		(3)
+DC-15S Blobs
+Fragmentation Grenades	(2)
+
+Items:
+Armour		(2)
+Ammo		(2)
+
+Abilities:
+Lives 		(3)
+
+Clone shock troopers, also referred to as shocktroopers, stormtroopers, or guardsmen, were the clone troopers of the Coruscant Guard, an elite force founded during the Clone Wars.
+Using slightly heavier armor than standard clones and advanced weapons training. Shocktroopers were a strong force."

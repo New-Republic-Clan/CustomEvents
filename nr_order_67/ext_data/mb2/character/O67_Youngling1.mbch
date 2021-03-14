@@ -1,0 +1,43 @@
+//Siege class def file.
+
+ClassInfo
+{
+	name			"O67_Youngling1"
+	weapons			WP_SABER|WP_MELEE
+	sabercolor		0
+	saberstyle		SS_Medium
+	attributes		MB_ATT_FORCEFOCUS,1|MB_ATT_FORCEBLOCK,2|MB_ATT_DEFLECT,3|MB_ATT_FORCEFOCUS,1|MB_ATT_ROSHTAUNT
+	maxhealth		170
+	modelscale		0.6
+	model			"kyoungling"
+	skin			"default"
+ 	uishader		"models/players/kyoungling/mb_icon_default"
+	MBClass			MB_CLASS_JEDI
+ 	saber1			"kyoung_single_1"																																																					
+ 	forcepowers		FP_LEVITATION,3|FP_SABER_DEFENSE,3|FP_PUSH,3|FP_SABER_OFFENSE,3|FP_TELEPATHY,3|FP_LIGHTNING,3										
+ 	forceregen		1													
+ 	forcepool   	100			
+	speed			1.9
+	extralives		99
+	classflags		CFL_ACIDBLOOD|CFL_BLOODYMELEE
+	respawnWait		10000
+}
+
+description	"Jedi Youngling
+
+
+Weaponry:
+Lightsaber
+
+Force Powers:
+Saber Offense		(2)
+Saber Defense		(2)
+Force Push			(2)
+Force Jump			(2)
+
+Abilities:
+Deadly Chant 		(Taunting Causes Damage)
+Lives 				(99)
+Respawn Delay		8 Seconds
+
+Possed by dark forces! these younglings are far from the ones you would expect to see in the Jedi Temple."

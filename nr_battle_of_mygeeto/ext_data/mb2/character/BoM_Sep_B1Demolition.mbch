@@ -8,7 +8,7 @@ ClassInfo
 	maxhealth			80
 	maxarmor			25
 	weapons				WP_ROCKET_LAUNCHER|WP_MELEE|WP_BRYAR_PISTOL|WP_THERMAL
-	extralives			2
+	extralives			3
 	classNumberLimit	2
 	classflags			CFL_THERMALROCKETS|CFL_DISMEMBERFRAGILE
 	holdables			HI_BINOCULARS

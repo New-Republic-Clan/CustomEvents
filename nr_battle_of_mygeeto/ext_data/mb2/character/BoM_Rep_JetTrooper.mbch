@@ -12,7 +12,7 @@ ClassInfo
 	classNumberLimit	1
 	classflags			CFL_NO_JETPACK_OVERHEAT|CFL_NO_JETPACK_COOLDOWN
 	
-	attributes		MB_ATT_A280,2|MB_ATT_PISTOL,1|MB_ATT_AMMO,1|MB_ATT_JETPACK,1|MB_ATT_DEXTERITY,2|MB_ATT_STAMINA,0|MB_ATT_ARC_RIFLE_GRENADELAUNCHER,2|MB_ATT_PULSE_GRENADES,1
+	attributes		MB_ATT_A280,1|MB_ATT_PISTOL,1|MB_ATT_AMMO,1|MB_ATT_JETPACK,1|MB_ATT_DEXTERITY,2|MB_ATT_STAMINA,1|MB_ATT_ARC_RIFLE_GRENADELAUNCHER,2|MB_ATT_PULSE_GRENADES,1
 	customred			0.137
 	customgreen			0.239
 	customblue			0.380
@@ -20,6 +20,7 @@ ClassInfo
 	jetpackJet2Tag		*jetpack_jet2
 	jetpackJetOffset	"0, 0, 4"
 	jetpackJet2Offset	"0, 0, 4"
+	rateOfFire 			0.7
 }
 
 description	"Jet Trooper

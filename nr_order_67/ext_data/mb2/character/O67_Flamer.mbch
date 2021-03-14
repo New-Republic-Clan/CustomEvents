@@ -1,0 +1,70 @@
+ClassInfo
+{
+	name			"O67_Flamer"
+	weapons			WP_REPEATER|WP_TRIP_MINE|WP_DEMP2|WP_MELEE
+	WP_RepeaterFlags HELD_FLAME|HELD_KNOCKBACK	
+	attributes		MB_ATT_ASSEMBLE,1|MB_ATT_FUEL,3|MB_ATT_ARMOR,3|MB_ATT_FIRE_GRENADES,2|MB_ATT_CLONERIFLE,3
+	classflags      CFL_WFLAMETHROWER|CFL_EXTRAFLAMEDAMAGE
+	maxhealth		110
+	maxarmor		110
+	model			"FlameTrooper"
+	skin			"default"	
+	customred		0.120
+	customgreen		0.275
+	customblue		0.474
+	uishader		"models/players/FlameTrooper/mb2_icon_default"
+	MBClass			MB_CLASS_HERO
+	classNumberLimit	1
+	extralives			2	
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_TRIP_MINE
+	WeaponBasedOff		WP_TRIP_MINE
+	NewWorldModel		"models/weapons2/plasma/plasma_w.glm"
+	NewViewModel		"models/weapons2/plasma/plasma.md3"
+	MissileModel		"models/weapons2/plasma/plasma_proj.md3"
+	FlashSound0 		"sound/weapons/thermal/fire.mp3"
+	AltFlashSound0 		"sound/weapons/thermal/fire.mp3"
+	Icon				"gfx/hud/w_icon_plasma"
+	WeaponName			"Incendiary Grenade"
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_DEMP2
+	WeaponBasedOff		WP_DEMP2
+	NewWorldModel		"models/weapons2/dc-17/dc-17_w.glm"
+	NewViewModel		"models/weapons2/dc-17/dc-17.md3"
+	Icon				"gfx/hud/w_icon_dc-17"
+	FlashSound0			"sound/weapons/bf_dc-17p/fire.wav"	
+	WeaponName			"DC-17 Pistol"
+}
+
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_REPEATER
+	WeaponBasedOff		WP_REPEATER
+	NewWorldModel		"models/weapons2/flamethrower/flamethrower.glm"
+	NewViewModel		"models/weapons2/flamethrower/flamethrower.md3"
+	Icon				"gfx/hud/w_icon_flamerifle.tga"
+	WeaponName			"BT X-42 Flame Thrower"
+	customAmmo			999	
+}
+
+
+description	"Clone Flame Trooper
+
+Weapons:
+
+BT X-42 Flamethrower (1)
+Incendiary Grenade (2)
+DC-17 Hand Blaster
+
+Attributes:
+Lives 		(3)
+
+Details:
+The clone flame troopers, also known simply as the flame troopers, were a special branch of clone troopers that specialized in the use of BT X-42 heavy Republic flamethrowers"

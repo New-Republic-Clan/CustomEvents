@@ -8,7 +8,7 @@ ClassInfo
 	maxhealth			80
 	maxarmor			200
 	weapons				WP_CONCUSSION
-	extralives			4
+	extralives			3
 	classNumberLimit	2
 	classflags			CFL_DISMEMBERFRAGILE
 	
@@ -28,7 +28,7 @@ Equipment:
 Class-VIII Armor
 
 Abilities:
-4 Reinforcements
+3 Reinforcements
 Medium Firepower
 Medium Battery Recharge
 Magnetic Plating

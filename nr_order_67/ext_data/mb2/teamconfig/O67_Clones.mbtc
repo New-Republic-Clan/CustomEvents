@@ -1,0 +1,35 @@
+//Siege team definition file.
+
+name "O67_Clones"
+
+ClassesAllowed 6
+TimePeriod 5
+EUAllowed 0
+
+Classes
+{
+	class1		"O67_Clone"
+	class2		"O67_Sergeant"
+	class3		"O67_Blaze"
+}
+
+SubclassesForClass2
+{
+	Subclass1 "O67_Aerial"
+	Subclass2 "O67_Shock"
+	Subclass3 "O67_Demo"
+	Subclass4 "O67_Commander"
+	Subclass5 "O67_HeavyTrooper"	
+	Subclass6 "O67_Sniper"
+	SubClass7 "O67_Flamer"
+}
+
+SubclassesForClass3
+{
+	SubClass1 "O67_Commando"
+	SubClass2 "O67_Arf"
+	SubClass3 "O67_Riot"
+	SubClass4 "O67_Medic"	
+	SubClass5 "O67_Engineer"	
+	SubClass6 "O67_Assassin"
+}

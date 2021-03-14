@@ -1,0 +1,93 @@
+Teams
+{
+	team1 Younglings
+	team2 Clones
+}
+
+LevelshotDesc
+{
+    desc1
+    {   
+        text "Palpatine has executed Order 67. Order 67 is declared in the event his Sith sorcery has backfired and Jedi Younglings become possesed. All Clones Units to assist! Unlock the beacon room from the council chambers and activate the self destruct to prevent them escaping.
+"
+        
+        rect "410 147 220 55"
+        scale 0.125
+    }
+    desc2
+    {   
+        text "Zudyti clones.  Tau Geida Kia Akizas Mus Nuotekimas.  Vonia Is Kraujas ir Kristi Atsak iv Guduma Ikuny!"
+        rect "410 258 220 55"
+        scale 0.125
+    }
+}
+
+mapgraphic "gfx/mplevels/mb2_jeditemple/map"
+missionname "Jedi Temple"
+radartopleft "-6068, 2657"
+radarbottomright "257, -5589"
+AutoMap
+{
+	AutoMap0
+	{
+		radargraphic "gfx/automap/mb2_jeditemple"
+		radargraphicfull "gfx/automap/mb2_jeditemplefull"
+		height "0"
+	}
+}
+roundbegin_target ""
+
+Younglings
+{
+	RequiredObjectives 1
+	UseTeam "O67_Younglings"
+	TeamIcon "gfx/2d/logos/mb_demon"
+	TeamColorOn	"1 0 0 1"
+	TeamColorOff ".7 0 0 1"
+
+	Objective1
+	{
+		goalname "Kill the outsiders so we can escape!"
+		final 0
+		message_team1 "We are Saved!"
+		message_team2 "Well done!"
+		objdesc "ACCOMPLISH: kill all outsiders."
+		objgfx "gfx/mplevels/mb2_jeditemple/objr"
+	}
+
+	wonround "Now is the time to bring death!"
+	lostround "The outsiders have sealed our fate!!"
+	roundover_sound_wewon ""
+	roundover_sound_welost ""
+	roundover_target "siegeend"
+	attackers 0
+	briefing "Kill all of the outsiders."
+}
+
+Clones
+{
+	RequiredObjectives 1
+	Timed 1800
+	UseTeam "O67_Clones"
+	TeamIcon "gfx/2d/logos/mb_clonerepublic"
+	TeamColorOn	"0 0 1 1"
+	TeamColorOff "0 0 .7 1"
+	
+	Objective1
+	{
+		goalname "ACCOMPLISH: Activate the temples self destruct"
+		final 0
+		message_team1 "Good Job Solider!"
+		message_team2 "Well done!"
+		objdesc "ACCOMPLISH: Activate the self destruct"
+		objgfx "gfx/mplevels/mb2_jeditemple/objr"
+	}	
+
+	wonround "KABOOM! Childs Play!!"
+	lostround "You lost to a bunch of children!!"
+	roundover_sound_wewon ""
+	roundover_sound_welost ""
+	roundover_target "siegeend"
+	attackers 1
+	briefing "Activate the self destruct"
+}

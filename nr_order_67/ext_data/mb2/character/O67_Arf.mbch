@@ -1,0 +1,60 @@
+//Siege class def file.
+
+ClassInfo
+{
+	name			"O67_Arf"
+	weapons			WP_MELEE|WP_TRIP_MINE|WP_BLASTER|WP_DEMP2
+	attributes		MB_ATT_ASSEMBLE,1|MB_ATT_BLASTER,2|MB_ATT_AMMO,2|MB_ATT_ARMOUR,3|MB_ATT_PULSE_GRENADES,1|MB_ATT_CLONERIFLE,2
+	maxhealth		80
+	maxarmor		50
+	model			"ARFpack"
+	skin			"boomer"
+	uishader		"models/players/ARFpack/mb2_icon_default.jpg"
+	customred		0.120
+	customgreen		0.275
+	customblue		0.474
+	classNumberLimit	2
+	MBClass			MB_CLASS_ARCTROOPER
+	extralives		2
+	speed 2.0
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BLASTER					//Required: Weapon Slot of weapon you're replacing
+	WeaponBasedOff		WP_REPEATER					//Required: For future use, should be the same as WeaponToReplace
+	NewWorldModel		"models/weapons2/dc-15s/dc-15s_w.glm"  	//Required: New 3rd person/dropped weapon model
+	NewViewModel		"models/weapons2/dc-15s/dc-15s.md3"   	//Required: New 1st person weapon model
+	MuzzleEffect		"Blaster/MuzzleFlash01B"   				//Optional: New muzzle effect
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B" 				//Optional: New alt muzzle effect
+	MissileEffect		"Blaster/Shot02B"  					//Optional: New effect to be displayed on the projectile
+	AltMissileEffect 	"Blaster/Shot02B"  					//Optional: Ditto for the alt fire
+	FlashSound0			"sound/weapons/bf_dc-15s/fire.wav"
+	AltFlashSound0		"sound/weapons/bf_dc-15s/fire.wav"
+	Icon				"gfx/hud/w_icon_dc-15s" 				//Required: Weapon change icon
+	WeaponName			"DC-15S"    					//Required: Weapon change display name
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_DEMP2
+	WeaponBasedOff		WP_DEMP2
+	NewWorldModel		"models/weapons2/dc-17/dc-17_w.glm"
+	NewViewModel		"models/weapons2/dc-17/dc-17.md3"
+	Icon				"gfx/hud/w_icon_dc-17"
+	WeaponName			"DC-17 Pistol"
+	FlashSound0			"sound/weapons/bf_dc-17p/fire.wav"
+}
+
+description	"Advanced Recon Force Scout Troopers
+
+
+Weaponry:
+DC-15S					(2)
+Pulse Grenades			(3)
+
+Items:
+Armour		(3)
+Ammo		(2)
+
+Advanced Recon Force troopers or ARF troopers, were clone troopers who wore lighter armor for stealth and speed. Excellent for quickly running in and either drawing away enemy troops or spotting positions for the main battle squads."

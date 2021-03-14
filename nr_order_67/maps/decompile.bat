@@ -1,0 +1,2 @@
+
+c:\GtkRadiant-1.6.6-20180422\q3map2.exe -game ja -fs_game MBII -fs_basepath "C:\Program Files (x86)\Steam\steamapps\common\Jedi Academy\GameData" -convert -format map "C:\Users\louis.varley\Documents\GitHub\CustomEvents\nr_order_67\maps\nr_order_67.bsp"

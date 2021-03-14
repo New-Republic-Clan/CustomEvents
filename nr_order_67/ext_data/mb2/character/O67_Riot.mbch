@@ -1,0 +1,86 @@
+//Siege class def file.
+
+ClassInfo
+{
+	name				"O67_Riot"
+	weapons				WP_SABER|WP_BLASTER|WP_DEMP2
+	saber1				clone_shield
+	saberstyle			SS_MEDIUM
+	attributes			MB_ATT_ASSEMBLE,1|MB_ATT_ARMOUR,3|MB_ATT_FORCEBLOCK,2|MB_ATT_CORTOSIS
+	forcepowers			FP_SABER_DEFENSE,3
+	maxhealth			80
+	maxarmor			100
+	speed				1.0
+	BPmultiplier		9.9
+	model				"clonetrooper_p1"
+	skin				"riot"
+	uishader			"models/players/clonetrooper_p1/mb2_icon_riot"
+	customred			0.120
+	customgreen			0.275
+	customblue			0.474
+	MBClass				MB_CLASS_JEDI
+	forcepool			140
+	forceregen			2
+	classNumberLimit	1
+	classflags			CFL_STRONGAGAINSTPHYSICAL|CFL_NOLOCATIONALDAMAGE
+	extralives			2
+	WP_SABERFlags		HELD_KNOCKDOWN	
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_SABER					//Required: Weapon Slot of weapon you're replacing
+	WeaponBasedOff		WP_SABER					//Required: For future use, should be the same as WeaponToReplace
+	NewWorldModel		"models/weapons2/clone_shield/saber_w.glm"  	//Required: New 3rd person/dropped weapon model
+	NewViewModel		"models/weapons2/dummy/dummy.md3"   	//Required: New 1st person weapon model
+	Icon				"models/weapons2/clone_shield/w_icon_shield" 	//Required: Weapon change icon
+	WeaponName			"Riot Shield"    					//Required: Weapon change display name
+	primFireEnabled 	"1"
+}
+
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BLASTER
+	WeaponBasedOff		WP_REPEATER
+	NewWorldModel		"models/weapons2/dc-15s/dc-15s_w.glm"
+	NewViewModel		"models/weapons2/dc-15s/dc-15s.md3"
+	MuzzleEffect		"Blaster/MuzzleFlash01B"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
+	MissileEffect		"Blaster/Shot02B"
+	AltMissileEffect 	"Blaster/Shot02B"
+	FlashSound0			"sound/weapons/bf_dc-15s/fire.wav"
+	AltFlashSound0		"sound/weapons/bf_dc-15s/fire.wav"
+	Icon				"gfx/hud/w_icon_dc-15s"
+	WeaponName			"DC-15S Blaster Carbine"
+	customammo			480
+}
+
+WeaponInfo2
+{
+	WeaponToReplace		WP_DEMP2
+	WeaponBasedOff		WP_DEMP2
+	NewWorldModel		"models/weapons2/dc-17/dc-17_w.glm"
+	NewViewModel		"models/weapons2/dc-17/dc-17.md3"
+	Icon				"gfx/hud/w_icon_dc-17"
+	WeaponName			"DC-17 Pistol"
+	FlashSound0			"sound/weapons/bf_dc-17p/fire.wav"	
+}
+
+description	"Clone Riot Trooper
+
+
+Weaponry:
+Riot Shield (Secondary Blocking, High BP)
+Riot Shield (Primary Attack, Low Damage but High Knockback and Knockdown)
+DC-15S Blaster Carbine
+
+Items:
+Armour		(3)
+
+Abilities:
+Lives 		(3)
+
+
+Clone riot troopers, also known as riot clone troopers, were specialized clone shock troopers of the Coruscant Guard who were trained in riot control.
+Using a Riot shield which can tank heavy attacks with using their shield to block. There only offensive is a single blaster "

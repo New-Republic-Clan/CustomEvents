@@ -8,14 +8,14 @@ ClassInfo
 	maxhealth			100
 	maxarmor			75
 	weapons				WP_BLASTER|WP_DEMP2|WP_MELEE|WP_TRIP_MINE
-	extralives			4
+	extralives			3
 	classNumberLimit	2
-	classflags			CFL_SHOTGUN
+	classflags			CFL_SHOTGUN|CFL_FASTHACKING
 	holdables			HI_EWEB|HI_AMMODISP
 	attributes			MB_ATT_BLASTER,3|MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_PULSE_GRENADES,2|MB_ATT_SECURITY_INTERFACE,1|MB_ATT_GUNBASH,1|MB_ATT_AMMO_PACK,1|MB_ATT_STAMINA,2
-	customred			0.800
-	customgreen			0.600
-	customblue			0.200
+	customred			0.900
+	customgreen			0.700
+	customblue			0.300
 }
 
 WeaponInfo0
@@ -47,10 +47,10 @@ Deployable Turret
 Can give ammo
 
 Abilities:
-4 Reinforcements
+3 Reinforcements
 Low Dexterity
 Medium Stamina
-Computer Skill
+Computer Training
 
 Clone troopers were an army of identical, genetically modified clones, created to serve in the Grand Army of the Republic during the full-scale intergalactic conflict that came to be known as the Clone Wars. Certain clones were trained in more specialized areas of combat, such as Computer Skills, ammmo bearing, and weapons platforms.
 

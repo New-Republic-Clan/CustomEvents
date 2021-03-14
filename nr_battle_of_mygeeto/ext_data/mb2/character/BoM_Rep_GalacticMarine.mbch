@@ -8,15 +8,16 @@ ClassInfo
 	maxhealth			100
 	maxarmor			100
 	weapons				WP_REPEATER|WP_DEMP2|WP_MELEE|WP_TRIP_MINE
-	extralives			2
+	extralives			3
 	classNumberLimit	4
 	classflags			CFL_STRONGAGAINSTPHYSICAL|CFL_HEAVYMELEE
 	
 	attributes		MB_ATT_CLONERIFLE,2|MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_WOOKIE_STRENGTH,1|MB_ATT_GUNBASH,1|MB_ATT_STAMINA,1|MB_ATT_CLONEBLOBS,1
 	customred			0.520
-	customgreen			0.285
-	customblue			0.350
+	customgreen			0.265
+	customblue			0.330
 	speed				0.9
+	rateOfFire 			0.7
 }
 
 description	"Galactic Marine
@@ -32,7 +33,7 @@ Class-IV Armour
 Power Armour Physical Enhancements
 
 Abilities:
-2 Reinforcements
+3 Reinforcements
 Low Stamina
 Gunbash
 
