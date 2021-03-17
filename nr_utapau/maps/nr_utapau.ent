@@ -1,0 +1,569 @@
+{
+"ambient" "50"
+"gridsize" "96 80 144"
+"classname" "worldspawn"
+}
+{
+"classname" "func_wall"
+"model" "*1"
+}
+{
+"classname" "func_wall"
+"model" "*2"
+}
+{
+"classname" "func_wall"
+"model" "*3"
+}
+{
+"origin" "-1552 -1320 -39"
+"classname" "item_medpak_instant"
+}
+{
+"origin" "-1552 1320 -39"
+"classname" "item_medpak_instant"
+}
+{
+"model2" "models/map_objects/gunshiptm/model.md3"
+"targetname" "gunship2"
+"script_targetname" "gunship2"
+"angle" "180"
+"origin" "5571 920 2405"
+"classname" "func_static"
+"model" "*4"
+}
+{
+"script_targetname" "gunship1"
+"targetname" "gunship1"
+"model2" "models/map_objects/gunshiptm/model.md3"
+"angle" "180"
+"origin" "4213 -426 1615"
+"classname" "func_static"
+"model" "*5"
+}
+{
+"origin" "7000 -400 208"
+"classname" "target_position"
+}
+{
+"dmg" "1000"
+"classname" "trigger_hurt"
+"model" "*6"
+}
+{
+"origin" "96 80 144"
+"targetname" "mus1"
+"music" "music/md_egg/egg_intro.mp3"
+"classname" "target_play_music"
+}
+{
+"origin" "96 80 144"
+"targetname" "mus2"
+"music" "music/md_egg/md_egg2.mp3"
+"classname" "target_play_music"
+}
+{
+"origin" "96 80 144"
+"targetname" "mus3"
+"music" "music/md_egg/md_egg3.mp3"
+"classname" "target_play_music"
+}
+{
+"origin" "96 80 144"
+"targetname" "mus4"
+"music" "music/md_egg/md_egg4.mp3"
+"classname" "target_play_music"
+}
+{
+"origin" "96 80 144"
+"targetname" "mus5"
+"music" "music/md_egg/md_egg5.mp3"
+"classname" "target_play_music"
+}
+{
+"target" "t3"
+"count" "4"
+"targetname" "mag_end"
+"origin" "96 168 224"
+"classname" "target_counter"
+}
+{
+"target" "t4"
+"targetname" "t3"
+"classname" "trigger_once"
+"model" "*7"
+}
+{
+"targetname" "t4"
+"usescript" "md_egg/cin2_jedi"
+"origin" "96 72 688"
+"classname" "target_scriptrunner"
+}
+{
+"npc_target" "gri2_enda"
+"origin" "-104 -96 -32"
+"npc_type" "md_obi_egg"
+"npc_targetname" "obi2"
+"spawnflags" "32"
+"angle" "360"
+"classname" "NPC_spawner"
+}
+{
+"targetname" "obi2nav"
+"origin" "80 -96 -32"
+"classname" "waypoint_navgoal"
+}
+{
+"angle" "180"
+"npc_targetname" "gri2"
+"npc_type" "md_grie4_egg"
+"origin" "181 -96 -32"
+"spawnflags" "32"
+"classname" "NPC_spawner"
+}
+{
+"origin" "279 -119 8"
+"targetname" "cam2"
+"target" "t6"
+"classname" "ref_tag"
+}
+{
+"origin" "254 -121 6"
+"targetname" "t6"
+"classname" "info_null"
+}
+{
+"target" "t7"
+"targetname" "cam3"
+"origin" "43 -222 -21"
+"classname" "ref_tag"
+}
+{
+"targetname" "t7"
+"origin" "87 -191 -16"
+"classname" "info_null"
+}
+{
+"origin" "-429 -469 177"
+"targetname" "cam4"
+"target" "t8"
+"classname" "ref_tag"
+}
+{
+"origin" "-359 -385 143"
+"targetname" "t8"
+"classname" "info_null"
+}
+{
+"origin" "211 -148 20"
+"targetname" "cam5"
+"target" "t9"
+"classname" "ref_tag"
+}
+{
+"origin" "151 -134 15"
+"targetname" "t9"
+"classname" "info_null"
+}
+{
+"target" "t10"
+"targetname" "cam6"
+"origin" "116 -105 -7"
+"classname" "ref_tag"
+}
+{
+"targetname" "t10"
+"origin" "103 -99 -9"
+"classname" "info_null"
+}
+{
+"origin" "116 -135 -7"
+"targetname" "cam7"
+"target" "t11"
+"classname" "ref_tag"
+}
+{
+"origin" "140 -125 -6"
+"targetname" "t11"
+"classname" "info_null"
+}
+{
+"npc_target" "gri4_end"
+"origin" "-304 48 -32"
+"npc_type" "md_obi_egg"
+"npc_targetname" "obi3"
+"spawnflags" "32"
+"angle" "360"
+"classname" "NPC_spawner"
+}
+{
+"delay" "8"
+"targetname" "gri2_end"
+"target" "t20"
+"classname" "trigger_once"
+"model" "*8"
+}
+{
+"usescript" "md_egg/cin3_sith"
+"targetname" "gri2_end"
+"origin" "72 32 688"
+"classname" "target_scriptrunner"
+}
+{
+"health" "1000"
+"spawnflags" "32"
+"npc_targetname" "bd1"
+"angle" "225"
+"npc_type" "md_sbd_am"
+"origin" "144 336 -32"
+"classname" "NPC_spawner"
+}
+{
+"origin" "872 248 376"
+"npc_type" "md_clone_egg"
+"angle" "180"
+"spawnflags" "32"
+"npc_targetname" "cl4"
+"classname" "NPC_spawner"
+}
+{
+"origin" "880 -184 376"
+"npc_type" "md_clone_egg"
+"angle" "180"
+"spawnflags" "32"
+"npc_targetname" "cl5"
+"classname" "NPC_spawner"
+}
+{
+"npc_targetname" "cl1"
+"angle" "180"
+"npc_type" "md_clone_egg"
+"origin" "672 256 -32"
+"spawnflags" "32"
+"classname" "NPC_spawner"
+}
+{
+"origin" "848 104 -32"
+"npc_type" "md_clone_egg"
+"angle" "180"
+"npc_targetname" "cl2"
+"spawnflags" "32"
+"classname" "NPC_spawner"
+}
+{
+"angle" "180"
+"npc_type" "md_clone_egg"
+"origin" "760 -200 -32"
+"npc_targetname" "cl3"
+"spawnflags" "32"
+"classname" "NPC_spawner"
+}
+{
+"angle" "180"
+"npc_targetname" "gri4"
+"npc_type" "md_grie_egg"
+"origin" "-192 48 -32"
+"spawnflags" "32"
+"classname" "NPC_spawner"
+}
+{
+"origin" "-129 -97 99"
+"targetname" "cam10a"
+"target" "t21"
+"classname" "ref_tag"
+}
+{
+"origin" "-202 -59 68"
+"targetname" "t21"
+"classname" "info_null"
+}
+{
+"target" "t22"
+"targetname" "cam10b"
+"origin" "-314 -4 -11"
+"classname" "ref_tag"
+}
+{
+"targetname" "t22"
+"origin" "-282 23 -6"
+"classname" "info_null"
+}
+{
+"origin" "-273 50 0"
+"targetname" "cam11"
+"target" "t23"
+"classname" "ref_tag"
+}
+{
+"origin" "-283 48 1"
+"targetname" "t23"
+"classname" "info_null"
+}
+{
+"target" "t24"
+"targetname" "cam12"
+"origin" "-222 49 8"
+"classname" "ref_tag"
+}
+{
+"targetname" "t24"
+"origin" "-214 48 9"
+"classname" "info_null"
+}
+{
+"origin" "369 100 -6"
+"targetname" "cam13a"
+"target" "t25"
+"classname" "ref_tag"
+}
+{
+"origin" "421 100 -6"
+"targetname" "t25"
+"classname" "info_null"
+}
+{
+"target" "t26"
+"targetname" "cam13b"
+"origin" "908 98 -6"
+"classname" "ref_tag"
+}
+{
+"targetname" "t26"
+"origin" "960 98 -6"
+"classname" "info_null"
+}
+{
+"target" "gri2_end"
+"targetname" "gri2_enda"
+"classname" "trigger_once"
+"model" "*9"
+}
+{
+"origin" "47 50 688"
+"targetname" "t20"
+"usescript" "md_egg/clone"
+"classname" "target_scriptrunner"
+}
+{
+"health" "1000"
+"origin" "220 156 -32"
+"npc_type" "md_sbd_am"
+"angle" "225"
+"npc_targetname" "bd2"
+"spawnflags" "32"
+"classname" "NPC_spawner"
+}
+{
+"health" "1000"
+"spawnflags" "32"
+"npc_targetname" "bd3"
+"angle" "135"
+"npc_type" "md_bd_egg"
+"origin" "338 -242 -32"
+"classname" "NPC_spawner"
+}
+{
+"health" "1000"
+"origin" "206 -416 -32"
+"npc_type" "md_bd_egg"
+"angle" "135"
+"npc_targetname" "bd5"
+"spawnflags" "32"
+"classname" "NPC_spawner"
+}
+{
+"health" "1000"
+"spawnflags" "32"
+"npc_targetname" "bd4"
+"angle" "135"
+"npc_type" "md_sbd_am"
+"origin" "318 -350 -32"
+"classname" "NPC_spawner"
+}
+{
+"targetname" "gri4_end"
+"target" "t27"
+"classname" "trigger_once"
+"model" "*10"
+}
+{
+"mapname" "md2_egg2_sith"
+"targetname" "t27"
+"origin" "0 56 688"
+"classname" "target_level_change"
+}
+{
+"origin" "272 0 -24"
+"targetname" "t1"
+"usescript" "md_egg/intro_sith"
+"classname" "target_scriptrunner"
+}
+{
+"angle" "180"
+"target" "t1"
+"origin" "288 -96 -32"
+"classname" "info_player_start"
+}
+{
+"targetname" "look1"
+"origin" "136 -96 0"
+"classname" "target_position"
+}
+{
+"target" "t28"
+"targetname" "cam50"
+"origin" "808 -632 8"
+"classname" "ref_tag"
+}
+{
+"targetname" "t28"
+"origin" "1038 -603 41"
+"classname" "info_null"
+}
+{
+"origin" "2298 -1008 360"
+"targetname" "cam51"
+"target" "t29"
+"classname" "ref_tag"
+}
+{
+"origin" "2504 -876 410"
+"targetname" "t29"
+"classname" "info_null"
+}
+{
+"origin" "1848 520 104"
+"classname" "target_position"
+}
+{
+"targetname" "look2"
+"origin" "-248 48 0"
+"classname" "target_position"
+}
+{
+"spawnflags" "32"
+"origin" "221 -96 -32"
+"npc_type" "md_grie2_egg"
+"npc_targetname" "gri1"
+"classname" "NPC_spawner"
+}
+
+
+
+
+{
+"origin" "1024 400 400"
+"angle" "180"
+"classname" "info_player_siegeteam1"
+}
+
+{
+"origin" "1024 450 400"
+"angle" "180"
+"classname" "info_player_siegeteam1"
+}
+
+{
+"origin" "1024 500 400"
+"angle" "180"
+"classname" "info_player_siegeteam1"
+}
+
+{
+"origin" "1024 550 400"
+"angle" "180"
+"classname" "info_player_siegeteam1"
+}
+
+{
+"origin" "1024 600 400"
+"angle" "180"
+"classname" "info_player_siegeteam1"
+}
+
+{
+"origin" "1024 650 400"
+"angle" "180"
+"classname" "info_player_siegeteam1"
+}
+
+{
+"origin" "1024 700 400"
+"angle" "180"
+"classname" "info_player_siegeteam1"
+}
+
+{
+"origin" "1024 750 400"
+"angle" "180"
+"classname" "info_player_siegeteam1"
+}
+
+{
+"origin" "1024 800 400"
+"angle" "180"
+"classname" "info_player_siegeteam1"
+}
+
+{
+"origin" "1024 850 400"
+"angle" "180"
+"classname" "info_player_siegeteam1"
+}
+
+
+{
+"origin" "-304 48 -32"
+"angle" "360"
+"classname" "info_player_siegeteam2"
+}
+
+{
+"origin" "-354 48 -32"
+"angle" "360"
+"classname" "info_player_siegeteam2"
+}
+
+{
+"origin" "-404 48 -32"
+"angle" "360"
+"classname" "info_player_siegeteam2"
+}
+
+{
+"origin" "-454 48 -32"
+"angle" "360"
+"classname" "info_player_siegeteam2"
+}
+
+{
+"origin" "-504 48 -32"
+"angle" "360"
+"classname" "info_player_siegeteam2"
+}
+
+{
+"origin" "-554 48 -32"
+"angle" "360"
+"classname" "info_player_siegeteam2"
+}
+
+{
+"origin" "-604 48 -32"
+"angle" "360"
+"classname" "info_player_siegeteam2"
+}
+
+{
+"origin" "-654 48 -32"
+"angle" "360"
+"classname" "info_player_siegeteam2"
+}
+
+{
+"origin" "-704 48 -32"
+"angle" "360"
+"classname" "info_player_siegeteam2"
+}
+
+
