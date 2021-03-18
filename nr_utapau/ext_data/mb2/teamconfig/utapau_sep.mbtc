@@ -1,32 +1,18 @@
 //Siege team def file.
 
-name "mygeeto_sep"
+name	"utapau_sep"
 
-ClassesAllowed	81
-TimePeriod	5
-EUAllowed	0
+ClassesAllowed 29
+TimePeriod 6
+EUAllowed 0
 
 Classes
 {
-	class1		"Myg_B1BattleDroid1"
-	class2		"Myg_EngineerDroid"
-	class3		"Myg_DemolitionsDroid"
-	class4		"Myg_SBD1"
-	class5		"Myg_Droideka1"
+	class1		"UT_BattleDroid"
+	class2		"UT_DemolitionsDroid"
+	class3		"UT_SDeka"
+	class4		"UT_SMagna"
+	class5		"UT_SDeka"
+	class6		"UT_Grievous"
 }
 
-SubclassesForClass1
-{
-	subclass1	"Myg_B1BattleDroid2"
-}
-
-SubclassesForClass4
-{
-	subClass1	"Myg_SBD2"
-	subClass2	"Myg_SBD3"
-}
-
-SubclassesForClass5
-{
-	subClass1	"Myg_Droideka2"
-}

@@ -1,8 +1,19 @@
 {
-"ambient" "50"
-"gridsize" "96 80 144"
 "classname" "worldspawn"
+"angle" "125"
+"fog" "textures/fogs/fog"
+"_noshadersun" "1"
+"_minlight" "0.1"
+"_minvertexlight" "0.1"
+"fogstart" "1"
+"gridsize" "96 80 144"
+"music" "music/nr_utapau.mp3"
+"outsideBias" "1"
+"message" "hello world"
+"ambient" "50"
+"_color" "1 0 0"
 }
+
 {
 "classname" "func_wall"
 "model" "*1"
@@ -14,14 +25,6 @@
 {
 "classname" "func_wall"
 "model" "*3"
-}
-{
-"origin" "-1552 -1320 -39"
-"classname" "item_medpak_instant"
-}
-{
-"origin" "-1552 1320 -39"
-"classname" "item_medpak_instant"
 }
 {
 "model2" "models/map_objects/gunshiptm/model.md3"
