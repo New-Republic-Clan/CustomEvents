@@ -9,10 +9,15 @@ EUAllowed 0
 Classes
 {
 	class1		"UT_BattleDroid"
-	class2		"UT_DemolitionsDroid"
+	class2		"UT_B1Engineer"
 	class3		"UT_SSBD"
 	class4		"UT_SMagna"
 	class5		"UT_SDeka"
 	class6		"UT_Grievous"
+}
+
+    SubclassesForClass1
+{
+    Subclass1 	"UT_B1_Rocket"
 }
 

@@ -9,6 +9,7 @@ ClassInfo
 	forcepowers			FP_LEVITATION,3|FP_SABER_OFFENSE,3|FP_SABER_DEFENSE,1
 	maxhealth			80
 	maxarmor			80
+	extralives		    1
 	speed				1.1
 	model				"magnaguard"
 	skin				"default_magutapau"
@@ -33,6 +34,8 @@ WeaponInfo0
 }
 
 description 	"Magna Guard
+
+lives (2)
 
 Weaponary:
 Electro Staff

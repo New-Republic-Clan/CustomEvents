@@ -10,12 +10,15 @@ ClassInfo
 	skin				"default"
 	uishader			"models/players/sbd/mb2_icon_default"
 	MBClass				MB_CLASS_SBD
-	classNumberLimit	2
+	classNumberLimit	3
+	extralives		    4	
 	speed				1.08
 	modelscale			1.1
 }
 
 description	"Super Battle Droid
+
+lives: (5)
 
 Weaponary:
 Arm Blaster

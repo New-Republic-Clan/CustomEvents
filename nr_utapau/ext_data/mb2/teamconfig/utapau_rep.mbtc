@@ -16,3 +16,7 @@ Classes
 	class6		"UT_RObi"
 }
 
+    SubclassesForClass1
+{
+    Subclass1 	"UT_Blaze_trooper"
+}

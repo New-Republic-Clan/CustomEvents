@@ -14,7 +14,8 @@ ClassInfo
 	customgreen		0.474
 	customblue		0.120
 	MBClass			MB_CLASS_CLONETROOPER
-	extralives		1
+	extralives		3
+	classNumberLimit	5
 	rateOfFire 		1.3
 }
 
@@ -28,8 +29,8 @@ WeaponInfo0
 	AltMuzzleEffect		"Blaster/MuzzleFlash01B"
 	MissileEffect		"Blaster/Shot02B"
 	AltMissileEffect 	"Blaster/Shot02B"
-	FlashSound0			"sound/weapons/repeater/fire.mp3"
-	AltFlashSound0		"sound/weapons/repeater/fire.mp3"
+	FlashSound0			"sound/weapons2/dc15/fire.mp3"
+	AltFlashSound0		"sound/weapons2/dc15/alt_fire.mp3"
 	Icon				"gfx/hud/w_icon_dc-15s"
 	WeaponName			"DC-15S"
 }
@@ -45,6 +46,8 @@ WeaponInfo1
 }
 
 description	"Clone Para-Trooper
+
+lives (4)
 
 Weaponry:
 DC-15 Clone Pistol (1)

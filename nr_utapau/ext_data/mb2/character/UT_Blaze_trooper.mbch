@@ -1,0 +1,98 @@
+
+
+ClassInfo
+{
+	name			"O67_Blaze"
+	weapons			WP_REPEATER|WP_MELEE|WP_BLASTER_PISTOL
+
+	attributes		MB_ATT_ASSEMBLE,1|MB_ATT_WOOKIE_STRENGTH,3|MB_ATT_JETPACK,2|MB_ATT_FUEL,3|MB_ATT_CORTOSIS|MB_ATT_HEALING,2|MB_ATT_CLONERIFLE,3|MB_ATT_GUNBASH,3|MB_ATT_DEXTERITY,0|MB_ATT_STAMINA,2
+	classflags		CFL_HEAVYMELEE|CFL_BLOODYMELEE|CFL_WFLAMETHROWER|CFL_FUEL_REGENERATION|CFL_STRONGAGAINSTPHYSICAL|CFL_WFLAMETHROWER|CFL_AKIMBOPISTOL3
+	WP_MELEEFlags	HELD_KNOCKDOWN|HELD_KNOCKBACK
+	maxhealth		250
+	maxArmor		250
+	model			"+woo_blaze"				//this is optional, if it's here it forces the model to this.
+	skin			"default"					//this is optional, if it's here it forces the skin to this.
+	uishader		"models/players/+woo_blaze/mb2_icon_default"
+	MBClass			MB_CLASS_ARCTROOPER
+	classNumberLimit	3
+	extralives			2	
+	modelscale          1.3
+	jetpackJetTag		*jetpack_jet
+	jetpackJet2Tag		*jetpack_jet2
+	jetpackFuelCooldown 1000
+	jetpackFuelAmount 	8
+	meleeknockback		2
+	rageSoundOverride 	"sound/weapons/overchargeend.wav"
+	bargeSoundOverride 	"sound/SBD/SBDWalk2.mp3"	
+	speed 0.7
+	WP_CONCUSSIONFlags	HELD_LOWDAMAGE
+	WP_RepeaterFlags 	HELD_FLAME
+}
+
+WeaponInfo0
+{
+	WeaponToReplace WP_BLASTER_PISTOL
+	WeaponBasedOff  WP_BLASTER_PISTOL
+	NewWorldModel "models/weapons2/noweap/noweap.glm"
+	NewViewModel  "models/weapons2/dummy/dummy.md3"
+	WeaponName  "Arm_canon"
+	Icon                    "gfx/marvel/fireball"
+	MuzzleEffect		"Blaster/MuzzleCharge01R"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01R"
+	MissileEffect		"Blaster/Shot04r"
+	Missile3Effect		"Blaster/Shot04r"
+	AltMissileEffect	"Blaster/Shot04r"
+	PowerupShotEffect	"Blaster/Shot04r"
+	ChargeEffect		"gfx/effects/bryarfrontflash"
+	FlashSound0			"sound/weapons/heavy_cannon/fire.mp3"
+	AltFlashSound0		"sound/weapons/heavy_cannon/fire.mp3"
+	ChargeSound			"sound/weapons/bryar/altcharge.mp3"	
+	customAmmo			450
+	idleAnim 	MAND_SPISTOL 
+	firingAnim  MAND_SPISTOL_FIRE
+	CustomAmmo		700
+	clipsize		20
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_REPEATER
+	WeaponBasedOff		WP_BLASTER_PISTOL
+NewWorldModel		"models/weapons2/noweap/noweap.glm"
+NewViewModel		"models/weapons2/dummy/dummy.md3"
+Icon				"gfx/marvel/fireball"
+WeaponName			"Flame"
+MuzzleEffect		"repeater/muzzle_flash"
+//MissileEffect		"firegrenades/napalm"
+//AltMissileEffect		"firegrenades/napalm"
+//AltMissileHitHumanEffect "firegrenades/largenapalm_new"
+//MuzzleEffect		"blaster/MuzzleFlash01R"
+altFireEnabled 		0
+primFireEnabled		1
+customAmmo		900
+FlashSound0			"sound\weapons\flamer\fire.wav"
+firingAnim		 MAND_SPISTOL_FIRE
+Idleanim	MAND_SPISTOL
+} 
+
+description			"Clone Blaze Trooper
+
+lives (3)
+
+Weaponry:
+Fists
+Blaze Wrist Cannon
+Blaze Wrist Flamer
+
+Attributes:
+Heavy Blaze Cortosis Armoror
+Blaze Strength
+Blaze Melee Damage
+Blaze Power Boost (Rage)
+JetPack (Limited Fuel)
+
+Stats:
+HP: (250)
+Armor: (250)
+
+The clone blaze trooper was an advanced jet trooper. It had very heavy armor, limited flight capability and a hulking big weight used to overpower foes. Wrist Mounted Arm Cannons and Flame throwers made the Blaze Troopers feared by friend and foe alike."

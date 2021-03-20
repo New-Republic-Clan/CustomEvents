@@ -1,0 +1,64 @@
+ClassInfo
+{
+	name				"BoM_Sep_EngineerDroid"
+	model				"battledroid"
+	skin				"engineer"
+	uishader			"models/players/battledroid/mb2_icon_engineer"
+	MBClass				MB_CLASS_ELITETROOPER
+	maxhealth			80
+	maxarmor			25
+	weapons				WP_BLASTER|WP_MELEE|WP_BRYAR_PISTOL|WP_THERMAL
+	extralives			4
+	classNumberLimit	2
+	classflags			CFL_STATVIEWER|CFL_DISMEMBERFRAGILE|CFL_SHOTGUN
+	holdables			HI_HEALTHDISP|HI_EWEB
+	attributes			MB_ATT_PISTOL,1|MB_ATT_AMMO,3|MB_ATT_FRAGS,1
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BLASTER
+	WeaponBasedOff		WP_BOWCASTER
+	NewWorldModel		"models/weapons2/t-21/t-21_w.glm"
+	NewViewModel		"models/weapons2/t-21/t-21.md3"
+	FlashSound0			"sound/weapons/t-21/alt_fire.mp3"
+	Icon				"gfx/hud/w_icon_t-21.tga"
+	WeaponName			"ACP Blaster Shotgun"
+	customAmmo 			999
+	altFireEnabled		0
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_BRYAR_PISTOL
+	WeaponBasedOff		WP_BRYAR_PISTOL 
+	NewWorldModel 		"models/weapons2/se-14_pistol/blaster_pistol_w.glm"
+	NewViewModel 		"models/weapons2/se-14_pistol/blaster_pistol.md3"
+	Icon				"gfx/hud/w_icon_se-14c"
+	MuzzleEffect		"Blaster/MuzzleFlash01R"
+	MissileEffect		"Blaster/Shot01R"
+	FlashSound0			"sound/weapons/SE-44C/fire.WAV"
+	WeaponName			"SE-14 Blaster Pistol"
+	customAmmo			999
+	altFireEnabled		0
+}
+
+description	"B1-Series Engineer Droid
+
+
+Weaponry:
+ACP Blaster Shotgun
+SE-14 Blaster Pistol
+1 Frag Grenade
+
+Equipment:
+Class-I Armor
+Portable E-Web Gun Turret
+
+Abilities:
+4 Reinforcements
+Repairs Droids
+
+B1s were perhaps the most numerous—and expendable—soldiers in galactic history, and unlike most organic soldiers, they were capable of action in hostile environments such as underwater or in space. These droids are a specialized variant, wielding a close quarters weapon and implanted with the tehcnical knowhow to repair its fellow droids.
+
+Early battles involving the droids required a central computer for the droids to "think" from, but this was mostly removed post–Battle of Naboo after an attack destroyed the mainframe stationed there, resulting in all the droids on the planet being deactivated."

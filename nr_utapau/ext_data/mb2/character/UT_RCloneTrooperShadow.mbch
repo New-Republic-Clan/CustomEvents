@@ -12,6 +12,7 @@ ClassInfo
 	uishader			"models/players/clonetrooper_p2/mb2_icon_shadow"
 	MBClass				MB_CLASS_ARCTROOPER
 	classNumberLimit	2
+	extralives		    1
 	holdables			HI_CLOAK
 }
 
@@ -33,6 +34,8 @@ WeaponInfo0
 }
 
 description	"Prototype Phase II Shadow Ops Trooper
+
+lives   (2)
 
 Weaponry:
 DC-17 (2)

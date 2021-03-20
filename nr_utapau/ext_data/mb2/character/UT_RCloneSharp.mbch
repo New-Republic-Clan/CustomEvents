@@ -15,6 +15,7 @@ ClassInfo
 	uishader			"models/players/clonetrooper_p2/mb2_icon_212_airborne"
 	MBClass				MB_CLASS_ELITETROOPER
 	classNumberLimit	1
+	extralives		1
 	holdables			HI_MEDPAC_BIG
 	//EMS Sensor//
 	forceregen			0.8
@@ -23,6 +24,8 @@ ClassInfo
 }
 
 description	"212th Strike Ops. Clone Sharpshooter
+
+lives (2)
 
 Weaponry:
 DC-17 Clone Pistols (3)

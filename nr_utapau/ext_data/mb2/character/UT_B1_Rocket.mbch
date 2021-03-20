@@ -1,0 +1,59 @@
+ClassInfo
+{
+	name				"BoM_Rep_JetTrooper"
+	model				"battledroid"
+	skin				"tan_rocket"
+	uishader			"models/players/battledroid/mb2_icon_tan_rocket"
+	MBClass				MB_CLASS_ARCTROOPER
+	maxhealth			60
+	maxarmor			50
+	weapons				WP_BLASTER|WP_MELEE
+	extralives			5
+	classNumberLimit	4
+	modelscale			1.03
+	rateoffire	        1.30
+	classflags			CFL_NO_JETPACK_OVERHEAT|CFL_NO_JETPACK_COOLDOWN|CFL_DISMEMBERFRAGILE
+	attributes		    MB_ATT_BLASTER,3|MB_ATT_AMMO,3|MB_ATT_JETPACK,1|MB_ATT_DEXTERITY,0|MB_ATT_STAMINA,1
+	customred			0.137
+	customgreen			0.239
+	customblue			0.380
+	jetpackJetTag		*jetpack_jet
+	jetpackJet2Tag		*jetpack_jet2
+	jetpackJetOffset	"0, 0, 4"
+	jetpackJet2Offset	"0, 0, 4"
+}
+
+WeaponInfo0
+{
+	WeaponToReplace		WP_BLASTER
+	WeaponBasedOff		WP_BLASTER 
+	NewWorldModel 		"models/weapons2/e5/e5_w.glm"
+	NewViewModel 		"models/weapons2/e5/e5.md3"
+	Icon				"gfx/hud/w_icon_e5"
+	MuzzleEffect		"Blaster/MuzzleFlash01R"
+	AltMuzzleEffect		"Blaster/MuzzleFlash01R"
+	MissileEffect		"Blaster/Shot01R"
+	AltMissileEffect 	"Blaster/Shot01R"
+	FlashSound0			"sound/weapons2/droid_e5/fire.mp3"  		
+	AltFlashSound0		"sound/weapons2/droid_e5/alt_fire.mp3"
+	WeaponName			"E-5 Blaster Rifle"
+	customAmmo			850
+}
+
+description	"b1 rocket droid
+
+A b1 equiped with a jetpack and hopes that he will survive long enough
+
+Lives (6)
+
+Weaponry:
+E-5 Blaster Rifle
+
+Equipment:
+Jetpack
+
+Abilities:
+6 Reinforcements
+Low Stamina
+
+class that Lone made at the last minute lol."
