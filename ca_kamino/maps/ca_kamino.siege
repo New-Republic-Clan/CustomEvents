@@ -1,0 +1,217 @@
+Teams
+{
+	team1 Kaminoans
+	team2 CIS
+}
+
+LevelshotDesc
+{
+    desc1
+    {   
+        text "To turn the tide of the war we need to prevent creation of further Republic reinforcements. Fight your way through the cloning facility until you reach the armory and plant explosives in key positions. The explosion will start a chain reaction, destroying the facility.
+Do not fail me."
+        
+        rect "410 147 220 55"
+        scale 0.125
+    }
+    desc2
+    {   
+        text "We must defend the cloning facility. If it is destroyed we will effectively lose the war. Stop them from entering the armory, if it is destroyed the blast will also kill all of the clones in the nearby pods.
+
+Good luck and may the force be with you."
+        
+        rect "410 258 220 55"
+        scale 0.125
+    }
+}
+
+mapgraphic "gfx/mplevels/mb2_kamino/map"
+missionname "Kamino"
+radartopleft "-6896, 8512"
+radarbottomright "6224, -3408"
+AutoMap
+{
+	AutoMap0
+	{
+		radargraphic "gfx/automap/mb2_kamino"
+		radargraphicfull "gfx/automap/mb2_kaminofull"
+	}
+}
+
+HelpIcons
+{
+	//breezeway main hack
+	HelpIcon0
+	{
+		radius 800
+		end0 "secdoors"
+		origin "-1904 2422 744"
+		redicon HLP_DEFEND_SUB
+		blueicon HLP_HACK_SUB
+		specicon HLP_NONE
+		sideobjective 1
+	}
+	
+	//breezeway side hack
+	HelpIcon1
+	{
+		radius 800
+		end0 "secdoors"
+		origin "-3032 1394 744"
+		redicon HLP_DEFEND_SUB
+		blueicon HLP_HACK_SUB
+		specicon HLP_NONE
+		sideobjective 1
+	}
+	
+	//landing pad terminal
+	HelpIcon2
+	{
+		end0 "t149"
+		origin "-3588 -674 722"
+		redicon HLP_DEFEND_SUB
+		blueicon HLP_HACK_SUB
+		specicon HLP_DEFEND_SUB
+		sideobjective 1
+	}
+	
+	//armory parent
+	HelpIcon3
+	{
+		childradius 1000
+		end0 "t170"
+		origin "-3456 5192 808"
+		redicon HLP_DEFEND
+		blueicon HLP_HACK
+		specicon HLP_DEFEND
+	}
+	
+	//bomb arm
+	HelpIcon4
+	{
+		radius 800
+		end0 "t170"
+		dynamic 1
+		redicon HLP_DEFEND_SUB
+		blueicon HLP_HACK_SUB
+		specicon HLP_DEFEND_SUB
+	}
+	
+	//bomb disarm
+	HelpIcon5
+	{
+		radius 800
+		end0 "t170"
+		dynamic 1
+		redicon HLP_HACK_SUB
+		blueicon HLP_DEFEND_SUB
+		specicon HLP_HACK_SUB
+	}
+}
+
+roundbegin_target ""
+
+Kaminoans
+{
+	RequiredObjectives 1						
+	UseTeam "ca_kam" 							
+	TeamIcon "gfx/2d/logos/mb_clonerepublic"
+	TeamColorOn	"1 0 0 1"
+	TeamColorOff ".7 0 0 1"	
+
+	Objective1
+	{
+		goalname "Hack the storage corridor doors"
+		final -1
+		message_team1 ""
+		message_team2 ""
+		objdesc "Defend the breezeway corridor to make their attack on the facility more difficult!" 
+		objgfx "gfx/mplevels/mb2_kamino/obj1"
+	}
+	
+	Objective2
+	{
+		goalname "Defend the landing pad terminal"
+		final -1
+		message_team1 ""
+		message_team2 ""
+		objdesc "Defend the landing pad terminal!"
+		objgfx "gfx/mplevels/mb2_kamino/obj2"
+	}
+	
+	Objective3
+	{
+		goalname "Defend armoury room"
+		final 0
+		message_team1 ""
+		message_team2 ""
+		objdesc "Defend armoury room."
+		objgfx "gfx/mplevels/mb2_kamino/obj3"
+	}
+
+	wonround "We held off the CIS forces."
+	lostround "We have lost."
+	roundover_sound_wewon ""
+	roundover_sound_welost ""
+	roundover_target "roundover"
+	attackers 0
+	briefing "Defend the armoury room."
+}
+
+CIS
+{
+	RequiredObjectives 1
+	Timed 300	
+	UseTeam "ca_cis"
+	TeamIcon "gfx/2d/logos/mb_cis"
+	TeamColorOn	"0 0 1 1"
+	TeamColorOff "0 0 .7 1"
+
+	Objective1
+	{
+		goalname "Hack the breezeway doors"
+		final -1
+		message_team1 "The Breezeway has been unlocked!"
+		message_team2 "The Breezeway has been unlocked!"
+		objdesc "Unlock the breezeway corridor to make your attack on the facility easier." 
+		objgfx "gfx/mplevels/mb2_kamino/obj1"
+	}
+	
+	Objective2
+	{
+		goalname "Hack the storage corridor doors"
+		final -1
+		message_team1 "Secondary doors have been unlocked!"
+		message_team2 "Secondary doors have been unlocked!"
+		objdesc "Hack the landing pad controls for easier access into the Science Lab."
+		objgfx "gfx/mplevels/mb2_kamino/obj2"
+	}
+
+	Objective3
+	{
+		goalname "Plant bombs in the armoury room"
+		final 0
+		message_team1 ""
+		message_team2 ""
+		objdesc "Plant the bomb to destroy the facility."
+		objgfx "gfx/mplevels/mb2_kamino/obj3"
+	}
+	
+	Objective4
+	{
+		goalname "Plant bombs in the armoury room"
+		final 0
+		message_team1 ""
+		message_team2 ""
+		objdesc "Plant the bomb to destroy the facility."
+		objgfx "gfx/mplevels/mb2_kamino/obj3"
+	}
+
+	wonround "The facility was destroyed."
+	lostround "The assault was unsuccessful."
+	roundover_sound_wewon ""
+	roundover_sound_welost ""
+	roundover_target "roundoverimp"
+	attackers 1
+	briefing "Destroy armoury room."
+}

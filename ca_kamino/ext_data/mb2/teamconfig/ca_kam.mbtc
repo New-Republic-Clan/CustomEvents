@@ -1,0 +1,14 @@
+//Siege team definition file.
+
+name "ca_kam"
+
+ClassesAllowed 40
+TimePeriod 8
+EUAllowed 0
+
+Classes
+{
+	class1		"ca_k_clone"
+	class2		"ca_k_lamasu"
+}
+

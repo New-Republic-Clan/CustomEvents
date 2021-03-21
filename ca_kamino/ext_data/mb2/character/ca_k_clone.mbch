@@ -1,0 +1,31 @@
+//Siege class def file.
+
+ClassInfo
+{
+	name			"ca_k_clone"
+	weapons			WP_REPEATER|WP_DEMP2|WP_MELEE
+	attributes		MB_ATT_RESPAWNS,1|MB_ATT_PISTOL,1|MB_ATT_CLONERIFLE,2|MB_ATT_BLASTER,2|MB_ATT_ARMOUR,3|MB_ATT_AMMO,1|MB_ATT_JETPACK,1|MB_ATT_FUEL,3
+	maxhealth		100
+	maxarmor		60
+	model			"clonetrooper_p1" 				//this is optional, if it's here it forces the model to this.
+	skin			"shiny"					//this is optional, if it's here it forces the skin to this.
+	customred		0
+	customgreen		0.75
+	customblue		0
+	uishader		"models/players/clonetrooper_p1/mb2_icon_shiny"
+	MBClass			MB_CLASS_CLONETROOPER
+}
+
+description	"Clone Trooper
+
+Weaponry:
+Clone Pistol (1)
+Clone Rifle (2)
+
+Attributes:
+Reinforcements (1)
+Armour (3)
+Ammo (1)
+Fuel (3)
+
+Cloned and raised in the cities of Kamino, these clone troopers were highly trained soldiers. Beyond basic clone training, each one was also a sniper and jet trooper, though their ability to acquire this gear was limited due to the amount left in Kaminos armouries. Each one was issued phase 1 clone armor and wore the distinctive green of the Kaminoan rebellion."
