@@ -1,7 +1,7 @@
 Teams
 {
 	team1 Kaminoans
-	team2 CIS
+	team2 Imperials
 }
 
 LevelshotDesc
@@ -158,12 +158,12 @@ Kaminoans
 	briefing "Defend the armoury room."
 }
 
-CIS
+Imperials
 {
 	RequiredObjectives 1
 	Timed 300	
-	UseTeam "ca_cis"
-	TeamIcon "gfx/2d/logos/mb_cis"
+	UseTeam "ca_imp"
+	TeamIcon "gfx/2d/logos/mb_empire"
 	TeamColorOn	"0 0 1 1"
 	TeamColorOff "0 0 .7 1"
 

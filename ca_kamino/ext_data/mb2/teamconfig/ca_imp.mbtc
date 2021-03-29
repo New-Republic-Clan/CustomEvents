@@ -1,0 +1,13 @@
+//Siege team definition file.
+
+name "ca_imp"
+
+ClassesAllowed 29
+TimePeriod 8
+EUAllowed 0
+
+Classes
+{
+	class1		"ca_i_stormtrooper"
+	class2		"ca_i_boba"
+}

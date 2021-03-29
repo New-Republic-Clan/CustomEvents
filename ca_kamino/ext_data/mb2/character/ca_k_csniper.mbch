@@ -1,0 +1,36 @@
+//Siege class def file.
+
+ClassInfo
+{
+	name			"ca_k_csniper"
+	weapons			WP_STUN_BATON|WP_DEMP2|WP_MELEE
+	attributes		|MB_ATT_PISTOL,1|MB_ATT_PROJECTILE_RIFLE,1|MB_ATT_BLASTER,2|MB_ATT_ARMOUR,3|MB_ATT_AMMO,1|
+	maxhealth		80
+	maxarmor		20
+	skin			"clonep1_green"					//this is optional, if it's here it forces the skin to this.
+	customred		0
+	customgreen		0.75
+	customblue		0
+	uishader		"gfx/hud/fa_icons/mb2_icon_clonep1_green"
+	MBClass			MB_CLASS_CLONETROOPER
+	classNumberLimit	1
+}
+
+WeaponInfo1
+{
+	WeaponToReplace		WP_STUN_BATON
+	WeaponBasedOff		WP_STUN_BATON 
+	NewWorldModel 		"Models/weapons2/dc-15a/dc-15a_w.glm"
+	NewViewModel 		"Models/weapons2/dc-15a/dc-15a.md3"
+	Icon			"gfx/hud/w_icon_clonerifle"
+	WeaponName		"DC-15x"
+}
+description	"Clone Sniper
+
+Weaponry:
+DC-17
+DC-15x
+
+
+
+The Kaminoans, faced with complete subjugation under the Empire, created rebel clone snipers for one purpose, to kill the enemy before they could get close enough to be a threat."

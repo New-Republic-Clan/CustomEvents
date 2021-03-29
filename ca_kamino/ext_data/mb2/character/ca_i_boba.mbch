@@ -1,0 +1,38 @@
+//Siege class def file.
+
+ClassInfo
+{
+	name				"ca_i_boba"
+	weapons				WP_BLASTER_PISTOL|WP_FLECHETTE|WP_MELEE|WP_THERMAL
+	attributes			MB_ATT_PISTOL,2|MB_ATT_BLASTER,3|MB_ATT_A280,3|MB_ATT_FUEL,3|MB_ATT_JETPACK,1|MB_ATT_ROCKET,1|MB_ATT_AMMO,3|MB_ATT_ARMOUR,3|MB_ATT_FLAMETHROWER,1|MB_ATT_WRISTLASER,1|MB_ATT_THERMALS,1
+	maxhealth			100
+	maxarmor			120
+	model				"mbmandy"
+	skin				"mba2"
+	uishader			"models/players/mbmandy/mb2_icon_mba2"
+	MBClass				MB_CLASS_MANDALORIAN
+	classNumberLimit  1
+}
+
+
+description	"Boba Fett
+
+Class Summary: 
+Sniper Mandalorian with flamethrower and wrist laser.
+
+Weaponry:
+- Pistol
+- EE-3
+- Frag Grenade
+
+Attributes:
+- Jetpack
+- Fuel 3
+
+Utilities:
+- Rocket
+- Wrist Laser
+- Flamethrower
+
+
+A legendary bounty hunter raised as the son of Jango Fett, Boba made a name for himself by taking a number of missions throughout the galaxy. His line of work, as well as the efficiency he performed with, often led to his employment directly through Imperial contacts. During the Kaminoan rebellion, Boba Fett was hired and given full command of the invasion force."
